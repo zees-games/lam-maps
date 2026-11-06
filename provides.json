@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "title": "Look At Me maps",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/mg-look-at-me"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "lam_villa_night",
+            "name": "Villa by Night",
+            "scene": "houses/lam_villa_night/house.json",
+            "map_kind": "lookatme"
+        }
+    ]
+}

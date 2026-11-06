@@ -1,0 +1,23 @@
+[
+  {
+    "paths": [
+      ""
+    ],
+    "licence": "MIT",
+    "author": "TMC",
+    "url": "https://github.com/zees-games/lam-maps",
+    "title": "lam-maps (original content)"
+  },
+  {
+    "paths": [
+      "houses/lam_villa_night/",
+      "tools/layouts/lam_villa_night.json"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Villa by Night",
+    "author": "korka007",
+    "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2633639653",
+    "removal_contact": "https://github.com/zees-games/lam-maps/issues"
+  }
+]

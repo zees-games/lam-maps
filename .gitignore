@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.godot/
+dist/
+# The source map and its conversion stay local: never ship the source art or its intermediate.
+*.bsp
+*.gma
+.stores/
+tools/.work/

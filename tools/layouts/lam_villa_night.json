@@ -1,0 +1,348 @@
+{
+ "format": 1,
+ "name": "Night Villa",
+ "title": "Night Villa",
+ "author": "korka007 (after a Workshop map)",
+ "mood": {
+  "fog": 0.09,
+  "fog_afraid": 0.14,
+  "fog_colour": "#0a0d15",
+  "ambient": 0.04,
+  "ambient_colour": "#5a6a8a"
+ },
+ "rooms": [
+  {
+   "name": "Villa Terrace",
+   "kind": "room",
+   "x": 30,
+   "z": 2,
+   "w": 8,
+   "d": 6,
+   "light": 0.35
+  },
+  {
+   "name": "Terrace Steps",
+   "kind": "corridor",
+   "x": 28,
+   "z": 4,
+   "w": 2,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Fountain Court",
+   "kind": "room",
+   "x": 20,
+   "z": 1,
+   "w": 8,
+   "d": 8,
+   "light": 0.3
+  },
+  {
+   "name": "Lounger Walk",
+   "kind": "corridor",
+   "x": 30,
+   "z": 0,
+   "w": 8,
+   "d": 2,
+   "light": 0.0
+  },
+  {
+   "name": "Pool Terrace",
+   "kind": "room",
+   "x": 30,
+   "z": 8,
+   "w": 8,
+   "d": 4,
+   "light": 0.2
+  },
+  {
+   "name": "Entrance Hall",
+   "kind": "room",
+   "x": 38,
+   "z": 2,
+   "w": 8,
+   "d": 6,
+   "light": 0.5
+  },
+  {
+   "name": "Villa Gallery",
+   "kind": "corridor",
+   "x": 38,
+   "z": 8,
+   "w": 12,
+   "d": 1,
+   "light": 0.15
+  },
+  {
+   "name": "Library",
+   "kind": "room",
+   "x": 38,
+   "z": 9,
+   "w": 4,
+   "d": 4,
+   "light": 0.2
+  },
+  {
+   "name": "Dining Room",
+   "kind": "room",
+   "x": 42,
+   "z": 9,
+   "w": 4,
+   "d": 4,
+   "light": 0.0
+  },
+  {
+   "name": "Kitchen",
+   "kind": "room",
+   "x": 46,
+   "z": 9,
+   "w": 4,
+   "d": 4,
+   "light": 0.0
+  },
+  {
+   "name": "East Passage",
+   "kind": "corridor",
+   "x": 46,
+   "z": 2,
+   "w": 1,
+   "d": 6,
+   "light": 0.0
+  },
+  {
+   "name": "Billiard Room",
+   "kind": "room",
+   "x": 47,
+   "z": 2,
+   "w": 4,
+   "d": 6,
+   "light": 0.2
+  },
+  {
+   "name": "Master Bedroom",
+   "kind": "room",
+   "x": 38,
+   "z": -1,
+   "w": 4,
+   "d": 3,
+   "light": 0.0
+  },
+  {
+   "name": "Nursery",
+   "kind": "room",
+   "x": 42,
+   "z": -1,
+   "w": 4,
+   "d": 3,
+   "light": 0.0
+  },
+  {
+   "name": "Bathroom",
+   "kind": "room",
+   "x": 46,
+   "z": -1,
+   "w": 4,
+   "d": 3,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 1W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 0,
+   "w": 7,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 1E",
+   "kind": "corridor",
+   "x": 7,
+   "z": 0,
+   "w": 13,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 2W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 1,
+   "w": 12,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 2E",
+   "kind": "corridor",
+   "x": 12,
+   "z": 1,
+   "w": 8,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 3W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 2,
+   "w": 9,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 3E",
+   "kind": "corridor",
+   "x": 9,
+   "z": 2,
+   "w": 11,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 4W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 3,
+   "w": 14,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 4E",
+   "kind": "corridor",
+   "x": 14,
+   "z": 3,
+   "w": 6,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 5W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 4,
+   "w": 6,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 5E",
+   "kind": "corridor",
+   "x": 6,
+   "z": 4,
+   "w": 14,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 6W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 5,
+   "w": 11,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 6E",
+   "kind": "corridor",
+   "x": 11,
+   "z": 5,
+   "w": 9,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 7W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 6,
+   "w": 8,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 7E",
+   "kind": "corridor",
+   "x": 8,
+   "z": 6,
+   "w": 12,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 8W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 7,
+   "w": 13,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 8E",
+   "kind": "corridor",
+   "x": 13,
+   "z": 7,
+   "w": 7,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 9W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 8,
+   "w": 10,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 9E",
+   "kind": "corridor",
+   "x": 10,
+   "z": 8,
+   "w": 10,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 10W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 9,
+   "w": 5,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 10E",
+   "kind": "corridor",
+   "x": 5,
+   "z": 9,
+   "w": 15,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 11W",
+   "kind": "corridor",
+   "x": 0,
+   "z": 10,
+   "w": 12,
+   "d": 1,
+   "light": 0.0
+  },
+  {
+   "name": "Hedge Walk 11E",
+   "kind": "corridor",
+   "x": 12,
+   "z": 10,
+   "w": 8,
+   "d": 1,
+   "light": 0.0
+  }
+ ]
+}
