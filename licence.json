@@ -31,5 +31,17 @@
     "author": "VITAPLEX",
     "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3382694345",
     "removal_contact": "https://github.com/zees-games/lam-maps/issues"
+  },
+  {
+    "paths": [
+      "houses/lam_deco_mansion_night/",
+      "tools/layouts/lam_deco_mansion_night.json"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Deco Mansion by Night",
+    "author": "Gastly_Furby_777",
+    "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3698815153",
+    "removal_contact": "https://github.com/zees-games/lam-maps/issues"
   }
 ]

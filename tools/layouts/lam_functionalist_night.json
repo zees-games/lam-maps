@@ -217,6 +217,127 @@
       "w": 3,
       "d": 4,
       "light": 0.0
+    },
+    {
+      "name": "Open Stair",
+      "kind": "stair",
+      "x": -2,
+      "z": 1,
+      "w": 2,
+      "d": 4,
+      "light": 0.0,
+      "floor": 0,
+      "up": "s"
+    },
+    {
+      "name": "Upper Hall",
+      "kind": "corridor",
+      "x": 0,
+      "z": 2,
+      "w": 1,
+      "d": 6,
+      "light": 0.05,
+      "floor": 1
+    },
+    {
+      "name": "Upper Lounge",
+      "kind": "room",
+      "x": 1,
+      "z": 1,
+      "w": 4,
+      "d": 3,
+      "light": 0.3,
+      "floor": 1
+    },
+    {
+      "name": "Balcony",
+      "kind": "room",
+      "x": 1,
+      "z": -2,
+      "w": 6,
+      "d": 3,
+      "light": 0.1,
+      "floor": 1
+    },
+    {
+      "name": "Roof Terrace",
+      "kind": "room",
+      "x": 7,
+      "z": -2,
+      "w": 3,
+      "d": 3,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Guest Bedroom",
+      "kind": "room",
+      "x": 1,
+      "z": 4,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Nursery",
+      "kind": "room",
+      "x": 4,
+      "z": 4,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Dressing Room",
+      "kind": "room",
+      "x": 6,
+      "z": 4,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Washroom",
+      "kind": "room",
+      "x": 5,
+      "z": 1,
+      "w": 2,
+      "d": 3,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Music Room",
+      "kind": "room",
+      "x": 7,
+      "z": 1,
+      "w": 3,
+      "d": 3,
+      "light": 0.2,
+      "floor": 1
+    },
+    {
+      "name": "Study Loft",
+      "kind": "room",
+      "x": 1,
+      "z": 6,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Library",
+      "kind": "room",
+      "x": 4,
+      "z": 6,
+      "w": 3,
+      "d": 2,
+      "light": 0.15,
+      "floor": 1
     }
   ]
 }

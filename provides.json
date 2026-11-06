@@ -21,6 +21,13 @@
             "name": "Functionalist Night",
             "scene": "houses/lam_functionalist_night/house.json",
             "map_kind": "lookatme"
+        },
+        {
+            "kind": "map",
+            "id": "lam_deco_mansion_night",
+            "name": "Deco Mansion by Night",
+            "scene": "houses/lam_deco_mansion_night/house.json",
+            "map_kind": "lookatme"
         }
     ]
 }
