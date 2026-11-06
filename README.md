@@ -5,6 +5,7 @@ Maps for [mg-look-at-me](../mg-look-at-me), the Look At Me game. A map here is a
 | Map id | What it is |
 | --- | --- |
 | `lam_villa_night` | A villa at night. You wake on the walled terrace; a hedge maze lies to the west, a fountain court between, the villa behind you. Heavy fog, near-black ambient, a few warm rooms. |
+| `lam_functionalist_night` | A modernist house and its grounds at night. You wake on the entry terrace on the road side; the house lies west with a long spine hall, the radio room, a sauna and a garage workshop; the pool terrace, pergola court and tool shed are south. Heavy fog, near-black ambient, 45 dealt objective steps. Ground floor and garden only. |
 
 ## Layout
 
@@ -21,6 +22,10 @@ The game's `.gitignore` carries a `bootstrap-link` line, so `dot-bootstrap` link
 ## Credits and licences
 
 `lam_villa_night`: the plan is a loose, simplified reconstruction of the arrangement of a Steam Workshop map by korka007, https://steamcommunity.com/sharedfiles/filedetails/?id=2633639653 . The page states no licence. Nothing of the original is shipped: no geometry, textures or models, only room names and a rough arrangement; furniture comes from the game's CC0 Kenney props. Removal on request. See `licence.json`.
+
+`lam_functionalist_night`: the plan is a loose, simplified reconstruction of the arrangement of a Steam Workshop map by VITAPLEX, https://steamcommunity.com/sharedfiles/filedetails/?id=3382694345 . The page states no licence. Nothing of the original is shipped: no geometry, textures, models or sounds, only room names and a rough arrangement (the plan is scaled up to the game's room size); furniture comes from the game's CC0 Kenney props. Removal on request. See `licence.json`.
+
+The upper level, the underground lift and the secret garage of the original need multi-floor layouts, which the builder does not have yet; only the ground floor and garden are here.
 
 Everything else is MIT.
 
