@@ -1,0 +1,470 @@
+{
+  "format": 1,
+  "name": "Deco Mansion",
+  "title": "Deco Mansion by Night",
+  "author": "Gastly_Furby_777 (after a Workshop map)",
+  "mood": {
+    "fog": 0.11,
+    "fog_afraid": 0.17,
+    "fog_colour": "#090a10",
+    "ambient": 0.025,
+    "ambient_colour": "#5a5f80"
+  },
+  "rooms": [
+    {
+      "name": "South Lawn",
+      "kind": "room",
+      "x": 5,
+      "z": 15,
+      "w": 6,
+      "d": 3,
+      "light": 0.35
+    },
+    {
+      "name": "Fountain Court",
+      "kind": "room",
+      "x": 6,
+      "z": 13,
+      "w": 4,
+      "d": 2,
+      "light": 0.1
+    },
+    {
+      "name": "Hedge Walk",
+      "kind": "corridor",
+      "x": 1,
+      "z": 13,
+      "w": 5,
+      "d": 1,
+      "light": 0.0
+    },
+    {
+      "name": "Terrace Walk",
+      "kind": "corridor",
+      "x": 10,
+      "z": 13,
+      "w": 5,
+      "d": 1,
+      "light": 0.0
+    },
+    {
+      "name": "Entrance Hall",
+      "kind": "room",
+      "x": 6,
+      "z": 10,
+      "w": 4,
+      "d": 3,
+      "light": 0.25,
+      "from": "Fountain Court"
+    },
+    {
+      "name": "Great Stairs",
+      "kind": "stair",
+      "x": 6,
+      "z": 8,
+      "w": 4,
+      "d": 2,
+      "light": 0.1,
+      "up": "e",
+      "from": "Entrance Hall"
+    },
+    {
+      "name": "Drawing Room",
+      "kind": "room",
+      "x": 3,
+      "z": 10,
+      "w": 3,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Morning Room",
+      "kind": "room",
+      "x": 1,
+      "z": 10,
+      "w": 2,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Dining Room",
+      "kind": "room",
+      "x": 10,
+      "z": 10,
+      "w": 3,
+      "d": 3,
+      "light": 0.15
+    },
+    {
+      "name": "Kitchen",
+      "kind": "room",
+      "x": 13,
+      "z": 10,
+      "w": 2,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Library",
+      "kind": "room",
+      "x": 1,
+      "z": 7,
+      "w": 3,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Smoking Room",
+      "kind": "room",
+      "x": 4,
+      "z": 8,
+      "w": 2,
+      "d": 2,
+      "light": 0.0
+    },
+    {
+      "name": "Billiard Room",
+      "kind": "room",
+      "x": 10,
+      "z": 8,
+      "w": 3,
+      "d": 2,
+      "light": 0.0
+    },
+    {
+      "name": "Scullery",
+      "kind": "room",
+      "x": 13,
+      "z": 7,
+      "w": 2,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Ballroom",
+      "kind": "room",
+      "x": 4,
+      "z": 5,
+      "w": 6,
+      "d": 3,
+      "light": 0.1,
+      "from": "Long Gallery"
+    },
+    {
+      "name": "Music Room",
+      "kind": "room",
+      "x": 10,
+      "z": 5,
+      "w": 3,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Servants' Hall",
+      "kind": "room",
+      "x": 13,
+      "z": 4,
+      "w": 2,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Long Gallery",
+      "kind": "corridor",
+      "x": 4,
+      "z": 4,
+      "w": 9,
+      "d": 1,
+      "light": 0.05
+    },
+    {
+      "name": "Gun Room",
+      "kind": "room",
+      "x": 1,
+      "z": 4,
+      "w": 3,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Conservatory",
+      "kind": "room",
+      "x": 4,
+      "z": 1,
+      "w": 4,
+      "d": 3,
+      "light": 0.1
+    },
+    {
+      "name": "Chapel",
+      "kind": "room",
+      "x": 8,
+      "z": 1,
+      "w": 3,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Boiler Room",
+      "kind": "room",
+      "x": 11,
+      "z": 2,
+      "w": 2,
+      "d": 2,
+      "light": 0.0
+    },
+    {
+      "name": "Laundry",
+      "kind": "room",
+      "x": 1,
+      "z": 1,
+      "w": 3,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Upper Landing",
+      "kind": "room",
+      "x": 10,
+      "z": 8,
+      "w": 2,
+      "d": 2,
+      "light": 0.1,
+      "floor": 1,
+      "from": "Great Stairs"
+    },
+    {
+      "name": "Landing Corridor",
+      "kind": "corridor",
+      "x": 2,
+      "z": 10,
+      "w": 10,
+      "d": 1,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "East Corridor",
+      "kind": "corridor",
+      "x": 12,
+      "z": 5,
+      "w": 1,
+      "d": 6,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Master Bedroom",
+      "kind": "room",
+      "x": 13,
+      "z": 9,
+      "w": 2,
+      "d": 3,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Dressing Room",
+      "kind": "room",
+      "x": 13,
+      "z": 7,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Bathroom",
+      "kind": "room",
+      "x": 13,
+      "z": 5,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Nursery",
+      "kind": "room",
+      "x": 2,
+      "z": 11,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Guest Bedroom",
+      "kind": "room",
+      "x": 5,
+      "z": 11,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Sewing Room",
+      "kind": "room",
+      "x": 8,
+      "z": 11,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Linen Room",
+      "kind": "room",
+      "x": 10,
+      "z": 11,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Study",
+      "kind": "room",
+      "x": 1,
+      "z": 7,
+      "w": 3,
+      "d": 3,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Picture Gallery",
+      "kind": "room",
+      "x": 4,
+      "z": 5,
+      "w": 5,
+      "d": 3,
+      "light": 0.1,
+      "floor": 1
+    },
+    {
+      "name": "Box Room",
+      "kind": "room",
+      "x": 4,
+      "z": 8,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Back Corridor",
+      "kind": "corridor",
+      "x": 11,
+      "z": 4,
+      "w": 1,
+      "d": 4,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Back Stairs",
+      "kind": "stair",
+      "x": 9,
+      "z": 4,
+      "w": 2,
+      "d": 4,
+      "light": 0.0,
+      "floor": 1,
+      "up": "n",
+      "from": "Back Corridor"
+    },
+    {
+      "name": "Attic Corridor",
+      "kind": "corridor",
+      "x": 11,
+      "z": 4,
+      "w": 1,
+      "d": 6,
+      "light": 0.0,
+      "floor": 2,
+      "from": "Back Stairs"
+    },
+    {
+      "name": "Lumber Room",
+      "kind": "room",
+      "x": 5,
+      "z": 3,
+      "w": 4,
+      "d": 2,
+      "light": 0.0,
+      "floor": 2
+    },
+    {
+      "name": "Observatory",
+      "kind": "room",
+      "x": 5,
+      "z": 5,
+      "w": 4,
+      "d": 3,
+      "light": 0.2,
+      "floor": 2
+    },
+    {
+      "name": "Servants' Bedroom",
+      "kind": "room",
+      "x": 12,
+      "z": 4,
+      "w": 2,
+      "d": 3,
+      "light": 0.0,
+      "floor": 2
+    },
+    {
+      "name": "Maid's Room",
+      "kind": "room",
+      "x": 12,
+      "z": 7,
+      "w": 2,
+      "d": 3,
+      "light": 0.0,
+      "floor": 2
+    },
+    {
+      "name": "Attic Hall",
+      "kind": "corridor",
+      "x": 3,
+      "z": 10,
+      "w": 9,
+      "d": 1,
+      "light": 0.0,
+      "floor": 2
+    },
+    {
+      "name": "Old Nursery",
+      "kind": "room",
+      "x": 3,
+      "z": 11,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 2
+    },
+    {
+      "name": "Trunk Room",
+      "kind": "room",
+      "x": 6,
+      "z": 11,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 2
+    },
+    {
+      "name": "Clock Room",
+      "kind": "room",
+      "x": 9,
+      "z": 11,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 2
+    }
+  ]
+}

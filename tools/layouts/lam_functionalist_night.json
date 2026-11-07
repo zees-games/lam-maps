@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "name": "Functionalist Night",
+  "title": "Functionalist Night",
+  "author": "VITAPLEX (after a Workshop map)",
+  "mood": {
+    "fog": 0.1,
+    "fog_afraid": 0.16,
+    "fog_colour": "#080b13",
+    "ambient": 0.03,
+    "ambient_colour": "#5a6a8a"
+  },
+  "rooms": [
+    {
+      "name": "Entry Terrace",
+      "kind": "room",
+      "x": 10,
+      "z": 8,
+      "w": 4,
+      "d": 4,
+      "light": 0.35
+    },
+    {
+      "name": "Road Lawn",
+      "kind": "room",
+      "x": 14,
+      "z": 8,
+      "w": 4,
+      "d": 4,
+      "light": 0.1
+    },
+    {
+      "name": "Roadside Walk",
+      "kind": "corridor",
+      "x": 14,
+      "z": 4,
+      "w": 1,
+      "d": 4,
+      "light": 0.0
+    },
+    {
+      "name": "Orchard Court",
+      "kind": "room",
+      "x": 14,
+      "z": 0,
+      "w": 4,
+      "d": 4,
+      "light": 0.1
+    },
+    {
+      "name": "Side Path",
+      "kind": "corridor",
+      "x": 10,
+      "z": 1,
+      "w": 1,
+      "d": 7,
+      "light": 0.0
+    },
+    {
+      "name": "Living Lounge",
+      "kind": "room",
+      "x": 5,
+      "z": 8,
+      "w": 5,
+      "d": 4,
+      "light": 0.3
+    },
+    {
+      "name": "Reading Study",
+      "kind": "room",
+      "x": 3,
+      "z": 8,
+      "w": 2,
+      "d": 4,
+      "light": 0.2
+    },
+    {
+      "name": "Garage Workshop",
+      "kind": "room",
+      "x": 1,
+      "z": 8,
+      "w": 2,
+      "d": 4,
+      "light": 0.0
+    },
+    {
+      "name": "Spine Hall",
+      "kind": "corridor",
+      "x": 2,
+      "z": 1,
+      "w": 1,
+      "d": 7,
+      "light": 0.05
+    },
+    {
+      "name": "Master Bedroom",
+      "kind": "room",
+      "x": 3,
+      "z": 6,
+      "w": 3,
+      "d": 2,
+      "light": 0.0
+    },
+    {
+      "name": "Bathroom",
+      "kind": "room",
+      "x": 6,
+      "z": 6,
+      "w": 2,
+      "d": 2,
+      "light": 0.0
+    },
+    {
+      "name": "Dressing Room",
+      "kind": "room",
+      "x": 8,
+      "z": 6,
+      "w": 2,
+      "d": 2,
+      "light": 0.0
+    },
+    {
+      "name": "Kitchen",
+      "kind": "room",
+      "x": 3,
+      "z": 4,
+      "w": 3,
+      "d": 2,
+      "light": 0.0
+    },
+    {
+      "name": "Dining Room",
+      "kind": "room",
+      "x": 6,
+      "z": 4,
+      "w": 4,
+      "d": 2,
+      "light": 0.1
+    },
+    {
+      "name": "Boiler Room",
+      "kind": "room",
+      "x": 3,
+      "z": 1,
+      "w": 2,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Sauna Bath",
+      "kind": "room",
+      "x": 5,
+      "z": 1,
+      "w": 2,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Radio Room",
+      "kind": "room",
+      "x": 7,
+      "z": 1,
+      "w": 3,
+      "d": 3,
+      "light": 0.5
+    },
+    {
+      "name": "Stair Landing",
+      "kind": "room",
+      "x": 0,
+      "z": 1,
+      "w": 2,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Linen Room",
+      "kind": "room",
+      "x": 0,
+      "z": 4,
+      "w": 2,
+      "d": 4,
+      "light": 0.0
+    },
+    {
+      "name": "Pool Terrace",
+      "kind": "room",
+      "x": 4,
+      "z": -2,
+      "w": 7,
+      "d": 3,
+      "light": 0.2
+    },
+    {
+      "name": "Pool Lawn",
+      "kind": "room",
+      "x": 3,
+      "z": -5,
+      "w": 7,
+      "d": 3,
+      "light": 0.0
+    },
+    {
+      "name": "Pergola Court",
+      "kind": "room",
+      "x": 11,
+      "z": -4,
+      "w": 4,
+      "d": 3,
+      "light": 0.15
+    },
+    {
+      "name": "Tool Shed",
+      "kind": "room",
+      "x": 0,
+      "z": -8,
+      "w": 3,
+      "d": 4,
+      "light": 0.0
+    },
+    {
+      "name": "Open Stair",
+      "kind": "stair",
+      "x": -2,
+      "z": 1,
+      "w": 2,
+      "d": 4,
+      "light": 0.0,
+      "floor": 0,
+      "up": "s"
+    },
+    {
+      "name": "Upper Hall",
+      "kind": "corridor",
+      "x": 0,
+      "z": 2,
+      "w": 1,
+      "d": 6,
+      "light": 0.05,
+      "floor": 1
+    },
+    {
+      "name": "Upper Lounge",
+      "kind": "room",
+      "x": 1,
+      "z": 1,
+      "w": 4,
+      "d": 3,
+      "light": 0.3,
+      "floor": 1
+    },
+    {
+      "name": "Balcony",
+      "kind": "room",
+      "x": 1,
+      "z": -2,
+      "w": 6,
+      "d": 3,
+      "light": 0.1,
+      "floor": 1
+    },
+    {
+      "name": "Roof Terrace",
+      "kind": "room",
+      "x": 7,
+      "z": -2,
+      "w": 3,
+      "d": 3,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Guest Bedroom",
+      "kind": "room",
+      "x": 1,
+      "z": 4,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Nursery",
+      "kind": "room",
+      "x": 4,
+      "z": 4,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Dressing Room",
+      "kind": "room",
+      "x": 6,
+      "z": 4,
+      "w": 2,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Washroom",
+      "kind": "room",
+      "x": 5,
+      "z": 1,
+      "w": 2,
+      "d": 3,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Music Room",
+      "kind": "room",
+      "x": 7,
+      "z": 1,
+      "w": 3,
+      "d": 3,
+      "light": 0.2,
+      "floor": 1
+    },
+    {
+      "name": "Study Loft",
+      "kind": "room",
+      "x": 1,
+      "z": 6,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": 1
+    },
+    {
+      "name": "Library",
+      "kind": "room",
+      "x": 4,
+      "z": 6,
+      "w": 3,
+      "d": 2,
+      "light": 0.15,
+      "floor": 1
+    }
+  ]
+}
