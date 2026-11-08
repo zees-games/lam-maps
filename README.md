@@ -32,6 +32,10 @@ The upper level, the underground lift and the secret garage of the original need
 
 Everything else is MIT.
 
+## Staging a pack
+
+`tools/stage_packs.sh OUT [id...]` stages the one pack (`OUT/lam-maps/`: provides.json, licence.json, LICENSE, README.md and `houses/<id>/*.json`, nothing else) and runs `tools/check_packs.py` on it: no source textures, models, sounds, scripts, plans or workflows, a provides.json for the Look At Me game with `map_kind` `lookatme`, no outside asset in a house, a licence row per house. Rows whose licence is "none stated" print as HOLD; `tools/check_packs.py OUT lam-maps --strict-licence` turns them into failures. `python3 tools/test_check_packs.py` runs the tests.
+
 ## Not published
 
 This repository is not pushed and no pack is published until the licence question above is decided.
