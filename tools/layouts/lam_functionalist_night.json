@@ -144,7 +144,8 @@
       "z": 1,
       "w": 2,
       "d": 3,
-      "light": 0.0
+      "light": 0.0,
+      "lock": "switch"
     },
     {
       "name": "Sauna Bath",
@@ -337,7 +338,8 @@
       "w": 3,
       "d": 2,
       "light": 0.15,
-      "floor": 1
+      "floor": 1,
+      "lock": "switch"
     },
     {
       "name": "Lift Shaft",
@@ -382,7 +384,8 @@
       "d": 3,
       "light": 0.0,
       "floor": -1,
-      "from": "Cellar Corridor"
+      "from": "Cellar Corridor",
+      "lock": "switch"
     },
     {
       "name": "Plant Room",
@@ -393,7 +396,8 @@
       "d": 2,
       "light": 0.0,
       "floor": -1,
-      "from": "Cellar Corridor"
+      "from": "Cellar Corridor",
+      "lock": "switch"
     },
     {
       "name": "Secret Garage",
