@@ -211,7 +211,8 @@
       "z": 2,
       "w": 2,
       "d": 2,
-      "light": 0.0
+      "light": 0.0,
+      "lock": "switch"
     },
     {
       "name": "Laundry",
@@ -464,7 +465,8 @@
       "w": 3,
       "d": 2,
       "light": 0.0,
-      "floor": 2
+      "floor": 2,
+      "lock": "switch"
     }
   ]
 }
