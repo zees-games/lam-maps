@@ -338,6 +338,74 @@
       "d": 2,
       "light": 0.15,
       "floor": 1
+    },
+    {
+      "name": "Lift Shaft",
+      "kind": "stair",
+      "x": 11,
+      "z": 1,
+      "w": 2,
+      "d": 4,
+      "light": 0.0,
+      "floor": -1,
+      "up": "n",
+      "from": "Side Path"
+    },
+    {
+      "name": "Lift Lobby",
+      "kind": "room",
+      "x": 11,
+      "z": 5,
+      "w": 3,
+      "d": 3,
+      "light": 0.05,
+      "floor": -1,
+      "from": "Lift Shaft"
+    },
+    {
+      "name": "Cellar Corridor",
+      "kind": "corridor",
+      "x": 5,
+      "z": 5,
+      "w": 6,
+      "d": 1,
+      "light": 0.0,
+      "floor": -1,
+      "from": "Lift Lobby"
+    },
+    {
+      "name": "Wine Cellar",
+      "kind": "room",
+      "x": 5,
+      "z": 6,
+      "w": 3,
+      "d": 3,
+      "light": 0.0,
+      "floor": -1,
+      "from": "Cellar Corridor"
+    },
+    {
+      "name": "Plant Room",
+      "kind": "room",
+      "x": 8,
+      "z": 6,
+      "w": 3,
+      "d": 2,
+      "light": 0.0,
+      "floor": -1,
+      "from": "Cellar Corridor"
+    },
+    {
+      "name": "Secret Garage",
+      "kind": "room",
+      "x": 5,
+      "z": 1,
+      "w": 5,
+      "d": 4,
+      "light": 0.0,
+      "floor": -1,
+      "from": "Cellar Corridor",
+      "lock": "switch"
     }
   ]
 }
