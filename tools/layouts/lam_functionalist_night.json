@@ -351,6 +351,7 @@
       "light": 0.0,
       "floor": -1,
       "up": "n",
+      "lift": true,
       "from": "Side Path"
     },
     {
