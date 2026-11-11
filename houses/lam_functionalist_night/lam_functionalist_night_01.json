@@ -129,7 +129,8 @@
 			"floor": -1,
 			"spawn": false,
 			"light": 0.0,
-			"up": "n"
+			"up": "n",
+			"lift": true
 		},
 		{
 			"id": "r10",
