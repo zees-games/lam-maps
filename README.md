@@ -1,41 +1,46 @@
 # lam-maps
 
-Maps for [mg-look-at-me](../mg-look-at-me), the Look At Me game. A map here is a house: one level of rooms on a 4 m grid, on one floor or several joined by stairwells, with doors, keys, chests, levers, fuse boxes and witches dealt and proven solvable by the game's builder.
+Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look At Me game. A map is a house: rooms on a 4 m grid, on one floor or several joined by stairs, with doors, keys, chests, levers, fuse boxes and witches. The game's builder deals them and proves each house can be solved.
+
+## Maps
 
 | Map id | What it is |
 | --- | --- |
-| `lam_villa_night` | A villa at night. You wake on the walled terrace; a hedge maze lies to the west, a fountain court between, the villa behind you. Heavy fog, near-black ambient, a few warm rooms. |
-| `lam_functionalist_night` | A modernist house and its grounds at night. You wake on the entry terrace on the road side; the house lies west with a long spine hall, the radio room, a sauna and a garage workshop; the pool terrace, pergola court and tool shed are south. An open stair off the stair landing climbs to the upper floor: lounge, balcony and roof terrace over the pool side, bedrooms, a music room and a library; the gold key is up there. Heavy fog, near-black ambient. A lift shaft off the side path goes down to the underground level: a lift lobby, a cellar corridor, a wine cellar, a plant room and the secret garage, whose door has no power until a light switch is flipped. The lift is a ramp in its shaft, not a moving car. |
-| `lam_deco_mansion_night` | A three-storey mansion at night. You wake on the walled south lawn; the fountain court leads to the entrance hall, the ballroom, library and service rooms on the ground floor; the great stairs climb to the bedrooms and the picture gallery, the back stairs to the attic, where the gold key is. Heavy fog, near-black ambient, a few warm rooms. |
+| `lam_villa_night` | A villa at night. You start on a walled terrace. A hedge maze lies west, a fountain court in the middle, the villa behind. Heavy fog, dark ambient light, a few warm rooms. |
+| `lam_functionalist_night` | A modernist house and grounds at night, on three levels: a ground floor with a long hall, radio room, sauna and garage workshop; an upper floor with a lounge, balcony, roof terrace, bedrooms, music room and library (the gold key is here); and an underground level reached by a lift, with a wine cellar, plant room and a secret garage whose door has no power until a switch is flipped. |
+| `lam_deco_mansion_night` | A three-storey mansion at night. You start on the south lawn. The ground floor has the entrance hall, ballroom, library and service rooms. The great stairs go up to the bedrooms and gallery, the back stairs to the attic, where the gold key is. |
 
-## Layout
+## Using a map
 
-- `tools/layouts/<id>.json`: the hand-laid plan (rooms, kinds, positions, light, and an optional `mood` with fog and ambient for the level).
-- `houses/<id>/`: the generated house (`house.json` and the level document). Generated; do not edit by hand.
-- `tools/build.sh`: regenerates every house from its plan with the game's `tools/build_levels.py --layout`. `tools/build.sh --check` fails when a house is stale.
-- `tools/bsp_layout.py`, `tools/bsp_read.py`: launchers for the shared BSP reader and the plan tracer in `dot-map-convert` (the `mg-look-at-me` adapter). They print a rasterised floor plan of a source map to lay a plan out by hand.
-- `provides.json`: the dot-cloud entry, accepted by the game as a `lookatme` map.
+The game's `.gitignore` has a `bootstrap-link` line, so [dot-bootstrap](https://github.com/modcommunity/dot-bootstrap) links `houses/<id>` into the game's `houses/`. After adding a map, run the game's test command.
 
-## Using a map in the game
+## Layout of this repository
 
-The game's `.gitignore` carries a `bootstrap-link` line, so `dot-bootstrap` links `houses/<id>` into the game's `houses/`. Run the game's `./game.sh test` after adding one.
+| Path | What it is |
+| --- | --- |
+| `tools/layouts/<id>.json` | The hand-laid plan: rooms, kinds, positions, light, and an optional `mood` (fog and ambient light) |
+| `houses/<id>/` | The generated house (`house.json` and the level document). Do not edit by hand. |
+| `tools/build.sh` | Regenerates every house from its plan with the game's `tools/build_levels.py --layout`. `--check` fails when a house is stale. |
+| `tools/bsp_layout.py`, `tools/bsp_read.py` | Launchers for the shared BSP reader and plan tracer in dot-map-convert. They print a floor plan of a source map to lay a plan out by hand. |
+| `tools/stage_packs.sh`, `tools/check_packs.py` | Stage the pack and check it (see below) |
+| `provides.json` | The dot-cloud entry; the game accepts it as a `lookatme` map |
 
-## Credits and licences
+`tools/stage_packs.sh OUT [id...]` stages the pack into `OUT/lam-maps/` (provides.json, licence.json, LICENSE, README.md and the house JSON, nothing else) and runs `tools/check_packs.py` on it. The check rejects source textures, models, sounds, scripts and outside assets, and wants a licence row for every house. Maps whose licence is "none stated" print as HOLD; add `--strict-licence` to make them fail. `python3 tools/test_check_packs.py` runs the checker's own tests.
 
-`lam_villa_night`: the plan is a loose, simplified reconstruction of the arrangement of a Steam Workshop map by korka007, https://steamcommunity.com/sharedfiles/filedetails/?id=2633639653 . The page states no licence. Nothing of the original is shipped: no geometry, textures or models, only room names and a rough arrangement; furniture comes from the game's CC0 Kenney props. Removal on request. See `licence.json`.
+## Credits
 
-`lam_deco_mansion_night`: the plan is a loose, simplified reconstruction of the arrangement of a Steam Workshop map by Gastly_Furby_777, https://steamcommunity.com/sharedfiles/filedetails/?id=3698815153 . The page states no licence. Nothing of the original is shipped: no geometry, textures, models or sounds, only room names and a rough arrangement of its three storeys; furniture comes from the game's CC0 Kenney props. Removal on request. See `licence.json`.
+Each plan is a loose reconstruction of the room arrangement of a Steam Workshop map. Nothing of the original is shipped: no geometry, textures, models or sounds. Furniture comes from the game's CC0 Kenney props.
 
-`lam_functionalist_night`: the plan is a loose, simplified reconstruction of the arrangement of a Steam Workshop map by VITAPLEX, https://steamcommunity.com/sharedfiles/filedetails/?id=3382694345 . The page states no licence. Nothing of the original is shipped: no geometry, textures, models or sounds, only room names and a rough arrangement (the plan is scaled up to the game's room size); furniture comes from the game's CC0 Kenney props. Removal on request. See `licence.json`.
+| Map | Author | Source | Licence |
+| --- | --- | --- | --- |
+| `lam_villa_night` | korka007 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2633639653) | none stated |
+| `lam_deco_mansion_night` | Gastly_Furby_777 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3698815153) | none stated |
+| `lam_functionalist_night` | VITAPLEX | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3382694345) | none stated |
 
-The ground floor, the garden, the upper level and the underground level with its lift and secret garage are all laid out; the lift is a ramp in the shaft, as the game has no moving lifts.
+If you made one of these maps and want it removed, open an issue at <https://github.com/zees-games/lam-maps/issues> and it goes. See [licence.json](licence.json).
 
-Everything else is MIT.
+Everything else is MIT, see [LICENSE](LICENSE).
 
-## Staging a pack
+## Publishing
 
-`tools/stage_packs.sh OUT [id...]` stages the one pack (`OUT/lam-maps/`: provides.json, licence.json, LICENSE, README.md and `houses/<id>/*.json`, nothing else) and runs `tools/check_packs.py` on it: no source textures, models, sounds, scripts, plans or workflows, a provides.json for the Look At Me game with `map_kind` `lookatme`, no outside asset in a house, a licence row per house. Rows whose licence is "none stated" print as HOLD; `tools/check_packs.py OUT lam-maps --strict-licence` turns them into failures. `python3 tools/test_check_packs.py` runs the tests.
-
-## Not published
-
-This repository is not pushed and no pack is published until the licence question above is decided.
+No pack is published until the owner decides the licence question above.
