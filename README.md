@@ -1,5 +1,3 @@
-# lam-maps
-
 Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look At Me game. A map is a house: rooms on a 4 m grid, on one floor or several joined by stairs, with doors, keys, chests, levers, fuse boxes and witches. The game's builder deals them and proves each house can be solved.
 
 ## Maps
