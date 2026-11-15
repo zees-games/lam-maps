@@ -10,7 +10,7 @@ Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look 
 
 ## Using a map
 
-The game's `.gitignore` has a `bootstrap-link` line, so [dot-bootstrap](https://github.com/modcommunity/dot-bootstrap) links `houses/<id>` into the game's `houses/`. After adding a map, run the game's test command.
+The game's `.gitignore` has a `bootstrap-link` line, so [dot-bootstrap](https://github.com/gamespice-platform/bootstrap) links `houses/<id>` into the game's `houses/`. After adding a map, run the game's test command.
 
 ## Layout of this repository
 
