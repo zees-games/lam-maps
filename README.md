@@ -25,6 +25,10 @@ The game's `.gitignore` has a `bootstrap-link` line, so [dot-bootstrap](https://
 
 `tools/stage_packs.sh OUT [id...]` stages the pack into `OUT/lam-maps/` (provides.json, licence.json, LICENSE, README.md and the house JSON, nothing else) and runs `tools/check_packs.py` on it. The check rejects source textures, models, sounds, scripts and outside assets, and wants a licence row for every house. Maps whose licence is "none stated" print as HOLD; add `--strict-licence` to make them fail. `python3 tools/test_check_packs.py` runs the checker's own tests.
 
+## Quality and ongoing improvement
+
+The maps, models, textures and sounds in this pack are being improved over time, and some of them are low quality today. Improvement is driven by the Nightly queue, a work queue where agents pick up items, and by a visual judge loop that views rendered frames and files defects until each asset passes repeated clean reviews. Known defects are filed there and fixed in later releases, and the screenshots here are regenerated as the assets improve.
+
 ## Credits
 
 Each plan is a loose reconstruction of the room arrangement of a Steam Workshop map. Nothing of the original is shipped: no geometry, textures, models or sounds. Furniture comes from the game's CC0 Kenney props.
