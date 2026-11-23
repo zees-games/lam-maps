@@ -12,7 +12,7 @@ Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look 
 
 ## Using a map
 
-The game's `.gitignore` has a `bootstrap-link` line, so [dot-bootstrap](https://github.com/gamespice-platform/bootstrap) links `houses/<id>` into the game's `houses/`. After adding a map, run the game's test command.
+The game's `.gitignore` has a `bootstrap-link` line, so [gs-bootstrap](https://github.com/gamespice-platform/bootstrap) links `houses/<id>` into the game's `houses/`. After adding a map, run the game's test command.
 
 ## Layout of this repository
 
@@ -21,9 +21,9 @@ The game's `.gitignore` has a `bootstrap-link` line, so [dot-bootstrap](https://
 | `tools/layouts/<id>.json` | The hand-laid plan: rooms, kinds, positions, light, and an optional `mood` (fog and ambient light) |
 | `houses/<id>/` | The generated house (`house.json` and the level document). Do not edit by hand. |
 | `tools/build.sh` | Regenerates every house from its plan with the game's `tools/build_levels.py --layout`. `--check` fails when a house is stale. |
-| `tools/bsp_layout.py`, `tools/bsp_read.py` | Launchers for the shared BSP reader and plan tracer in dot-map-convert. They print a floor plan of a source map to lay a plan out by hand. |
+| `tools/bsp_layout.py`, `tools/bsp_read.py` | Launchers for the shared BSP reader and plan tracer in gs-map-convert. They print a floor plan of a source map to lay a plan out by hand. |
 | `tools/stage_packs.sh`, `tools/check_packs.py` | Stage the pack and check it (see below) |
-| `provides.json` | The dot-cloud entry; the game accepts it as a `lookatme` map |
+| `provides.json` | The gs-cloud entry; the game accepts it as a `lookatme` map |
 
 `tools/stage_packs.sh OUT [id...]` stages the pack into `OUT/lam-maps/` (provides.json, licence.json, LICENSE, README.md and the house JSON, nothing else) and runs `tools/check_packs.py` on it. The check rejects source textures, models, sounds, scripts and outside assets, and wants a licence row for every house. Maps whose licence is "none stated" print as HOLD; add `--strict-licence` to make them fail. `python3 tools/test_check_packs.py` runs the checker's own tests.
 
