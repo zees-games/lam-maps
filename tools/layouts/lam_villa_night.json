@@ -7,9 +7,9 @@
   "pack": "gm_villa",
   "scale": 1.333333,
   "origin": [
-   -157.209,
+   -153.209,
    -0.406,
-   61.467
+   63.467
   ]
  },
  "mood": "indoor_hall",
@@ -18,17 +18,17 @@
    "title": "gm_villa",
    "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=2633639653"
   },
-  "sha256": "f7263d46606fb838f3693499f98e5727a56ddfdf94f80ba8a4d55e7bad8bdae9",
+  "sha256": "91f1853c08515bd1b7b2291d6bfe2d65b6cedcfffff21cacb86efcd1bbf8a4f9",
   "grow": 1.0,
   "mirror": false,
-  "pieces_not_reached": 17
+  "pieces_not_reached": 11
  },
  "rooms": [
   {
    "name": "Hall",
    "kind": "room",
-   "x": 0,
-   "z": 17,
+   "x": 2,
+   "z": 18,
    "w": 8,
    "d": 7,
    "floor": 0,
@@ -37,20 +37,231 @@
    "openings": [
     {
      "c": [
-      15.75,
-      40.62
+      19.75,
+      42.62
      ],
      "w": 1.75,
      "side": "e",
-     "to": "Ward"
+     "to": "Linen Store"
+    },
+    {
+     "c": [
+      3.75,
+      46.75
+     ],
+     "w": 2.0,
+     "side": "w",
+     "to": "Refectory"
+    },
+    {
+     "c": [
+      3.75,
+      38.5
+     ],
+     "w": 2.0,
+     "side": "w",
+     "to": "Office"
+    },
+    {
+     "c": [
+      4.0,
+      42.0
+     ],
+     "w": 4.5,
+     "side": "w",
+     "to": "Passage",
+     "open": true
+    },
+    {
+     "c": [
+      7.62,
+      50.25
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "",
+     "out": true
     }
    ]
   },
   {
-   "name": "Ward",
+   "name": "Passage",
+   "kind": "corridor",
+   "x": 1,
+   "z": 20,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Hall",
+   "door": {
+    "cell": [
+     2,
+     21
+    ],
+    "side": "w",
+    "c": [
+     4.0,
+     42.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      2.25,
+      42.62
+     ],
+     "w": 3.25,
+     "side": "w",
+     "to": "Passage II"
+    },
+    {
+     "c": [
+      4.0,
+      42.0
+     ],
+     "w": 4.5,
+     "side": "e",
+     "to": "Hall",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Refectory",
    "kind": "room",
-   "x": 8,
-   "z": 15,
+   "x": 0,
+   "z": 22,
+   "w": 2,
+   "d": 2,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Hall",
+   "door": {
+    "cell": [
+     2,
+     23
+    ],
+    "side": "w",
+    "c": [
+     3.75,
+     46.75
+    ],
+    "w": 2.0
+   },
+   "openings": [
+    {
+     "c": [
+      3.75,
+      46.75
+     ],
+     "w": 2.0,
+     "side": "e",
+     "to": "Hall"
+    },
+    {
+     "c": [
+      0.81,
+      44.44
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Passage II"
+    },
+    {
+     "c": [
+      2.5,
+      48.04
+     ],
+     "w": 1.5,
+     "side": "s",
+     "to": "Visiting Room",
+     "open": true
+    },
+    {
+     "c": [
+      0.0,
+      46.62
+     ],
+     "w": 4.25,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Office",
+   "kind": "room",
+   "x": 0,
+   "z": 18,
+   "w": 2,
+   "d": 2,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Hall",
+   "door": {
+    "cell": [
+     2,
+     19
+    ],
+    "side": "w",
+    "c": [
+     3.75,
+     38.5
+    ],
+    "w": 2.0
+   },
+   "openings": [
+    {
+     "c": [
+      3.75,
+      38.5
+     ],
+     "w": 2.0,
+     "side": "e",
+     "to": "Hall"
+    },
+    {
+     "c": [
+      1.02,
+      40.7
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Passage II"
+    },
+    {
+     "c": [
+      1.79,
+      35.92
+     ],
+     "w": 3.25,
+     "side": "n",
+     "to": "Night Station"
+    },
+    {
+     "c": [
+      0.0,
+      38.38
+     ],
+     "w": 4.25,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Linen Store",
+   "kind": "room",
+   "x": 10,
+   "z": 16,
    "w": 13,
    "d": 10,
    "floor": 0,
@@ -59,30 +270,30 @@
    "from": "Hall",
    "door": {
     "cell": [
-     7,
-     20
+     9,
+     21
     ],
     "side": "e",
     "c": [
-     15.75,
-     40.62
+     19.75,
+     42.62
     ],
     "w": 1.75
    },
    "openings": [
     {
      "c": [
-      18.12,
-      51.0
+      22.12,
+      53.0
      ],
      "w": 1.25,
      "side": "s",
-     "to": "Night Station"
+     "to": "Night Station II"
     },
     {
      "c": [
-      15.75,
-      40.62
+      19.75,
+      42.62
      ],
      "w": 1.75,
      "side": "w",
@@ -90,491 +301,42 @@
     },
     {
      "c": [
-      26.0,
-      30.0
+      30.0,
+      32.0
      ],
      "w": 12.0,
      "side": "n",
-     "to": "Office",
+     "to": "Matron's Room",
      "open": true
-    },
-    {
-     "c": [
-      42.0,
-      40.5
-     ],
-     "w": 9.0,
-     "side": "e",
-     "to": "Linen Store",
-     "open": true
-    },
-    {
-     "c": [
-      30.5,
-      50.01
-     ],
-     "w": 22.0,
-     "side": "s",
-     "to": "Service Corridor",
-     "open": true
-    },
-    {
-     "c": [
-      18.75,
-      29.93
-     ],
-     "w": 2.5,
-     "side": "n",
-     "to": "Treatment Room",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Service Corridor",
-   "kind": "corridor",
-   "x": 10,
-   "z": 25,
-   "w": 11,
-   "d": 1,
-   "floor": 0,
-   "y": 1.42,
-   "light": 0.35,
-   "from": "Ward",
-   "door": {
-    "cell": [
-     15,
-     24
-    ],
-    "side": "s",
-    "c": [
-     30.5,
-     50.01
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      30.5,
-      50.01
-     ],
-     "w": 22.0,
-     "side": "n",
-     "to": "Ward",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Office",
-   "kind": "room",
-   "x": 10,
-   "z": 12,
-   "w": 6,
-   "d": 3,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.35,
-   "from": "Ward",
-   "door": {
-    "cell": [
-     13,
-     15
-    ],
-    "side": "n",
-    "c": [
-     26.0,
-     30.0
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      31.75,
-      27.12
-     ],
-     "w": 1.25,
-     "side": "e",
-     "to": "Night Station II"
-    },
-    {
-     "c": [
-      18.25,
-      29.0
-     ],
-     "w": 1.5,
-     "side": "n",
-     "to": "Refectory"
-    },
-    {
-     "c": [
-      29.88,
-      24.25
-     ],
-     "w": 1.25,
-     "side": "n",
-     "to": "Refectory II"
-    },
-    {
-     "c": [
-      26.0,
-      30.0
-     ],
-     "w": 12.0,
-     "side": "s",
-     "to": "Ward",
-     "open": true
-    },
-    {
-     "c": [
-      20.0,
-      29.62
-     ],
-     "w": 0.75,
-     "side": "w",
-     "to": "Treatment Room",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Linen Store",
-   "kind": "room",
-   "x": 21,
-   "z": 17,
-   "w": 2,
-   "d": 6,
-   "floor": 0,
-   "y": 1.83,
-   "light": 0.35,
-   "from": "Ward",
-   "door": {
-    "cell": [
-     20,
-     20
-    ],
-    "side": "e",
-    "c": [
-     42.0,
-     40.5
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      42.0,
-      40.5
-     ],
-     "w": 9.0,
-     "side": "w",
-     "to": "Ward",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Treatment Room",
-   "kind": "room",
-   "x": 9,
-   "z": 14,
-   "w": 1,
-   "d": 1,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.0,
-   "from": "Ward",
-   "door": {
-    "cell": [
-     9,
-     15
-    ],
-    "side": "n",
-    "c": [
-     18.75,
-     29.93
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      18.75,
-      29.93
-     ],
-     "w": 2.5,
-     "side": "s",
-     "to": "Ward",
-     "open": true
-    },
-    {
-     "c": [
-      20.0,
-      29.62
-     ],
-     "w": 0.75,
-     "side": "e",
-     "to": "Office",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Night Station",
-   "kind": "room",
-   "x": 6,
-   "z": 25,
-   "w": 4,
-   "d": 4,
-   "floor": 0,
-   "y": 6.1,
-   "light": 0.35,
-   "from": "Ward",
-   "door": {
-    "cell": [
-     9,
-     25
-    ],
-    "side": "s",
-    "c": [
-     18.12,
-     51.0
-    ],
-    "w": 1.25
-   },
-   "openings": [
-    {
-     "c": [
-      20.5,
-      53.12
-     ],
-     "w": 1.25,
-     "side": "e",
-     "to": "Passage II"
-    },
-    {
-     "c": [
-      18.12,
-      51.0
-     ],
-     "w": 1.25,
-     "side": "n",
-     "to": "Ward"
-    },
-    {
-     "c": [
-      13.75,
-      50.0
-     ],
-     "w": 3.0,
-     "side": "n",
-     "to": "Passage",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Refectory",
-   "kind": "room",
-   "x": 8,
-   "z": 7,
-   "w": 2,
-   "d": 7,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.35,
-   "from": "Office",
-   "door": {
-    "cell": [
-     9,
-     14
-    ],
-    "side": "n",
-    "c": [
-     18.25,
-     29.0
-    ],
-    "w": 1.5
-   },
-   "openings": [
-    {
-     "c": [
-      18.25,
-      29.0
-     ],
-     "w": 1.5,
-     "side": "s",
-     "to": "Office"
-    },
-    {
-     "c": [
-      20.75,
-      20.38
-     ],
-     "w": 1.25,
-     "side": "e",
-     "to": "Day Room"
-    },
-    {
-     "c": [
-      18.38,
-      13.75
-     ],
-     "w": 1.25,
-     "side": "n",
-     "to": "Library"
-    },
-    {
-     "c": [
-      17.38,
-      28.14
-     ],
-     "w": 2.75,
-     "side": "s",
-     "to": "Laundry",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Night Station II",
-   "kind": "room",
-   "x": 16,
-   "z": 9,
-   "w": 7,
-   "d": 6,
-   "floor": 0,
-   "y": 6.1,
-   "light": 0.35,
-   "from": "Office",
-   "door": {
-    "cell": [
-     15,
-     13
-    ],
-    "side": "e",
-    "c": [
-     31.75,
-     27.12
-    ],
-    "w": 1.25
-   },
-   "openings": [
-    {
-     "c": [
-      31.75,
-      27.12
-     ],
-     "w": 1.25,
-     "side": "w",
-     "to": "Office"
     },
     {
      "c": [
       46.0,
-      27.62
+      42.5
      ],
-     "w": 3.25,
+     "w": 9.0,
      "side": "e",
-     "to": "Workshop",
+     "to": "Chapel",
      "open": true
     },
     {
      "c": [
-      43.5,
-      17.88
+      34.5,
+      52.01
      ],
-     "w": 5.0,
-     "side": "n",
-     "to": "Passage III",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Refectory II",
-   "kind": "room",
-   "x": 14,
-   "z": 8,
-   "w": 2,
-   "d": 4,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.35,
-   "from": "Office",
-   "door": {
-    "cell": [
-     14,
-     12
-    ],
-    "side": "n",
-    "c": [
-     29.88,
-     24.25
-    ],
-    "w": 1.25
-   },
-   "openings": [
-    {
-     "c": [
-      29.88,
-      24.25
-     ],
-     "w": 1.25,
+     "w": 22.0,
      "side": "s",
-     "to": "Office"
+     "to": "Ward Corridor",
+     "open": true
     },
     {
      "c": [
-      29.88,
-      16.0
+      22.75,
+      31.93
      ],
-     "w": 3.25,
+     "w": 2.5,
      "side": "n",
-     "to": "Library II",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Passage",
-   "kind": "corridor",
-   "x": 6,
-   "z": 24,
-   "w": 2,
-   "d": 1,
-   "floor": 0,
-   "y": 6.1,
-   "light": 0.0,
-   "from": "Night Station",
-   "door": {
-    "cell": [
-     6,
-     25
-    ],
-    "side": "n",
-    "c": [
-     13.75,
-     50.0
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      13.75,
-      50.0
-     ],
-     "w": 3.0,
-     "side": "s",
-     "to": "Night Station",
+     "to": "Laundry",
      "open": true
     }
    ]
@@ -582,79 +344,106 @@
   {
    "name": "Passage II",
    "kind": "corridor",
-   "x": 10,
-   "z": 26,
+   "x": 0,
+   "z": 20,
    "w": 1,
    "d": 2,
    "floor": 0,
-   "y": 6.1,
-   "light": 0.35,
-   "from": "Night Station",
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Passage",
    "door": {
     "cell": [
-     10,
-     26
+     1,
+     21
     ],
-    "side": "e",
+    "side": "w",
     "c": [
-     20.5,
-     53.12
+     2.25,
+     42.62
     ],
-    "w": 1.25
+    "w": 2.4
    },
    "openings": [
     {
      "c": [
-      20.5,
-      53.12
+      2.25,
+      42.62
      ],
-     "w": 1.25,
-     "side": "w",
-     "to": "Night Station"
+     "w": 3.25,
+     "side": "e",
+     "to": "Passage"
     },
     {
      "c": [
-      22.0,
-      53.88
+      0.81,
+      44.44
      ],
-     "w": 4.75,
-     "side": "e",
-     "to": "Library IV",
-     "open": true
+     "w": 2.25,
+     "side": "s",
+     "to": "Refectory"
+    },
+    {
+     "c": [
+      1.02,
+      40.7
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Office"
+    },
+    {
+     "c": [
+      0.0,
+      42.5
+     ],
+     "w": 4.0,
+     "side": "w",
+     "to": "",
+     "out": true
     }
    ]
   },
   {
-   "name": "Laundry",
+   "name": "Visiting Room",
    "kind": "room",
-   "x": 8,
-   "z": 14,
+   "x": 1,
+   "z": 24,
    "w": 1,
    "d": 1,
    "floor": 0,
-   "y": 5.59,
+   "y": 5.89,
    "light": 0.0,
    "from": "Refectory",
    "door": {
     "cell": [
-     8,
-     13
+     1,
+     23
     ],
     "side": "s",
     "c": [
-     17.38,
-     28.14
+     2.5,
+     48.04
     ],
-    "w": 2.4,
+    "w": 1.5,
     "open": true
    },
    "openings": [
     {
      "c": [
-      17.38,
-      28.14
+      1.79,
+      49.08
      ],
-     "w": 2.75,
+     "w": 3.25,
+     "side": "s",
+     "to": "Dispensary"
+    },
+    {
+     "c": [
+      2.5,
+      48.04
+     ],
+     "w": 1.5,
      "side": "n",
      "to": "Refectory",
      "open": true
@@ -662,115 +451,115 @@
    ]
   },
   {
-   "name": "Day Room",
+   "name": "Dispensary",
    "kind": "room",
-   "x": 10,
-   "z": 5,
-   "w": 4,
-   "d": 7,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.35,
-   "from": "Refectory",
-   "door": {
-    "cell": [
-     10,
-     10
-    ],
-    "side": "e",
-    "c": [
-     20.75,
-     20.38
-    ],
-    "w": 1.25
-   },
-   "openings": [
-    {
-     "c": [
-      20.75,
-      20.38
-     ],
-     "w": 1.25,
-     "side": "w",
-     "to": "Refectory"
-    },
-    {
-     "c": [
-      24.5,
-      9.94
-     ],
-     "w": 6.5,
-     "side": "n",
-     "to": "Corridor II",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Library",
-   "kind": "room",
-   "x": 6,
-   "z": 4,
-   "w": 4,
-   "d": 3,
-   "floor": 0,
-   "y": 5.89,
-   "light": 0.35,
-   "from": "Refectory",
-   "door": {
-    "cell": [
-     9,
-     7
-    ],
-    "side": "n",
-    "c": [
-     18.38,
-     13.75
-    ],
-    "w": 1.25
-   },
-   "openings": [
-    {
-     "c": [
-      18.38,
-      13.75
-     ],
-     "w": 1.25,
-     "side": "s",
-     "to": "Refectory"
-    },
-    {
-     "c": [
-      12.0,
-      11.62
-     ],
-     "w": 3.75,
-     "side": "w",
-     "to": "Passage IV",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Passage III",
-   "kind": "corridor",
-   "x": 21,
-   "z": 8,
-   "w": 2,
+   "x": 0,
+   "z": 24,
+   "w": 1,
    "d": 1,
    "floor": 0,
-   "y": 5.59,
+   "y": 5.89,
    "light": 0.0,
-   "from": "Night Station II",
+   "from": "Visiting Room",
    "door": {
     "cell": [
-     21,
-     9
+     0,
+     24
+    ],
+    "side": "s",
+    "c": [
+     1.79,
+     49.08
+    ],
+    "w": 2.4
+   },
+   "openings": [
+    {
+     "c": [
+      1.79,
+      49.08
+     ],
+     "w": 3.25,
+     "side": "n",
+     "to": "Visiting Room"
+    },
+    {
+     "c": [
+      3.0,
+      50.25
+     ],
+     "w": 6.0,
+     "side": "s",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Night Station",
+   "kind": "room",
+   "x": 0,
+   "z": 17,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Office",
+   "door": {
+    "cell": [
+     0,
+     18
     ],
     "side": "n",
     "c": [
-     43.5,
-     17.88
+     1.79,
+     35.92
+    ],
+    "w": 2.4
+   },
+   "openings": [
+    {
+     "c": [
+      1.79,
+      35.92
+     ],
+     "w": 3.25,
+     "side": "s",
+     "to": "Office"
+    },
+    {
+     "c": [
+      3.0,
+      35.0
+     ],
+     "w": 6.0,
+     "side": "n",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Ward Corridor",
+   "kind": "corridor",
+   "x": 12,
+   "z": 26,
+   "w": 11,
+   "d": 1,
+   "floor": 0,
+   "y": 1.42,
+   "light": 0.35,
+   "from": "Linen Store",
+   "door": {
+    "cell": [
+     17,
+     25
+    ],
+    "side": "s",
+    "c": [
+     34.5,
+     52.01
     ],
     "w": 2.4,
     "open": true
@@ -778,45 +567,110 @@
    "openings": [
     {
      "c": [
-      43.88,
-      16.5
+      34.5,
+      52.01
      ],
-     "w": 1.25,
+     "w": 22.0,
      "side": "n",
-     "to": "Long Corridor"
-    },
-    {
-     "c": [
-      43.5,
-      17.88
-     ],
-     "w": 5.0,
-     "side": "s",
-     "to": "Night Station II",
+     "to": "Linen Store",
      "open": true
     }
    ]
   },
   {
-   "name": "Workshop",
+   "name": "Matron's Room",
+   "kind": "room",
+   "x": 12,
+   "z": 13,
+   "w": 6,
+   "d": 3,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.35,
+   "from": "Linen Store",
+   "door": {
+    "cell": [
+     15,
+     16
+    ],
+    "side": "n",
+    "c": [
+     30.0,
+     32.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      35.75,
+      29.12
+     ],
+     "w": 1.25,
+     "side": "e",
+     "to": "Night Station III"
+    },
+    {
+     "c": [
+      22.25,
+      31.0
+     ],
+     "w": 1.5,
+     "side": "n",
+     "to": "Refectory II"
+    },
+    {
+     "c": [
+      33.88,
+      26.25
+     ],
+     "w": 1.25,
+     "side": "n",
+     "to": "Refectory III"
+    },
+    {
+     "c": [
+      30.0,
+      32.0
+     ],
+     "w": 12.0,
+     "side": "s",
+     "to": "Linen Store",
+     "open": true
+    },
+    {
+     "c": [
+      24.0,
+      31.62
+     ],
+     "w": 0.75,
+     "side": "w",
+     "to": "Laundry",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Chapel",
    "kind": "room",
    "x": 23,
-   "z": 13,
-   "w": 3,
-   "d": 15,
+   "z": 18,
+   "w": 2,
+   "d": 6,
    "floor": 0,
-   "y": 6.1,
+   "y": 1.83,
    "light": 0.35,
-   "from": "Night Station II",
+   "from": "Linen Store",
    "door": {
     "cell": [
      22,
-     13
+     21
     ],
     "side": "e",
     "c": [
      46.0,
-     27.62
+     42.5
     ],
     "w": 2.4,
     "open": true
@@ -825,17 +679,665 @@
     {
      "c": [
       46.0,
-      27.62
+      42.5
      ],
-     "w": 3.25,
+     "w": 9.0,
      "side": "w",
-     "to": "Night Station II",
+     "to": "Linen Store",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Laundry",
+   "kind": "room",
+   "x": 11,
+   "z": 15,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.0,
+   "from": "Linen Store",
+   "door": {
+    "cell": [
+     11,
+     16
+    ],
+    "side": "n",
+    "c": [
+     22.75,
+     31.93
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      22.75,
+      31.93
+     ],
+     "w": 2.5,
+     "side": "s",
+     "to": "Linen Store",
      "open": true
     },
     {
      "c": [
-      45.98,
-      53.38
+      24.0,
+      31.62
+     ],
+     "w": 0.75,
+     "side": "e",
+     "to": "Matron's Room",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Night Station II",
+   "kind": "room",
+   "x": 8,
+   "z": 26,
+   "w": 4,
+   "d": 4,
+   "floor": 0,
+   "y": 6.1,
+   "light": 0.35,
+   "from": "Linen Store",
+   "door": {
+    "cell": [
+     11,
+     26
+    ],
+    "side": "s",
+    "c": [
+     22.12,
+     53.0
+    ],
+    "w": 1.25
+   },
+   "openings": [
+    {
+     "c": [
+      24.5,
+      55.12
+     ],
+     "w": 1.25,
+     "side": "e",
+     "to": "Passage IV"
+    },
+    {
+     "c": [
+      22.12,
+      53.0
+     ],
+     "w": 1.25,
+     "side": "n",
+     "to": "Linen Store"
+    },
+    {
+     "c": [
+      17.75,
+      52.0
+     ],
+     "w": 3.0,
+     "side": "n",
+     "to": "Passage III",
+     "open": true
+    },
+    {
+     "c": [
+      15.25,
+      53.88
+     ],
+     "w": 1.75,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Refectory II",
+   "kind": "room",
+   "x": 10,
+   "z": 8,
+   "w": 2,
+   "d": 7,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.35,
+   "from": "Matron's Room",
+   "door": {
+    "cell": [
+     11,
+     15
+    ],
+    "side": "n",
+    "c": [
+     22.25,
+     31.0
+    ],
+    "w": 1.5
+   },
+   "openings": [
+    {
+     "c": [
+      22.25,
+      31.0
+     ],
+     "w": 1.5,
+     "side": "s",
+     "to": "Matron's Room"
+    },
+    {
+     "c": [
+      19.75,
+      22.0
+     ],
+     "w": 1.5,
+     "side": "w",
+     "to": "Refectory IV"
+    },
+    {
+     "c": [
+      19.75,
+      29.5
+     ],
+     "w": 1.5,
+     "side": "w",
+     "to": "Refectory IV"
+    },
+    {
+     "c": [
+      24.75,
+      22.38
+     ],
+     "w": 1.25,
+     "side": "e",
+     "to": "Day Room"
+    },
+    {
+     "c": [
+      22.38,
+      15.75
+     ],
+     "w": 1.25,
+     "side": "n",
+     "to": "Linen Store II"
+    },
+    {
+     "c": [
+      21.25,
+      30.12
+     ],
+     "w": 3.0,
+     "side": "s",
+     "to": "Ward",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Night Station III",
+   "kind": "room",
+   "x": 18,
+   "z": 10,
+   "w": 7,
+   "d": 6,
+   "floor": 0,
+   "y": 6.1,
+   "light": 0.35,
+   "from": "Matron's Room",
+   "door": {
+    "cell": [
+     17,
+     14
+    ],
+    "side": "e",
+    "c": [
+     35.75,
+     29.12
+    ],
+    "w": 1.25
+   },
+   "openings": [
+    {
+     "c": [
+      35.75,
+      29.12
+     ],
+     "w": 1.25,
+     "side": "w",
+     "to": "Matron's Room"
+    },
+    {
+     "c": [
+      50.0,
+      29.62
+     ],
+     "w": 3.25,
+     "side": "e",
+     "to": "Visiting Room II",
+     "open": true
+    },
+    {
+     "c": [
+      47.5,
+      19.88
+     ],
+     "w": 5.0,
+     "side": "n",
+     "to": "Passage V",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Refectory III",
+   "kind": "room",
+   "x": 16,
+   "z": 9,
+   "w": 2,
+   "d": 4,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.35,
+   "from": "Matron's Room",
+   "door": {
+    "cell": [
+     16,
+     13
+    ],
+    "side": "n",
+    "c": [
+     33.88,
+     26.25
+    ],
+    "w": 1.25
+   },
+   "openings": [
+    {
+     "c": [
+      33.88,
+      26.25
+     ],
+     "w": 1.25,
+     "side": "s",
+     "to": "Matron's Room"
+    },
+    {
+     "c": [
+      33.88,
+      18.0
+     ],
+     "w": 3.25,
+     "side": "n",
+     "to": "Library",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage III",
+   "kind": "corridor",
+   "x": 8,
+   "z": 25,
+   "w": 2,
+   "d": 1,
+   "floor": 0,
+   "y": 6.1,
+   "light": 0.0,
+   "from": "Night Station II",
+   "door": {
+    "cell": [
+     8,
+     26
+    ],
+    "side": "n",
+    "c": [
+     17.75,
+     52.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      17.75,
+      52.0
+     ],
+     "w": 3.0,
+     "side": "s",
+     "to": "Night Station II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage IV",
+   "kind": "corridor",
+   "x": 12,
+   "z": 27,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 6.1,
+   "light": 0.35,
+   "from": "Night Station II",
+   "door": {
+    "cell": [
+     12,
+     27
+    ],
+    "side": "e",
+    "c": [
+     24.5,
+     55.12
+    ],
+    "w": 1.25
+   },
+   "openings": [
+    {
+     "c": [
+      24.5,
+      55.12
+     ],
+     "w": 1.25,
+     "side": "w",
+     "to": "Night Station II"
+    },
+    {
+     "c": [
+      26.0,
+      55.88
+     ],
+     "w": 4.75,
+     "side": "e",
+     "to": "Library III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Ward",
+   "kind": "room",
+   "x": 10,
+   "z": 15,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.0,
+   "from": "Refectory II",
+   "door": {
+    "cell": [
+     10,
+     14
+    ],
+    "side": "s",
+    "c": [
+     21.25,
+     30.12
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      21.25,
+      30.12
+     ],
+     "w": 3.0,
+     "side": "n",
+     "to": "Refectory II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Refectory IV",
+   "kind": "room",
+   "x": 8,
+   "z": 8,
+   "w": 2,
+   "d": 10,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.35,
+   "from": "Refectory II",
+   "door": {
+    "cell": [
+     10,
+     11
+    ],
+    "side": "w",
+    "c": [
+     19.75,
+     22.0
+    ],
+    "w": 1.5
+   },
+   "openings": [
+    {
+     "c": [
+      19.75,
+      22.0
+     ],
+     "w": 1.5,
+     "side": "e",
+     "to": "Refectory II"
+    },
+    {
+     "c": [
+      19.75,
+      29.5
+     ],
+     "w": 1.5,
+     "side": "e",
+     "to": "Refectory II"
+    },
+    {
+     "c": [
+      15.93,
+      17.5
+     ],
+     "w": 2.5,
+     "side": "w",
+     "to": "Ward II",
+     "open": true
+    },
+    {
+     "c": [
+      15.25,
+      26.88
+     ],
+     "w": 16.25,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room",
+   "kind": "room",
+   "x": 12,
+   "z": 6,
+   "w": 4,
+   "d": 7,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.35,
+   "from": "Refectory II",
+   "door": {
+    "cell": [
+     12,
+     11
+    ],
+    "side": "e",
+    "c": [
+     24.75,
+     22.38
+    ],
+    "w": 1.25
+   },
+   "openings": [
+    {
+     "c": [
+      24.75,
+      22.38
+     ],
+     "w": 1.25,
+     "side": "w",
+     "to": "Refectory II"
+    },
+    {
+     "c": [
+      28.5,
+      11.94
+     ],
+     "w": 6.5,
+     "side": "n",
+     "to": "Service Corridor",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Linen Store II",
+   "kind": "room",
+   "x": 8,
+   "z": 5,
+   "w": 4,
+   "d": 3,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.35,
+   "from": "Refectory II",
+   "door": {
+    "cell": [
+     11,
+     8
+    ],
+    "side": "n",
+    "c": [
+     22.38,
+     15.75
+    ],
+    "w": 1.25
+   },
+   "openings": [
+    {
+     "c": [
+      22.38,
+      15.75
+     ],
+     "w": 1.25,
+     "side": "s",
+     "to": "Refectory II"
+    },
+    {
+     "c": [
+      16.0,
+      13.62
+     ],
+     "w": 3.75,
+     "side": "w",
+     "to": "Passage VI",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage V",
+   "kind": "corridor",
+   "x": 23,
+   "z": 9,
+   "w": 2,
+   "d": 1,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.0,
+   "from": "Night Station III",
+   "door": {
+    "cell": [
+     23,
+     10
+    ],
+    "side": "n",
+    "c": [
+     47.5,
+     19.88
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      47.88,
+      18.5
+     ],
+     "w": 1.25,
+     "side": "n",
+     "to": "Long Corridor"
+    },
+    {
+     "c": [
+      47.5,
+      19.88
+     ],
+     "w": 5.0,
+     "side": "s",
+     "to": "Night Station III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Visiting Room II",
+   "kind": "room",
+   "x": 25,
+   "z": 14,
+   "w": 3,
+   "d": 15,
+   "floor": 0,
+   "y": 6.1,
+   "light": 0.35,
+   "from": "Night Station III",
+   "door": {
+    "cell": [
+     24,
+     14
+    ],
+    "side": "e",
+    "c": [
+     50.0,
+     29.62
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      50.0,
+      29.62
+     ],
+     "w": 3.25,
+     "side": "w",
+     "to": "Night Station III",
+     "open": true
+    },
+    {
+     "c": [
+      49.98,
+      55.38
      ],
      "w": 3.75,
      "side": "w",
@@ -847,23 +1349,23 @@
   {
    "name": "Washroom",
    "kind": "room",
-   "x": 20,
-   "z": 26,
+   "x": 22,
+   "z": 27,
    "w": 3,
    "d": 2,
    "floor": 0,
    "y": 6.1,
    "light": 0.0,
-   "from": "Workshop",
+   "from": "Visiting Room II",
    "door": {
     "cell": [
-     23,
-     26
+     25,
+     27
     ],
     "side": "w",
     "c": [
-     45.98,
-     53.38
+     49.98,
+     55.38
     ],
     "w": 2.4,
     "open": true
@@ -871,30 +1373,30 @@
    "openings": [
     {
      "c": [
-      40.25,
-      53.12
+      44.25,
+      55.12
      ],
      "w": 1.25,
      "side": "w",
-     "to": "Day Room II"
+     "to": "Records"
     },
     {
      "c": [
-      45.98,
-      53.38
+      49.98,
+      55.38
      ],
      "w": 3.75,
      "side": "e",
-     "to": "Workshop",
+     "to": "Visiting Room II",
      "open": true
     }
    ]
   },
   {
-   "name": "Day Room II",
+   "name": "Records",
    "kind": "room",
-   "x": 16,
-   "z": 26,
+   "x": 18,
+   "z": 27,
    "w": 4,
    "d": 2,
    "floor": 0,
@@ -903,21 +1405,21 @@
    "from": "Washroom",
    "door": {
     "cell": [
-     20,
-     26
+     22,
+     27
     ],
     "side": "w",
     "c": [
-     40.25,
-     53.12
+     44.25,
+     55.12
     ],
     "w": 1.25
    },
    "openings": [
     {
      "c": [
-      37.88,
-      55.5
+      41.88,
+      57.5
      ],
      "w": 1.25,
      "side": "s",
@@ -925,17 +1427,17 @@
     },
     {
      "c": [
-      31.75,
-      53.12
+      35.75,
+      55.12
      ],
      "w": 1.25,
      "side": "w",
-     "to": "Library IV"
+     "to": "Library III"
     },
     {
      "c": [
-      40.25,
-      53.12
+      44.25,
+      55.12
      ],
      "w": 1.25,
      "side": "e",
@@ -946,218 +1448,295 @@
   {
    "name": "Long Corridor",
    "kind": "corridor",
-   "x": 21,
-   "z": 7,
+   "x": 23,
+   "z": 8,
    "w": 3,
    "d": 1,
    "floor": 0,
    "y": 5.59,
    "light": 0.0,
-   "from": "Passage III",
+   "from": "Passage V",
    "door": {
     "cell": [
-     21,
-     8
+     23,
+     9
     ],
     "side": "n",
     "c": [
-     43.88,
-     16.5
+     47.88,
+     18.5
     ],
     "w": 1.25
    },
    "openings": [
     {
      "c": [
-      43.88,
-      16.5
+      47.88,
+      18.5
      ],
      "w": 1.25,
      "side": "s",
-     "to": "Passage III"
+     "to": "Passage V"
     },
     {
      "c": [
-      44.5,
-      13.92
+      48.5,
+      15.92
      ],
      "w": 4.5,
      "side": "n",
-     "to": "Dispensary",
+     "to": "Workshop",
      "open": true
+    }
+   ]
+  },
+  {
+   "name": "Library",
+   "kind": "room",
+   "x": 16,
+   "z": 1,
+   "w": 4,
+   "d": 8,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.35,
+   "from": "Refectory III",
+   "door": {
+    "cell": [
+     16,
+     9
+    ],
+    "side": "n",
+    "c": [
+     33.88,
+     18.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      33.88,
+      18.0
+     ],
+     "w": 3.25,
+     "side": "s",
+     "to": "Refectory III",
+     "open": true
+    },
+    {
+     "c": [
+      32.0,
+      8.5
+     ],
+     "w": 3.5,
+     "side": "w",
+     "to": "Laundry II",
+     "open": true
+    },
+    {
+     "c": [
+      40.03,
+      12.12
+     ],
+     "w": 9.25,
+     "side": "e",
+     "to": "Ward Corridor II",
+     "open": true
+    },
+    {
+     "c": [
+      40.04,
+      5.0
+     ],
+     "w": 3.0,
+     "side": "e",
+     "to": "Kitchen",
+     "open": true
+    },
+    {
+     "c": [
+      37.62,
+      1.0
+     ],
+     "w": 7.75,
+     "side": "n",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Ward Corridor II",
+   "kind": "corridor",
+   "x": 20,
+   "z": 4,
+   "w": 1,
+   "d": 4,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.35,
+   "from": "Library",
+   "door": {
+    "cell": [
+     19,
+     6
+    ],
+    "side": "e",
+    "c": [
+     40.03,
+     12.12
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      41.0,
+      13.5
+     ],
+     "w": 1.5,
+     "side": "e",
+     "to": "Workshop"
+    },
+    {
+     "c": [
+      40.03,
+      12.12
+     ],
+     "w": 9.25,
+     "side": "w",
+     "to": "Library",
+     "open": true
+    },
+    {
+     "c": [
+      41.5,
+      8.62
+     ],
+     "w": 1.25,
+     "side": "e",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Laundry II",
+   "kind": "room",
+   "x": 13,
+   "z": 3,
+   "w": 3,
+   "d": 2,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.35,
+   "from": "Library",
+   "door": {
+    "cell": [
+     16,
+     4
+    ],
+    "side": "w",
+    "c": [
+     32.0,
+     8.5
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      32.0,
+      8.5
+     ],
+     "w": 3.5,
+     "side": "e",
+     "to": "Library",
+     "open": true
+    },
+    {
+     "c": [
+      26.0,
+      8.5
+     ],
+     "w": 2.5,
+     "side": "w",
+     "to": "Library II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Kitchen",
+   "kind": "room",
+   "x": 20,
+   "z": 2,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 5.59,
+   "light": 0.0,
+   "from": "Library",
+   "door": {
+    "cell": [
+     19,
+     2
+    ],
+    "side": "e",
+    "c": [
+     40.04,
+     5.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      40.04,
+      5.0
+     ],
+     "w": 3.0,
+     "side": "w",
+     "to": "Library",
+     "open": true
+    },
+    {
+     "c": [
+      41.5,
+      4.5
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "",
+     "out": true
     }
    ]
   },
   {
    "name": "Library II",
    "kind": "room",
-   "x": 14,
-   "z": 0,
-   "w": 4,
-   "d": 8,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.35,
-   "from": "Refectory II",
-   "door": {
-    "cell": [
-     14,
-     8
-    ],
-    "side": "n",
-    "c": [
-     29.88,
-     16.0
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      29.88,
-      16.0
-     ],
-     "w": 3.25,
-     "side": "s",
-     "to": "Refectory II",
-     "open": true
-    },
-    {
-     "c": [
-      28.0,
-      6.5
-     ],
-     "w": 3.5,
-     "side": "w",
-     "to": "Linen Store II",
-     "open": true
-    },
-    {
-     "c": [
-      36.03,
-      11.12
-     ],
-     "w": 7.25,
-     "side": "e",
-     "to": "Ward Corridor",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Ward Corridor",
-   "kind": "corridor",
-   "x": 18,
-   "z": 4,
-   "w": 1,
-   "d": 3,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.35,
-   "from": "Library II",
-   "door": {
-    "cell": [
-     17,
-     5
-    ],
-    "side": "e",
-    "c": [
-     36.03,
-     11.12
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      37.0,
-      11.5
-     ],
-     "w": 1.5,
-     "side": "e",
-     "to": "Dispensary"
-    },
-    {
-     "c": [
-      36.03,
-      11.12
-     ],
-     "w": 7.25,
-     "side": "w",
-     "to": "Library II",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Linen Store II",
-   "kind": "room",
-   "x": 11,
-   "z": 2,
-   "w": 3,
-   "d": 2,
-   "floor": 0,
-   "y": 5.59,
-   "light": 0.35,
-   "from": "Library II",
-   "door": {
-    "cell": [
-     14,
-     3
-    ],
-    "side": "w",
-    "c": [
-     28.0,
-     6.5
-    ],
-    "w": 2.4,
-    "open": true
-   },
-   "openings": [
-    {
-     "c": [
-      28.0,
-      6.5
-     ],
-     "w": 3.5,
-     "side": "e",
-     "to": "Library II",
-     "open": true
-    },
-    {
-     "c": [
-      22.0,
-      6.5
-     ],
-     "w": 2.5,
-     "side": "w",
-     "to": "Library III",
-     "open": true
-    }
-   ]
-  },
-  {
-   "name": "Library III",
-   "kind": "room",
-   "x": 6,
-   "z": 0,
+   "x": 8,
+   "z": 1,
    "w": 5,
    "d": 4,
    "floor": 0,
    "y": 5.59,
    "light": 0.35,
-   "from": "Linen Store II",
+   "from": "Laundry II",
    "door": {
     "cell": [
-     11,
-     3
+     13,
+     4
     ],
     "side": "w",
     "c": [
-     22.0,
-     6.5
+     26.0,
+     8.5
     ],
     "w": 2.4,
     "open": true
@@ -1165,117 +1744,127 @@
    "openings": [
     {
      "c": [
-      11.75,
-      6.5
+      15.75,
+      8.5
      ],
      "w": 1.5,
      "side": "w",
-     "to": "Corridor"
+     "to": "Ward Corridor III"
     },
     {
      "c": [
-      22.0,
-      6.5
+      26.0,
+      8.5
      ],
      "w": 2.5,
      "side": "e",
-     "to": "Linen Store II",
+     "to": "Laundry II",
      "open": true
+    },
+    {
+     "c": [
+      20.38,
+      1.0
+     ],
+     "w": 5.75,
+     "side": "n",
+     "to": "",
+     "out": true
     }
    ]
   },
   {
-   "name": "Corridor",
+   "name": "Ward Corridor III",
    "kind": "corridor",
-   "x": 5,
-   "z": 0,
+   "x": 7,
+   "z": 1,
    "w": 1,
    "d": 5,
    "floor": 0,
    "y": 5.89,
    "light": 0.0,
-   "from": "Library III",
+   "from": "Library II",
    "door": {
     "cell": [
-     6,
-     3
+     8,
+     4
     ],
     "side": "w",
     "c": [
-     11.75,
-     6.5
+     15.75,
+     8.5
     ],
     "w": 1.5
    },
    "openings": [
     {
      "c": [
-      11.75,
-      6.5
+      15.75,
+      8.5
      ],
      "w": 1.5,
      "side": "e",
-     "to": "Library III"
+     "to": "Library II"
     },
     {
      "c": [
-      10.0,
-      6.12
+      14.0,
+      8.12
      ],
      "w": 8.25,
      "side": "w",
-     "to": "Ward II",
+     "to": "Ward III",
      "open": true
     },
     {
      "c": [
-      10.0,
-      1.0
+      14.0,
+      3.0
      ],
      "w": 2.0,
      "side": "w",
-     "to": "Ward III",
+     "to": "Ward IV",
      "open": true
     }
    ]
   },
   {
-   "name": "Dispensary",
+   "name": "Workshop",
    "kind": "room",
-   "x": 19,
-   "z": 4,
+   "x": 21,
+   "z": 5,
    "w": 4,
    "d": 3,
    "floor": 0,
    "y": 5.59,
    "light": 0.35,
-   "from": "Ward Corridor",
+   "from": "Ward Corridor II",
    "door": {
     "cell": [
-     18,
-     5
+     20,
+     6
     ],
     "side": "e",
     "c": [
-     37.0,
-     11.5
+     41.0,
+     13.5
     ],
     "w": 1.5
    },
    "openings": [
     {
      "c": [
-      37.0,
-      11.5
+      41.0,
+      13.5
      ],
      "w": 1.5,
      "side": "w",
-     "to": "Ward Corridor"
+     "to": "Ward Corridor II"
     },
     {
      "c": [
-      44.5,
-      13.92
+      48.5,
+      15.92
      ],
      "w": 4.5,
      "side": "s",
@@ -1284,18 +1873,18 @@
     },
     {
      "c": [
-      46.0,
-      11.12
+      50.0,
+      13.12
      ],
      "w": 1.75,
      "side": "e",
-     "to": "Hydrotherapy",
+     "to": "Dispensary II",
      "open": true
     },
     {
      "c": [
-      41.62,
-      8.5
+      45.62,
+      10.5
      ],
      "w": 8.25,
      "side": "n",
@@ -1305,25 +1894,25 @@
    ]
   },
   {
-   "name": "Library IV",
+   "name": "Library III",
    "kind": "room",
-   "x": 11,
-   "z": 26,
+   "x": 13,
+   "z": 27,
    "w": 5,
    "d": 3,
    "floor": 0,
    "y": 6.1,
    "light": 0.35,
-   "from": "Passage II",
+   "from": "Passage IV",
    "door": {
     "cell": [
-     10,
-     26
+     12,
+     27
     ],
     "side": "e",
     "c": [
-     22.0,
-     53.88
+     26.0,
+     55.88
     ],
     "w": 2.4,
     "open": true
@@ -1331,36 +1920,36 @@
    "openings": [
     {
      "c": [
-      31.75,
-      53.12
+      35.75,
+      55.12
      ],
      "w": 1.25,
      "side": "e",
+     "to": "Records"
+    },
+    {
+     "c": [
+      27.62,
+      59.75
+     ],
+     "w": 4.5,
+     "side": "s",
      "to": "Day Room II"
     },
     {
      "c": [
-      23.62,
-      57.75
-     ],
-     "w": 4.5,
-     "side": "s",
-     "to": "Isolation Room"
-    },
-    {
-     "c": [
-      22.0,
-      53.88
+      26.0,
+      55.88
      ],
      "w": 4.75,
      "side": "w",
-     "to": "Passage II",
+     "to": "Passage IV",
      "open": true
     },
     {
      "c": [
-      29.5,
-      58.0
+      33.5,
+      60.0
      ],
      "w": 3.5,
      "side": "s",
@@ -1370,42 +1959,42 @@
    ]
   },
   {
-   "name": "Isolation Room",
+   "name": "Day Room II",
    "kind": "room",
-   "x": 10,
-   "z": 28,
+   "x": 12,
+   "z": 29,
    "w": 1,
    "d": 1,
    "floor": 0,
    "y": 0.0,
    "light": 0.0,
-   "from": "Library IV",
+   "from": "Library III",
    "door": {
     "cell": [
-     11,
-     28
+     13,
+     29
     ],
     "side": "s",
     "c": [
-     23.62,
-     57.75
+     27.62,
+     59.75
     ],
     "w": 2.4
    },
    "openings": [
     {
      "c": [
-      23.62,
-      57.75
+      27.62,
+      59.75
      ],
      "w": 4.5,
      "side": "n",
-     "to": "Library IV"
+     "to": "Library III"
     },
     {
      "c": [
-      21.0,
-      58.0
+      25.0,
+      60.0
      ],
      "w": 10.0,
      "side": "s",
@@ -1415,10 +2004,57 @@
    ]
   },
   {
-   "name": "Corridor II",
+   "name": "Ward II",
+   "kind": "room",
+   "x": 7,
+   "z": 8,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 7.06,
+   "light": 0.0,
+   "from": "Refectory IV",
+   "door": {
+    "cell": [
+     8,
+     8
+    ],
+    "side": "w",
+    "c": [
+     15.93,
+     17.5
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      15.93,
+      17.5
+     ],
+     "w": 2.5,
+     "side": "e",
+     "to": "Refectory IV",
+     "open": true
+    },
+    {
+     "c": [
+      15.25,
+      17.62
+     ],
+     "w": 2.25,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Service Corridor",
    "kind": "corridor",
-   "x": 11,
-   "z": 4,
+   "x": 13,
+   "z": 5,
    "w": 3,
    "d": 1,
    "floor": 0,
@@ -1427,13 +2063,13 @@
    "from": "Day Room",
    "door": {
     "cell": [
-     12,
-     5
+     14,
+     6
     ],
     "side": "n",
     "c": [
-     24.5,
-     9.94
+     28.5,
+     11.94
     ],
     "w": 2.4,
     "open": true
@@ -1441,8 +2077,8 @@
    "openings": [
     {
      "c": [
-      24.5,
-      9.94
+      28.5,
+      11.94
      ],
      "w": 6.5,
      "side": "s",
@@ -1452,25 +2088,25 @@
    ]
   },
   {
-   "name": "Passage IV",
+   "name": "Passage VI",
    "kind": "corridor",
-   "x": 5,
-   "z": 5,
+   "x": 7,
+   "z": 6,
    "w": 1,
    "d": 2,
    "floor": 0,
    "y": 5.89,
    "light": 0.0,
-   "from": "Library",
+   "from": "Linen Store II",
    "door": {
     "cell": [
-     6,
-     5
+     8,
+     6
     ],
     "side": "w",
     "c": [
-     12.0,
-     11.62
+     16.0,
+     13.62
     ],
     "w": 2.4,
     "open": true
@@ -1478,96 +2114,116 @@
    "openings": [
     {
      "c": [
-      10.25,
-      10.5
+      14.25,
+      12.5
      ],
      "w": 1.0,
      "side": "w",
-     "to": "Ward II"
+     "to": "Ward III"
     },
     {
      "c": [
-      12.0,
-      11.62
+      16.0,
+      13.62
      ],
      "w": 3.75,
      "side": "e",
-     "to": "Library",
+     "to": "Linen Store II",
      "open": true
     }
    ]
   },
   {
-   "name": "Ward II",
+   "name": "Ward III",
    "kind": "room",
-   "x": 0,
-   "z": 1,
+   "x": 2,
+   "z": 2,
    "w": 5,
    "d": 5,
    "floor": 0,
    "y": 5.89,
    "light": 0.35,
-   "from": "Passage IV",
+   "from": "Passage VI",
    "door": {
     "cell": [
-     5,
-     5
+     7,
+     6
     ],
     "side": "w",
     "c": [
-     10.25,
-     10.5
+     14.25,
+     12.5
     ],
     "w": 1.0
    },
    "openings": [
     {
      "c": [
-      10.25,
-      10.5
+      14.25,
+      12.5
      ],
      "w": 1.0,
      "side": "e",
-     "to": "Passage IV"
+     "to": "Passage VI"
     },
     {
      "c": [
-      10.0,
-      6.12
+      14.0,
+      8.12
      ],
      "w": 8.25,
      "side": "e",
-     "to": "Corridor",
+     "to": "Ward Corridor III",
      "open": true
     },
     {
      "c": [
-      3.0,
-      1.99
+      4.0,
+      11.93
      ],
-     "w": 6.5,
-     "side": "n",
-     "to": "Long Corridor II",
+     "w": 4.0,
+     "side": "w",
+     "to": "Chapel II",
      "open": true
     },
     {
      "c": [
-      2.38,
-      12.0
+      6.38,
+      14.0
      ],
      "w": 4.75,
      "side": "s",
-     "to": "Corridor III",
+     "to": "Service Corridor II",
      "open": true
     },
     {
      "c": [
-      8.88,
-      1.97
+      7.12,
+      3.99
+     ],
+     "w": 6.25,
+     "side": "n",
+     "to": "Ward Corridor IV",
+     "open": true
+    },
+    {
+     "c": [
+      4.0,
+      4.91
+     ],
+     "w": 2.0,
+     "side": "w",
+     "to": "Laundry III",
+     "open": true
+    },
+    {
+     "c": [
+      12.88,
+      3.97
      ],
      "w": 2.25,
      "side": "n",
-     "to": "Ward III",
+     "to": "Ward IV",
      "open": true
     }
    ]
@@ -1575,58 +2231,58 @@
   {
    "name": "Office II",
    "kind": "room",
-   "x": 16,
-   "z": 28,
+   "x": 18,
+   "z": 29,
    "w": 4,
    "d": 3,
    "floor": 0,
    "y": 6.1,
    "light": 0.35,
-   "from": "Day Room II",
+   "from": "Records",
    "door": {
     "cell": [
-     18,
-     27
+     20,
+     28
     ],
     "side": "s",
     "c": [
-     37.88,
-     55.5
+     41.88,
+     57.5
     ],
     "w": 1.25
    },
    "openings": [
     {
      "c": [
-      37.88,
-      55.5
+      41.88,
+      57.5
      ],
      "w": 1.25,
      "side": "n",
-     "to": "Day Room II"
+     "to": "Records"
     }
    ]
   },
   {
-   "name": "Ward III",
+   "name": "Ward IV",
    "kind": "room",
-   "x": 4,
-   "z": 0,
+   "x": 6,
+   "z": 1,
    "w": 1,
    "d": 1,
    "floor": 0,
    "y": 5.89,
    "light": 0.0,
-   "from": "Corridor",
+   "from": "Ward Corridor III",
    "door": {
     "cell": [
-     5,
-     0
+     7,
+     1
     ],
     "side": "w",
     "c": [
-     10.0,
-     1.0
+     14.0,
+     3.0
     ],
     "w": 2.0,
     "open": true
@@ -1634,46 +2290,46 @@
    "openings": [
     {
      "c": [
-      8.88,
-      1.97
+      12.88,
+      3.97
      ],
      "w": 2.25,
      "side": "s",
-     "to": "Ward II",
+     "to": "Ward III",
      "open": true
     },
     {
      "c": [
-      10.0,
-      1.0
+      14.0,
+      3.0
      ],
      "w": 2.0,
      "side": "e",
-     "to": "Corridor",
+     "to": "Ward Corridor III",
      "open": true
     }
    ]
   },
   {
-   "name": "Hydrotherapy",
+   "name": "Dispensary II",
    "kind": "room",
-   "x": 23,
-   "z": 5,
+   "x": 25,
+   "z": 6,
    "w": 1,
    "d": 1,
    "floor": 0,
    "y": 5.59,
    "light": 0.0,
-   "from": "Dispensary",
+   "from": "Workshop",
    "door": {
     "cell": [
-     22,
-     5
+     24,
+     6
     ],
     "side": "e",
     "c": [
-     46.0,
-     11.12
+     50.0,
+     13.12
     ],
     "w": 1.75,
     "open": true
@@ -1681,62 +2337,62 @@
    "openings": [
     {
      "c": [
-      46.58,
-      12.42
+      50.58,
+      14.42
      ],
      "w": 8.0,
      "side": "e",
-     "to": "Workshop II"
+     "to": "Records II"
     },
     {
      "c": [
-      46.0,
-      11.12
+      50.0,
+      13.12
      ],
      "w": 1.75,
      "side": "w",
-     "to": "Dispensary",
+     "to": "Workshop",
      "open": true
     }
    ]
   },
   {
-   "name": "Workshop II",
+   "name": "Records II",
    "kind": "room",
-   "x": 23,
-   "z": 6,
+   "x": 25,
+   "z": 7,
    "w": 1,
    "d": 1,
    "floor": 0,
    "y": 1.68,
    "light": 0.0,
-   "from": "Hydrotherapy",
+   "from": "Dispensary II",
    "door": {
     "cell": [
-     23,
-     6
+     25,
+     7
     ],
     "side": "e",
     "c": [
-     46.58,
-     12.42
+     50.58,
+     14.42
     ],
     "w": 2.4
    },
    "openings": [
     {
      "c": [
-      46.58,
-      12.42
+      50.58,
+      14.42
      ],
      "w": 8.0,
      "side": "w",
-     "to": "Hydrotherapy"
+     "to": "Dispensary II"
     },
     {
      "c": [
-      47.0,
-      13.25
+      51.0,
+      15.25
      ],
      "w": 9.5,
      "side": "e",
@@ -1746,25 +2402,25 @@
    ]
   },
   {
-   "name": "Long Corridor II",
+   "name": "Ward Corridor IV",
    "kind": "corridor",
-   "x": 0,
-   "z": 0,
+   "x": 2,
+   "z": 1,
    "w": 3,
    "d": 1,
    "floor": 0,
    "y": 5.89,
    "light": 0.0,
-   "from": "Ward II",
+   "from": "Ward III",
    "door": {
     "cell": [
-     1,
-     1
+     3,
+     2
     ],
     "side": "n",
     "c": [
-     3.0,
-     1.99
+     7.12,
+     3.99
     ],
     "w": 2.4,
     "open": true
@@ -1772,36 +2428,36 @@
    "openings": [
     {
      "c": [
-      3.0,
-      1.99
+      7.12,
+      3.99
      ],
-     "w": 6.5,
+     "w": 6.25,
      "side": "s",
-     "to": "Ward II",
+     "to": "Ward III",
      "open": true
     }
    ]
   },
   {
-   "name": "Corridor III",
+   "name": "Service Corridor II",
    "kind": "corridor",
-   "x": 0,
-   "z": 6,
-   "w": 3,
+   "x": 1,
+   "z": 7,
+   "w": 4,
    "d": 1,
    "floor": 0,
    "y": 5.89,
    "light": 0.0,
-   "from": "Ward II",
+   "from": "Ward III",
    "door": {
     "cell": [
-     1,
-     5
+     3,
+     6
     ],
     "side": "s",
     "c": [
-     2.38,
-     12.0
+     6.38,
+     14.0
     ],
     "w": 2.4,
     "open": true
@@ -1809,57 +2465,400 @@
    "openings": [
     {
      "c": [
-      5.25,
-      13.12
+      1.68,
+      15.03
      ],
-     "w": 0.75,
-     "side": "e",
-     "to": "Ward IV"
+     "w": 3.25,
+     "side": "s",
+     "to": "Hydrotherapy"
     },
     {
      "c": [
-      2.38,
-      12.0
+      9.25,
+      15.12
+     ],
+     "w": 0.75,
+     "side": "e",
+     "to": "Workshop II"
+    },
+    {
+     "c": [
+      6.38,
+      14.0
      ],
      "w": 4.75,
      "side": "n",
-     "to": "Ward II",
+     "to": "Ward III",
+     "open": true
+    },
+    {
+     "c": [
+      2.62,
+      14.0
+     ],
+     "w": 1.25,
+     "side": "n",
+     "to": "Chapel II",
      "open": true
     }
    ]
   },
   {
-   "name": "Ward IV",
+   "name": "Chapel II",
    "kind": "room",
-   "x": 3,
-   "z": 6,
+   "x": 0,
+   "z": 5,
+   "w": 2,
+   "d": 2,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Ward III",
+   "door": {
+    "cell": [
+     2,
+     5
+    ],
+    "side": "w",
+    "c": [
+     4.0,
+     11.93
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      1.68,
+      10.22
+     ],
+     "w": 3.25,
+     "side": "n",
+     "to": "Passage VII"
+    },
+    {
+     "c": [
+      4.0,
+      11.93
+     ],
+     "w": 4.0,
+     "side": "e",
+     "to": "Ward III",
+     "open": true
+    },
+    {
+     "c": [
+      2.62,
+      14.0
+     ],
+     "w": 1.25,
+     "side": "s",
+     "to": "Service Corridor II",
+     "open": true
+    },
+    {
+     "c": [
+      0.0,
+      12.62
+     ],
+     "w": 4.25,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Laundry III",
+   "kind": "room",
+   "x": 1,
+   "z": 2,
    "w": 1,
    "d": 1,
    "floor": 0,
    "y": 5.89,
    "light": 0.0,
-   "from": "Corridor III",
+   "from": "Ward III",
    "door": {
     "cell": [
      2,
-     6
+     2
+    ],
+    "side": "w",
+    "c": [
+     4.0,
+     4.91
+    ],
+    "w": 2.0,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      2.5,
+      4.5
+     ],
+     "w": 3.0,
+     "side": "w",
+     "to": "Library IV"
+    },
+    {
+     "c": [
+      4.0,
+      4.91
+     ],
+     "w": 2.0,
+     "side": "e",
+     "to": "Ward III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Library IV",
+   "kind": "room",
+   "x": 1,
+   "z": 1,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Laundry III",
+   "door": {
+    "cell": [
+     1,
+     2
+    ],
+    "side": "w",
+    "c": [
+     2.5,
+     4.5
+    ],
+    "w": 2.4
+   },
+   "openings": [
+    {
+     "c": [
+      2.5,
+      4.5
+     ],
+     "w": 3.0,
+     "side": "e",
+     "to": "Laundry III"
+    },
+    {
+     "c": [
+      2.18,
+      2.95
+     ],
+     "w": 3.5,
+     "side": "w",
+     "to": "Ward Corridor V",
+     "open": true
+    },
+    {
+     "c": [
+      4.62,
+      1.0
+     ],
+     "w": 3.75,
+     "side": "n",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Passage VII",
+   "kind": "corridor",
+   "x": 1,
+   "z": 3,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Chapel II",
+   "door": {
+    "cell": [
+     0,
+     5
+    ],
+    "side": "n",
+    "c": [
+     1.68,
+     10.22
+    ],
+    "w": 2.4
+   },
+   "openings": [
+    {
+     "c": [
+      1.68,
+      10.22
+     ],
+     "w": 3.25,
+     "side": "s",
+     "to": "Chapel II"
+    },
+    {
+     "c": [
+      2.02,
+      8.11
+     ],
+     "w": 4.5,
+     "side": "w",
+     "to": "Ward Corridor V",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Hydrotherapy",
+   "kind": "room",
+   "x": 0,
+   "z": 7,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 6.71,
+   "light": 0.0,
+   "from": "Service Corridor II",
+   "door": {
+    "cell": [
+     0,
+     7
+    ],
+    "side": "s",
+    "c": [
+     1.68,
+     15.03
+    ],
+    "w": 2.4
+   },
+   "openings": [
+    {
+     "c": [
+      1.68,
+      15.03
+     ],
+     "w": 3.25,
+     "side": "n",
+     "to": "Service Corridor II"
+    },
+    {
+     "c": [
+      3.0,
+      16.5
+     ],
+     "w": 6.0,
+     "side": "s",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Workshop II",
+   "kind": "room",
+   "x": 5,
+   "z": 7,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Service Corridor II",
+   "door": {
+    "cell": [
+     4,
+     7
     ],
     "side": "e",
     "c": [
-     5.25,
-     13.12
+     9.25,
+     15.12
     ],
     "w": 0.75
    },
    "openings": [
     {
      "c": [
-      5.25,
-      13.12
+      9.25,
+      15.12
      ],
      "w": 0.75,
      "side": "w",
-     "to": "Corridor III"
+     "to": "Service Corridor II"
+    },
+    {
+     "c": [
+      10.62,
+      16.5
+     ],
+     "w": 8.25,
+     "side": "s",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Ward Corridor V",
+   "kind": "corridor",
+   "x": 0,
+   "z": 0,
+   "w": 1,
+   "d": 5,
+   "floor": 0,
+   "y": 5.89,
+   "light": 0.0,
+   "from": "Library IV",
+   "door": {
+    "cell": [
+     1,
+     1
+    ],
+    "side": "w",
+    "c": [
+     2.18,
+     2.95
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      2.02,
+      8.11
+     ],
+     "w": 4.5,
+     "side": "e",
+     "to": "Passage VII",
+     "open": true
+    },
+    {
+     "c": [
+      2.18,
+      2.95
+     ],
+     "w": 3.5,
+     "side": "e",
+     "to": "Library IV",
+     "open": true
+    },
+    {
+     "c": [
+      0.0,
+      5.75
+     ],
+     "w": 9.5,
+     "side": "w",
+     "to": "",
+     "out": true
     }
    ]
   }

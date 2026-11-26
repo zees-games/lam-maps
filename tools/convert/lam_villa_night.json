@@ -27,5 +27,6 @@
  "cell": 2.0,
  "pack": "gm_villa",
  "pack_metres_per_unit": 0.01905,
- "start_name": "Hall"
+ "start_name": "Hall",
+ "honour_solidity": true
 }

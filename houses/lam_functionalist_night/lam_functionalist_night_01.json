@@ -2277,11 +2277,6 @@
 			0.86,
 			2.59
 		],
-		"bench": [
-			0.92,
-			1.08,
-			0.46
-		],
 		"bookcaseClosed": [
 			0.92,
 			1.95,
@@ -2384,31 +2379,24 @@
 		[
 			"sideTableDrawers",
 			"r0",
-			5.54,
-			4.82,
-			270
-		],
-		[
-			"sideTableDrawers",
-			"r0",
-			1.61,
+			2.41,
 			0.46,
 			0
 		],
 		[
-			"lampSquareTable",
+			"sideTableDrawers",
 			"r0",
-			1.61,
-			0.455,
-			0,
-			0.88
+			0.46,
+			0.81,
+			90
 		],
 		[
-			"bench",
+			"lampSquareTable",
 			"r0",
-			0.43,
-			1.06,
-			90
+			0.455,
+			0.81,
+			90,
+			0.88
 		],
 		[
 			"bedSingle",

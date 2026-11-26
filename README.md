@@ -9,7 +9,7 @@ Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look 
 | `lam_villa_night` | A villa at night. You start on a walled terrace. A hedge maze lies west, a fountain court in the middle, the villa behind. Heavy fog, dark ambient light, a few warm rooms. |
 | `lam_functionalist_night` | A modernist house and grounds at night, on three levels: a ground floor with a long hall, radio room, sauna and garage workshop; an upper floor with a lounge, balcony, roof terrace, bedrooms, music room and library (the gold key is here); and an underground level reached by a lift, with a wine cellar, plant room and a secret garage whose door has no power until a switch is flipped. |
 | `lam_deco_mansion_night` | A three-storey mansion at night. You start on the south lawn. The ground floor has the entrance hall, ballroom, library and service rooms. The great stairs go up to the bedrooms and gallery, the back stairs to the attic, where the gold key is. |
-| `lam_forgotten_wing` | The main floor of an abandoned asylum. You start in the long east corridor. Wards, day rooms, hydrotherapy, a chapel, refectory and kitchen run west and south off it, with boiler rooms and offices to the north. Dark, damp and narrow. |
+| `lam_forgotten_wing` | An abandoned asylum on four storeys, 82 rooms in one level. You start in the long east corridor of the main floor. Wards, day rooms, hydrotherapy, a chapel, refectory and kitchen run west and south off it, with boiler rooms and offices to the north. Three dark doorways lead where no stairs do: down to the basement, up to the upper wing and on to the attic. Dark, damp and narrow. |
 
 ## Using a map
 

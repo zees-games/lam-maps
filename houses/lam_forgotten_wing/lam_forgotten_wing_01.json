@@ -5,7 +5,7 @@
 	"number": 1,
 	"name": "The Forgotten Wing",
 	"author": "mg-look-at-me",
-	"blurb": "A large level: 36 rooms.",
+	"blurb": "A large level: 82 rooms.",
 	"cell": 2.0,
 	"height": 3.2,
 	"storey": 3.7,
@@ -14,8 +14,8 @@
 			"id": "r0",
 			"name": "Hall",
 			"kind": "room",
-			"x": 14,
-			"z": 10,
+			"x": 39,
+			"z": 26,
 			"w": 15,
 			"d": 2,
 			"floor": 0,
@@ -27,8 +27,8 @@
 			"id": "r1",
 			"name": "Day Room",
 			"kind": "room",
-			"x": 24,
-			"z": 12,
+			"x": 49,
+			"z": 28,
 			"w": 5,
 			"d": 2,
 			"floor": 0,
@@ -40,8 +40,8 @@
 			"id": "r2",
 			"name": "Service Corridor",
 			"kind": "corridor",
-			"x": 24,
-			"z": 9,
+			"x": 49,
+			"z": 25,
 			"w": 5,
 			"d": 1,
 			"floor": 0,
@@ -53,21 +53,21 @@
 			"id": "r3",
 			"name": "Office",
 			"kind": "room",
-			"x": 14,
-			"z": 12,
+			"x": 39,
+			"z": 28,
 			"w": 2,
 			"d": 2,
 			"floor": 0,
 			"spawn": false,
-			"light": 0.35,
+			"light": 0.0,
 			"y": 0.0
 		},
 		{
 			"id": "r4",
 			"name": "Passage",
 			"kind": "corridor",
-			"x": 14,
-			"z": 9,
+			"x": 39,
+			"z": 25,
 			"w": 2,
 			"d": 1,
 			"floor": 0,
@@ -77,23 +77,36 @@
 		},
 		{
 			"id": "r5",
-			"name": "Treatment Room",
+			"name": "Day Room II",
 			"kind": "room",
-			"x": 14,
-			"z": 5,
-			"w": 2,
-			"d": 4,
-			"floor": 0,
+			"x": 25,
+			"z": 17,
+			"w": 3,
+			"d": 13,
+			"floor": -1,
 			"spawn": false,
-			"light": 0.35,
-			"y": 0.0
+			"light": 0.0,
+			"y": -8.74
 		},
 		{
 			"id": "r6",
 			"name": "Visiting Room",
 			"kind": "room",
-			"x": 13,
-			"z": 14,
+			"x": 39,
+			"z": 21,
+			"w": 2,
+			"d": 4,
+			"floor": 0,
+			"spawn": false,
+			"light": 0.0,
+			"y": 0.0
+		},
+		{
+			"id": "r7",
+			"name": "Dispensary",
+			"kind": "room",
+			"x": 38,
+			"z": 30,
 			"w": 2,
 			"d": 3,
 			"floor": 0,
@@ -102,11 +115,63 @@
 			"y": 0.0
 		},
 		{
-			"id": "r7",
+			"id": "r8",
 			"name": "Boiler Room",
 			"kind": "room",
-			"x": 10,
-			"z": 2,
+			"x": 25,
+			"z": 30,
+			"w": 21,
+			"d": 3,
+			"floor": -1,
+			"spawn": false,
+			"light": 0.0,
+			"y": -9.35
+		},
+		{
+			"id": "r9",
+			"name": "Passage II",
+			"kind": "corridor",
+			"x": 25,
+			"z": 16,
+			"w": 2,
+			"d": 1,
+			"floor": -1,
+			"spawn": false,
+			"light": 0.0,
+			"y": -9.35
+		},
+		{
+			"id": "r10",
+			"name": "Passage III",
+			"kind": "corridor",
+			"x": 42,
+			"z": 29,
+			"w": 2,
+			"d": 1,
+			"floor": -1,
+			"spawn": false,
+			"light": 0.0,
+			"y": -8.74
+		},
+		{
+			"id": "r11",
+			"name": "Washroom",
+			"kind": "room",
+			"x": 42,
+			"z": 26,
+			"w": 5,
+			"d": 3,
+			"floor": -1,
+			"spawn": false,
+			"light": 0.0,
+			"y": -8.74
+		},
+		{
+			"id": "r12",
+			"name": "Boiler Room II",
+			"kind": "room",
+			"x": 35,
+			"z": 18,
 			"w": 6,
 			"d": 3,
 			"floor": 0,
@@ -115,11 +180,11 @@
 			"y": 0.0
 		},
 		{
-			"id": "r8",
-			"name": "Boiler Room II",
+			"id": "r13",
+			"name": "Boiler Room III",
 			"kind": "room",
-			"x": 13,
-			"z": 0,
+			"x": 38,
+			"z": 16,
 			"w": 2,
 			"d": 2,
 			"floor": 0,
@@ -128,11 +193,11 @@
 			"y": 0.0
 		},
 		{
-			"id": "r9",
-			"name": "Ward Corridor",
+			"id": "r14",
+			"name": "Service Corridor II",
 			"kind": "corridor",
-			"x": 10,
-			"z": 5,
+			"x": 35,
+			"z": 21,
 			"w": 3,
 			"d": 1,
 			"floor": 0,
@@ -141,11 +206,11 @@
 			"y": 0.0
 		},
 		{
-			"id": "r10",
-			"name": "Boiler Room III",
+			"id": "r15",
+			"name": "Boiler Room IV",
 			"kind": "room",
-			"x": 7,
-			"z": 2,
+			"x": 32,
+			"z": 18,
 			"w": 3,
 			"d": 4,
 			"floor": 0,
@@ -154,78 +219,13 @@
 			"y": 0.0
 		},
 		{
-			"id": "r11",
-			"name": "Passage II",
-			"kind": "corridor",
-			"x": 15,
-			"z": 14,
-			"w": 1,
-			"d": 2,
-			"floor": 0,
-			"spawn": false,
-			"light": 0.0,
-			"y": 0.0
-		},
-		{
-			"id": "r12",
-			"name": "Corridor",
-			"kind": "corridor",
-			"x": 14,
-			"z": 17,
-			"w": 1,
-			"d": 3,
-			"floor": 0,
-			"spawn": false,
-			"light": 0.0,
-			"y": 0.0
-		},
-		{
-			"id": "r13",
-			"name": "Ward",
-			"kind": "room",
-			"x": 11,
-			"z": 14,
-			"w": 2,
-			"d": 3,
-			"floor": 0,
-			"spawn": false,
-			"light": 0.0,
-			"y": 0.0
-		},
-		{
-			"id": "r14",
-			"name": "Day Room II",
-			"kind": "room",
-			"x": 7,
-			"z": 20,
-			"w": 9,
-			"d": 2,
-			"floor": 0,
-			"spawn": false,
-			"light": 0.0,
-			"y": 0.0
-		},
-		{
-			"id": "r15",
-			"name": "Hydrotherapy",
-			"kind": "room",
-			"x": 6,
-			"z": 3,
-			"w": 1,
-			"d": 1,
-			"floor": 0,
-			"spawn": false,
-			"light": 0.0,
-			"y": 0.0
-		},
-		{
 			"id": "r16",
-			"name": "Passage III",
+			"name": "Passage IV",
 			"kind": "corridor",
-			"x": 4,
-			"z": 3,
-			"w": 2,
-			"d": 1,
+			"x": 40,
+			"z": 30,
+			"w": 1,
+			"d": 2,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -233,12 +233,12 @@
 		},
 		{
 			"id": "r17",
-			"name": "Washroom",
-			"kind": "room",
-			"x": 11,
-			"z": 17,
+			"name": "Ward Corridor",
+			"kind": "corridor",
+			"x": 39,
+			"z": 33,
 			"w": 1,
-			"d": 1,
+			"d": 3,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -246,12 +246,12 @@
 		},
 		{
 			"id": "r18",
-			"name": "Passage IV",
-			"kind": "corridor",
-			"x": 12,
-			"z": 22,
+			"name": "Ward",
+			"kind": "room",
+			"x": 36,
+			"z": 30,
 			"w": 2,
-			"d": 1,
+			"d": 3,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -259,12 +259,12 @@
 		},
 		{
 			"id": "r19",
-			"name": "Long Corridor",
-			"kind": "corridor",
-			"x": 10,
-			"z": 19,
-			"w": 3,
-			"d": 1,
+			"name": "Day Room III",
+			"kind": "room",
+			"x": 32,
+			"z": 36,
+			"w": 9,
+			"d": 2,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -274,8 +274,8 @@
 			"id": "r20",
 			"name": "Refectory",
 			"kind": "room",
-			"x": 10,
-			"z": 22,
+			"x": 31,
+			"z": 19,
 			"w": 1,
 			"d": 1,
 			"floor": 0,
@@ -285,11 +285,11 @@
 		},
 		{
 			"id": "r21",
-			"name": "Night Station",
-			"kind": "room",
-			"x": 7,
-			"z": 22,
-			"w": 1,
+			"name": "Passage V",
+			"kind": "corridor",
+			"x": 29,
+			"z": 19,
+			"w": 2,
 			"d": 1,
 			"floor": 0,
 			"spawn": false,
@@ -298,12 +298,12 @@
 		},
 		{
 			"id": "r22",
-			"name": "Linen Store",
+			"name": "Washroom II",
 			"kind": "room",
-			"x": 5,
-			"z": 20,
-			"w": 2,
-			"d": 2,
+			"x": 36,
+			"z": 33,
+			"w": 1,
+			"d": 1,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -311,10 +311,10 @@
 		},
 		{
 			"id": "r23",
-			"name": "Passage V",
+			"name": "Passage VI",
 			"kind": "corridor",
-			"x": 8,
-			"z": 22,
+			"x": 37,
+			"z": 38,
 			"w": 2,
 			"d": 1,
 			"floor": 0,
@@ -324,24 +324,24 @@
 		},
 		{
 			"id": "r24",
-			"name": "Visiting Room II",
-			"kind": "room",
-			"x": 11,
-			"z": 22,
-			"w": 1,
+			"name": "Corridor",
+			"kind": "corridor",
+			"x": 35,
+			"z": 35,
+			"w": 3,
 			"d": 1,
 			"floor": 0,
 			"spawn": false,
-			"light": 0.35,
+			"light": 0.0,
 			"y": 0.0
 		},
 		{
 			"id": "r25",
-			"name": "Passage VI",
-			"kind": "corridor",
-			"x": 14,
-			"z": 22,
-			"w": 2,
+			"name": "Dispensary II",
+			"kind": "room",
+			"x": 35,
+			"z": 38,
+			"w": 1,
 			"d": 1,
 			"floor": 0,
 			"spawn": false,
@@ -350,12 +350,12 @@
 		},
 		{
 			"id": "r26",
-			"name": "Records",
+			"name": "Night Station",
 			"kind": "room",
-			"x": 2,
-			"z": 1,
-			"w": 2,
-			"d": 3,
+			"x": 32,
+			"z": 38,
+			"w": 1,
+			"d": 1,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -363,12 +363,12 @@
 		},
 		{
 			"id": "r27",
-			"name": "Night Station II",
-			"kind": "room",
-			"x": 5,
-			"z": 22,
+			"name": "Passage VII",
+			"kind": "corridor",
+			"x": 33,
+			"z": 38,
 			"w": 2,
-			"d": 3,
+			"d": 1,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -376,12 +376,12 @@
 		},
 		{
 			"id": "r28",
-			"name": "Washroom II",
+			"name": "Matron's Room",
 			"kind": "room",
-			"x": 1,
-			"z": 20,
-			"w": 4,
-			"d": 5,
+			"x": 36,
+			"z": 38,
+			"w": 1,
+			"d": 1,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -389,12 +389,12 @@
 		},
 		{
 			"id": "r29",
-			"name": "Chapel",
-			"kind": "room",
-			"x": 7,
-			"z": 23,
-			"w": 3,
-			"d": 2,
+			"name": "Passage VIII",
+			"kind": "corridor",
+			"x": 39,
+			"z": 38,
+			"w": 2,
+			"d": 1,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
@@ -404,9 +404,9 @@
 			"id": "r30",
 			"name": "Laundry",
 			"kind": "room",
-			"x": 10,
-			"z": 23,
-			"w": 3,
+			"x": 30,
+			"z": 36,
+			"w": 2,
 			"d": 2,
 			"floor": 0,
 			"spawn": false,
@@ -417,8 +417,21 @@
 			"id": "r31",
 			"name": "Kitchen",
 			"kind": "room",
-			"x": 13,
-			"z": 23,
+			"x": 27,
+			"z": 17,
+			"w": 2,
+			"d": 3,
+			"floor": 0,
+			"spawn": false,
+			"light": 0.0,
+			"y": 0.0
+		},
+		{
+			"id": "r32",
+			"name": "Library",
+			"kind": "room",
+			"x": 32,
+			"z": 39,
 			"w": 3,
 			"d": 2,
 			"floor": 0,
@@ -427,25 +440,12 @@
 			"y": 0.0
 		},
 		{
-			"id": "r32",
-			"name": "Passage VII",
-			"kind": "corridor",
-			"x": 0,
-			"z": 1,
-			"w": 2,
-			"d": 1,
-			"floor": 0,
-			"spawn": false,
-			"light": 0.0,
-			"y": 0.0
-		},
-		{
 			"id": "r33",
-			"name": "Hydrotherapy II",
+			"name": "Hydrotherapy",
 			"kind": "room",
-			"x": 0,
-			"z": 2,
-			"w": 2,
+			"x": 35,
+			"z": 39,
+			"w": 3,
 			"d": 2,
 			"floor": 0,
 			"spawn": false,
@@ -454,10 +454,88 @@
 		},
 		{
 			"id": "r34",
-			"name": "Service Corridor II",
+			"name": "Workshop",
+			"kind": "room",
+			"x": 38,
+			"z": 39,
+			"w": 3,
+			"d": 2,
+			"floor": 0,
+			"spawn": false,
+			"light": 0.0,
+			"y": 0.0
+		},
+		{
+			"id": "r35",
+			"name": "Washroom III",
+			"kind": "room",
+			"x": 26,
+			"z": 36,
+			"w": 4,
+			"d": 5,
+			"floor": 0,
+			"spawn": false,
+			"light": 0.35,
+			"y": 0.0
+		},
+		{
+			"id": "r36",
+			"name": "Night Station II",
+			"kind": "room",
+			"x": 30,
+			"z": 38,
+			"w": 2,
+			"d": 3,
+			"floor": 0,
+			"spawn": false,
+			"light": 0.0,
+			"y": 0.0
+		},
+		{
+			"id": "r37",
+			"name": "Passage IX",
 			"kind": "corridor",
-			"x": 1,
-			"z": 25,
+			"x": 25,
+			"z": 17,
+			"w": 2,
+			"d": 1,
+			"floor": 0,
+			"spawn": false,
+			"light": 0.0,
+			"y": 0.0
+		},
+		{
+			"id": "r38",
+			"name": "Refectory II",
+			"kind": "room",
+			"x": 25,
+			"z": 18,
+			"w": 2,
+			"d": 2,
+			"floor": 0,
+			"spawn": false,
+			"light": 0.0,
+			"y": 0.0
+		},
+		{
+			"id": "r39",
+			"name": "Boiler Room V",
+			"kind": "room",
+			"x": 11,
+			"z": 14,
+			"w": 9,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.35,
+			"y": 4.27
+		},
+		{
+			"id": "r40",
+			"name": "Corridor II",
+			"kind": "corridor",
+			"x": 26,
+			"z": 41,
 			"w": 15,
 			"d": 1,
 			"floor": 0,
@@ -466,17 +544,537 @@
 			"y": 0.0
 		},
 		{
-			"id": "r35",
-			"name": "Long Corridor II",
+			"id": "r41",
+			"name": "Ward Corridor II",
 			"kind": "corridor",
-			"x": 10,
-			"z": 26,
+			"x": 35,
+			"z": 42,
 			"w": 3,
 			"d": 1,
 			"floor": 0,
 			"spawn": false,
 			"light": 0.0,
 			"y": 0.0
+		},
+		{
+			"id": "r42",
+			"name": "Passage X",
+			"kind": "corridor",
+			"x": 17,
+			"z": 13,
+			"w": 2,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r43",
+			"name": "Dispensary III",
+			"kind": "room",
+			"x": 20,
+			"z": 8,
+			"w": 2,
+			"d": 11,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r44",
+			"name": "Records",
+			"kind": "room",
+			"x": 17,
+			"z": 10,
+			"w": 3,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r45",
+			"name": "Isolation Room",
+			"kind": "room",
+			"x": 1,
+			"z": 19,
+			"w": 21,
+			"d": 2,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r46",
+			"name": "Night Station III",
+			"kind": "room",
+			"x": 19,
+			"z": 17,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r47",
+			"name": "Chapel",
+			"kind": "room",
+			"x": 19,
+			"z": 8,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r48",
+			"name": "Laundry II",
+			"kind": "room",
+			"x": 19,
+			"z": 13,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r49",
+			"name": "Kitchen II",
+			"kind": "room",
+			"x": 22,
+			"z": 17,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r50",
+			"name": "Library II",
+			"kind": "room",
+			"x": 21,
+			"z": 7,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r51",
+			"name": "Hydrotherapy II",
+			"kind": "room",
+			"x": 7,
+			"z": 6,
+			"w": 14,
+			"d": 2,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r52",
+			"name": "Workshop II",
+			"kind": "room",
+			"x": 22,
+			"z": 11,
+			"w": 7,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r53",
+			"name": "Porter's Lodge",
+			"kind": "room",
+			"x": 11,
+			"z": 8,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r54",
+			"name": "Day Room IV",
+			"kind": "room",
+			"x": 9,
+			"z": 8,
+			"w": 2,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r55",
+			"name": "Passage XI",
+			"kind": "corridor",
+			"x": 12,
+			"z": 8,
+			"w": 2,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r56",
+			"name": "Refectory III",
+			"kind": "room",
+			"x": 14,
+			"z": 8,
+			"w": 3,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r57",
+			"name": "Office II",
+			"kind": "room",
+			"x": 17,
+			"z": 3,
+			"w": 2,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r58",
+			"name": "Linen Store",
+			"kind": "room",
+			"x": 9,
+			"z": 3,
+			"w": 2,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r59",
+			"name": "Treatment Room",
+			"kind": "room",
+			"x": 11,
+			"z": 3,
+			"w": 3,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r60",
+			"name": "Visiting Room II",
+			"kind": "room",
+			"x": 14,
+			"z": 3,
+			"w": 3,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r61",
+			"name": "Dispensary IV",
+			"kind": "room",
+			"x": 0,
+			"z": 19,
+			"w": 23,
+			"d": 2,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r62",
+			"name": "Passage XII",
+			"kind": "corridor",
+			"x": 23,
+			"z": 17,
+			"w": 2,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r63",
+			"name": "Long Corridor",
+			"kind": "corridor",
+			"x": 8,
+			"z": 21,
+			"w": 3,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r64",
+			"name": "Corridor III",
+			"kind": "corridor",
+			"x": 8,
+			"z": 18,
+			"w": 3,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r65",
+			"name": "Chapel II",
+			"kind": "room",
+			"x": 1,
+			"z": 15,
+			"w": 3,
+			"d": 4,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r66",
+			"name": "Washroom IV",
+			"kind": "room",
+			"x": 8,
+			"z": 14,
+			"w": 3,
+			"d": 4,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r67",
+			"name": "Kitchen III",
+			"kind": "room",
+			"x": 9,
+			"z": 22,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r68",
+			"name": "Corridor IV",
+			"kind": "corridor",
+			"x": 22,
+			"z": 10,
+			"w": 4,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r69",
+			"name": "Hydrotherapy III",
+			"kind": "room",
+			"x": 27,
+			"z": 10,
+			"w": 1,
+			"d": 1,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.35,
+			"y": 4.27
+		},
+		{
+			"id": "r70",
+			"name": "Workshop III",
+			"kind": "room",
+			"x": 11,
+			"z": 9,
+			"w": 3,
+			"d": 2,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r71",
+			"name": "Night Station IV",
+			"kind": "room",
+			"x": 19,
+			"z": 3,
+			"w": 3,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r72",
+			"name": "Day Room V",
+			"kind": "room",
+			"x": 19,
+			"z": 17,
+			"w": 4,
+			"d": 2,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r73",
+			"name": "Ward II",
+			"kind": "room",
+			"x": 0,
+			"z": 16,
+			"w": 4,
+			"d": 3,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r74",
+			"name": "Refectory IV",
+			"kind": "room",
+			"x": 8,
+			"z": 16,
+			"w": 3,
+			"d": 3,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r75",
+			"name": "Office III",
+			"kind": "room",
+			"x": 4,
+			"z": 18,
+			"w": 1,
+			"d": 1,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r76",
+			"name": "Linen Store II",
+			"kind": "room",
+			"x": 7,
+			"z": 18,
+			"w": 1,
+			"d": 1,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r77",
+			"name": "Treatment Room II",
+			"kind": "room",
+			"x": 12,
+			"z": 18,
+			"w": 1,
+			"d": 1,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.35,
+			"y": 7.72
+		},
+		{
+			"id": "r78",
+			"name": "Passage 13",
+			"kind": "corridor",
+			"x": 11,
+			"z": 17,
+			"w": 1,
+			"d": 2,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r79",
+			"name": "Passage 14",
+			"kind": "corridor",
+			"x": 20,
+			"z": 16,
+			"w": 2,
+			"d": 1,
+			"floor": 2,
+			"spawn": false,
+			"light": 0.0,
+			"y": 7.72
+		},
+		{
+			"id": "r80",
+			"name": "Passage 15",
+			"kind": "corridor",
+			"x": 0,
+			"z": 16,
+			"w": 1,
+			"d": 2,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
+		},
+		{
+			"id": "r81",
+			"name": "Boiler Room VI",
+			"kind": "room",
+			"x": 17,
+			"z": 0,
+			"w": 5,
+			"d": 3,
+			"floor": 1,
+			"spawn": false,
+			"light": 0.0,
+			"y": 4.27
 		}
 	],
 	"doors": [
@@ -485,8 +1083,8 @@
 			"a": "r0",
 			"b": "r1",
 			"at": [
-				26.25,
-				12.005
+				51.25,
+				28.005
 			],
 			"floor": 0,
 			"lock": "",
@@ -502,45 +1100,11 @@
 			"a": "r0",
 			"b": "r2",
 			"at": [
-				26.25,
-				9.995
+				51.25,
+				25.995
 			],
 			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "n",
-			"w": 2.4,
-			"y": 0.0,
-			"open": true
-		},
-		{
-			"id": "d2",
-			"a": "r0",
-			"b": "r3",
-			"at": [
-				14.94,
-				12.02
-			],
-			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "s",
-			"w": 2.4,
-			"y": 0.0,
-			"open": true
-		},
-		{
-			"id": "d3",
-			"a": "r0",
-			"b": "r4",
-			"at": [
-				14.56,
-				10.0
-			],
-			"floor": 0,
-			"lock": "@lever_3",
+			"lock": "@lever_1",
 			"label": "Gate",
 			"colour": "iron",
 			"side": "n",
@@ -548,44 +1112,28 @@
 			"y": 0.0
 		},
 		{
-			"id": "d4",
-			"a": "r4",
-			"b": "r5",
+			"id": "d2",
+			"a": "r0",
+			"b": "r3",
 			"at": [
-				15.0,
-				8.5
+				39.94,
+				28.02
 			],
 			"floor": 0,
-			"lock": "crowbar_4",
-			"label": "Boarded door",
-			"colour": "wood",
-			"side": "n",
-			"w": 1.0,
-			"y": 0.0
-		},
-		{
-			"id": "d5",
-			"a": "r3",
-			"b": "r6",
-			"at": [
-				15.0,
-				13.875
-			],
-			"floor": 0,
-			"lock": "@fusebox_5",
-			"label": "Electric gate",
-			"colour": "steel",
+			"lock": "key_vent_2",
+			"label": "Locked door",
+			"colour": "brown",
 			"side": "s",
-			"w": 1.0,
+			"w": 2.4,
 			"y": 0.0
 		},
 		{
-			"id": "d6",
-			"a": "r5",
-			"b": "r7",
+			"id": "d3",
+			"a": "r0",
+			"b": "r4",
 			"at": [
-				14.75,
-				5.04
+				39.56,
+				26.0
 			],
 			"floor": 0,
 			"lock": "",
@@ -597,28 +1145,168 @@
 			"open": true
 		},
 		{
-			"id": "d7",
-			"a": "r7",
-			"b": "r8",
+			"id": "d4",
+			"a": "r0",
+			"b": "r5",
 			"at": [
-				13.75,
-				1.99
+				51.31,
+				26.0
 			],
 			"floor": 0,
-			"lock": "key_red_7",
-			"label": "Red door",
-			"colour": "red",
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
 			"side": "n",
-			"w": 2.4,
+			"w": 1.0,
+			"y": 0.0,
+			"warp": {
+				"at": [
+					28.0,
+					17.69
+				],
+				"side": "e",
+				"y": -8.74
+			}
+		},
+		{
+			"id": "d5",
+			"a": "r4",
+			"b": "r6",
+			"at": [
+				40.0,
+				24.5
+			],
+			"floor": 0,
+			"lock": "crowbar_5",
+			"label": "Boarded door",
+			"colour": "wood",
+			"side": "n",
+			"w": 1.0,
 			"y": 0.0
 		},
 		{
+			"id": "d6",
+			"a": "r3",
+			"b": "r7",
+			"at": [
+				40.0,
+				29.875
+			],
+			"floor": 0,
+			"lock": "@lever_6",
+			"label": "Gate",
+			"colour": "iron",
+			"side": "s",
+			"w": 1.0,
+			"y": 0.0
+		},
+		{
+			"id": "d7",
+			"a": "r5",
+			"b": "r8",
+			"at": [
+				26.19,
+				30.0
+			],
+			"floor": -1,
+			"lock": "@fusebox_7",
+			"label": "Electric gate",
+			"colour": "steel",
+			"side": "s",
+			"w": 2.4,
+			"y": -9.35
+		},
+		{
 			"id": "d8",
-			"a": "r7",
+			"a": "r5",
 			"b": "r9",
 			"at": [
-				11.69,
-				5.0
+				26.06,
+				16.965
+			],
+			"floor": -1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": -9.35,
+			"open": true
+		},
+		{
+			"id": "d9",
+			"a": "r8",
+			"b": "r10",
+			"at": [
+				43.125,
+				30.0
+			],
+			"floor": -1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": -8.74,
+			"open": true
+		},
+		{
+			"id": "d10",
+			"a": "r10",
+			"b": "r11",
+			"at": [
+				43.125,
+				29.25
+			],
+			"floor": -1,
+			"lock": "note_10",
+			"label": "Keypad door",
+			"colour": "steel",
+			"side": "n",
+			"w": 1.0,
+			"y": -8.74
+		},
+		{
+			"id": "d11",
+			"a": "r6",
+			"b": "r12",
+			"at": [
+				39.75,
+				21.04
+			],
+			"floor": 0,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 0.0,
+			"open": true
+		},
+		{
+			"id": "d12",
+			"a": "r12",
+			"b": "r13",
+			"at": [
+				38.75,
+				17.99
+			],
+			"floor": 0,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 0.0,
+			"open": true
+		},
+		{
+			"id": "d13",
+			"a": "r12",
+			"b": "r14",
+			"at": [
+				36.69,
+				21.0
 			],
 			"floor": 0,
 			"lock": "",
@@ -630,28 +1318,28 @@
 			"open": true
 		},
 		{
-			"id": "d9",
-			"a": "r7",
-			"b": "r10",
+			"id": "d14",
+			"a": "r12",
+			"b": "r15",
 			"at": [
-				9.875,
-				3.5
+				34.875,
+				19.5
 			],
 			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
+			"lock": "key_red_14",
+			"label": "Red door",
+			"colour": "red",
 			"side": "w",
 			"w": 1.0,
 			"y": 0.0
 		},
 		{
-			"id": "d10",
-			"a": "r6",
-			"b": "r11",
+			"id": "d15",
+			"a": "r7",
+			"b": "r16",
 			"at": [
-				15.02,
-				15.125
+				40.02,
+				31.125
 			],
 			"floor": 0,
 			"lock": "",
@@ -663,109 +1351,110 @@
 			"open": true
 		},
 		{
-			"id": "d11",
-			"a": "r6",
-			"b": "r12",
+			"id": "d16",
+			"a": "r7",
+			"b": "r17",
 			"at": [
-				14.375,
-				17.06
-			],
-			"floor": 0,
-			"lock": "@fire_11",
-			"label": "Door behind the fire",
-			"colour": "brown",
-			"side": "s",
-			"w": 2.4,
-			"y": 0.0
-		},
-		{
-			"id": "d12",
-			"a": "r6",
-			"b": "r13",
-			"at": [
-				13.375,
-				15.25
-			],
-			"floor": 0,
-			"lock": "@fire_12",
-			"label": "Door behind the fire",
-			"colour": "brown",
-			"side": "w",
-			"w": 1.0,
-			"y": 0.0
-		},
-		{
-			"id": "d13",
-			"a": "r12",
-			"b": "r14",
-			"at": [
-				14.375,
-				19.625
+				39.375,
+				33.06
 			],
 			"floor": 0,
 			"lock": "",
 			"label": "Door",
 			"colour": "brown",
 			"side": "s",
-			"w": 1.0,
-			"y": 0.0
-		},
-		{
-			"id": "d14",
-			"a": "r10",
-			"b": "r15",
-			"at": [
-				7.0,
-				3.5
-			],
-			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "w",
 			"w": 2.4,
 			"y": 0.0,
 			"open": true
-		},
-		{
-			"id": "d15",
-			"a": "r15",
-			"b": "r16",
-			"at": [
-				6.125,
-				3.625
-			],
-			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "w",
-			"w": 2.0,
-			"y": 0.0
-		},
-		{
-			"id": "d16",
-			"a": "r13",
-			"b": "r17",
-			"at": [
-				11.25,
-				16.875
-			],
-			"floor": 0,
-			"lock": "@fire_16",
-			"label": "Door behind the fire",
-			"colour": "brown",
-			"side": "s",
-			"w": 2.0,
-			"y": 0.0
 		},
 		{
 			"id": "d17",
-			"a": "r14",
+			"a": "r7",
 			"b": "r18",
 			"at": [
-				13.0,
-				22.04
+				38.375,
+				31.25
+			],
+			"floor": 0,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "w",
+			"w": 1.0,
+			"y": 0.0
+		},
+		{
+			"id": "d18",
+			"a": "r17",
+			"b": "r19",
+			"at": [
+				39.375,
+				35.625
+			],
+			"floor": 0,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
+			"w": 1.0,
+			"y": 0.0
+		},
+		{
+			"id": "d19",
+			"a": "r15",
+			"b": "r20",
+			"at": [
+				32.0,
+				19.5
+			],
+			"floor": 0,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "w",
+			"w": 2.4,
+			"y": 0.0,
+			"open": true
+		},
+		{
+			"id": "d20",
+			"a": "r20",
+			"b": "r21",
+			"at": [
+				31.125,
+				19.625
+			],
+			"floor": 0,
+			"lock": "@fusebox_20",
+			"label": "Electric gate",
+			"colour": "steel",
+			"side": "w",
+			"w": 2.0,
+			"y": 0.0
+		},
+		{
+			"id": "d21",
+			"a": "r18",
+			"b": "r22",
+			"at": [
+				36.25,
+				32.875
+			],
+			"floor": 0,
+			"lock": "key_vent_21",
+			"label": "Locked door",
+			"colour": "brown",
+			"side": "s",
+			"w": 2.0,
+			"y": 0.0
+		},
+		{
+			"id": "d22",
+			"a": "r19",
+			"b": "r23",
+			"at": [
+				38.0,
+				38.04
 			],
 			"floor": 0,
 			"lock": "",
@@ -777,12 +1466,12 @@
 			"open": true
 		},
 		{
-			"id": "d18",
-			"a": "r14",
-			"b": "r19",
+			"id": "d23",
+			"a": "r19",
+			"b": "r24",
 			"at": [
-				11.375,
-				20.0
+				36.375,
+				36.0
 			],
 			"floor": 0,
 			"lock": "",
@@ -794,12 +1483,12 @@
 			"open": true
 		},
 		{
-			"id": "d19",
-			"a": "r14",
-			"b": "r20",
+			"id": "d24",
+			"a": "r19",
+			"b": "r25",
 			"at": [
-				10.5,
-				22.06
+				35.5,
+				38.06
 			],
 			"floor": 0,
 			"lock": "",
@@ -811,140 +1500,109 @@
 			"open": true
 		},
 		{
-			"id": "d20",
-			"a": "r14",
-			"b": "r21",
-			"at": [
-				7.75,
-				22.045
-			],
-			"floor": 0,
-			"lock": "@fusebox_20",
-			"label": "Electric gate",
-			"colour": "steel",
-			"side": "s",
-			"w": 2.0,
-			"y": 0.0
-		},
-		{
-			"id": "d21",
-			"a": "r14",
-			"b": "r22",
-			"at": [
-				7.125,
-				21.25
-			],
-			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "w",
-			"w": 1.0,
-			"y": 0.0
-		},
-		{
-			"id": "d22",
-			"a": "r14",
-			"b": "r23",
-			"at": [
-				8.625,
-				22.5
-			],
-			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "s",
-			"w": 1.0,
-			"y": 0.0
-		},
-		{
-			"id": "d23",
-			"a": "r14",
-			"b": "r24",
-			"at": [
-				11.5,
-				22.5
-			],
-			"floor": 0,
-			"lock": "key_vent_23",
-			"label": "Locked door",
-			"colour": "brown",
-			"side": "s",
-			"w": 1.0,
-			"y": 0.0
-		},
-		{
-			"id": "d24",
-			"a": "r14",
-			"b": "r25",
-			"at": [
-				14.375,
-				22.375
-			],
-			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "s",
-			"w": 1.0,
-			"y": 0.0
-		},
-		{
 			"id": "d25",
-			"a": "r16",
+			"a": "r19",
 			"b": "r26",
 			"at": [
-				4.375,
-				3.625
+				32.75,
+				38.045
 			],
 			"floor": 0,
-			"lock": "@fusebox_25",
-			"label": "Electric gate",
-			"colour": "steel",
-			"side": "w",
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
 			"w": 2.0,
-			"y": 0.0
+			"y": 0.0,
+			"open": true
 		},
 		{
 			"id": "d26",
-			"a": "r22",
+			"a": "r19",
 			"b": "r27",
 			"at": [
-				5.75,
-				22.5
+				33.625,
+				38.5
 			],
 			"floor": 0,
-			"lock": "crowbar_26",
-			"label": "Boarded door",
-			"colour": "wood",
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
 			"side": "s",
 			"w": 1.0,
 			"y": 0.0
 		},
 		{
 			"id": "d27",
-			"a": "r22",
+			"a": "r19",
 			"b": "r28",
 			"at": [
-				5.125,
-				20.875
+				36.5,
+				38.5
 			],
 			"floor": 0,
-			"lock": "",
-			"label": "Door",
-			"colour": "brown",
-			"side": "w",
+			"lock": "@lever_27",
+			"label": "Gate",
+			"colour": "iron",
+			"side": "s",
 			"w": 1.0,
 			"y": 0.0
 		},
 		{
 			"id": "d28",
-			"a": "r23",
+			"a": "r19",
 			"b": "r29",
 			"at": [
-				8.875,
-				22.98
+				39.375,
+				38.375
+			],
+			"floor": 0,
+			"lock": "key_purple_28",
+			"label": "Purple door",
+			"colour": "purple",
+			"side": "s",
+			"w": 1.0,
+			"y": 0.0
+		},
+		{
+			"id": "d29",
+			"a": "r19",
+			"b": "r30",
+			"at": [
+				32.125,
+				37.25
+			],
+			"floor": 0,
+			"lock": "key_green_29",
+			"label": "Green door",
+			"colour": "green",
+			"side": "w",
+			"w": 1.0,
+			"y": 0.0
+		},
+		{
+			"id": "d30",
+			"a": "r21",
+			"b": "r31",
+			"at": [
+				29.375,
+				19.625
+			],
+			"floor": 0,
+			"lock": "@lever_30",
+			"label": "Gate",
+			"colour": "iron",
+			"side": "w",
+			"w": 2.0,
+			"y": 0.0
+		},
+		{
+			"id": "d31",
+			"a": "r27",
+			"b": "r32",
+			"at": [
+				33.875,
+				38.98
 			],
 			"floor": 0,
 			"lock": "",
@@ -956,44 +1614,76 @@
 			"open": true
 		},
 		{
-			"id": "d29",
-			"a": "r24",
-			"b": "r30",
+			"id": "d32",
+			"a": "r28",
+			"b": "r33",
 			"at": [
-				11.5,
-				22.94
+				36.5,
+				38.94
 			],
 			"floor": 0,
-			"lock": "key_orange_29",
-			"label": "Orange door",
-			"colour": "orange",
+			"lock": "@fusebox_32",
+			"label": "Electric gate",
+			"colour": "steel",
 			"side": "s",
 			"w": 2.4,
 			"y": 0.0
 		},
 		{
-			"id": "d30",
-			"a": "r25",
-			"b": "r31",
+			"id": "d33",
+			"a": "r29",
+			"b": "r34",
 			"at": [
-				14.69,
-				22.975
+				39.69,
+				38.975
 			],
 			"floor": 0,
-			"lock": "@fire_30",
-			"label": "Door behind the fire",
+			"lock": "key_yellow_33",
+			"label": "Yellow door",
+			"colour": "yellow",
+			"side": "s",
+			"w": 2.4,
+			"y": 0.0
+		},
+		{
+			"id": "d34",
+			"a": "r30",
+			"b": "r35",
+			"at": [
+				30.125,
+				36.875
+			],
+			"floor": 0,
+			"lock": "note_34",
+			"label": "Keypad door",
+			"colour": "steel",
+			"side": "w",
+			"w": 1.0,
+			"y": 0.0
+		},
+		{
+			"id": "d35",
+			"a": "r30",
+			"b": "r36",
+			"at": [
+				30.75,
+				38.5
+			],
+			"floor": 0,
+			"lock": "",
+			"label": "Door",
 			"colour": "brown",
 			"side": "s",
-			"w": 2.4,
+			"w": 1.0,
 			"y": 0.0
 		},
 		{
-			"id": "d31",
-			"a": "r26",
-			"b": "r32",
+			"id": "d36",
+			"a": "r31",
+			"b": "r37",
 			"at": [
-				1.625,
-				1.25
+				26.625,
+				17.25
 			],
 			"floor": 0,
 			"lock": "",
@@ -1004,28 +1694,52 @@
 			"y": 0.0
 		},
 		{
-			"id": "d32",
-			"a": "r26",
-			"b": "r33",
+			"id": "d37",
+			"a": "r31",
+			"b": "r38",
 			"at": [
-				2.0,
-				2.5
+				27.0,
+				18.5
 			],
 			"floor": 0,
-			"lock": "key_vent_32",
-			"label": "Locked door",
+			"lock": "",
+			"label": "Door",
 			"colour": "brown",
 			"side": "w",
 			"w": 1.5,
 			"y": 0.0
 		},
 		{
-			"id": "d33",
-			"a": "r27",
-			"b": "r34",
+			"id": "d38",
+			"a": "r35",
+			"b": "r39",
 			"at": [
-				6.06,
-				25.0
+				27.69,
+				36.0
+			],
+			"floor": 0,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 1.0,
+			"y": 0.0,
+			"warp": {
+				"at": [
+					11.0,
+					15.44
+				],
+				"side": "w",
+				"y": 4.27
+			}
+		},
+		{
+			"id": "d39",
+			"a": "r36",
+			"b": "r40",
+			"at": [
+				31.06,
+				41.0
 			],
 			"floor": 0,
 			"lock": "",
@@ -1037,12 +1751,12 @@
 			"open": true
 		},
 		{
-			"id": "d34",
-			"a": "r34",
-			"b": "r35",
+			"id": "d40",
+			"a": "r40",
+			"b": "r41",
 			"at": [
-				11.5,
-				26.025
+				36.5,
+				42.025
 			],
 			"floor": 0,
 			"lock": "",
@@ -1052,17 +1766,681 @@
 			"w": 2.4,
 			"y": 0.0,
 			"open": true
+		},
+		{
+			"id": "d41",
+			"a": "r39",
+			"b": "r42",
+			"at": [
+				18.0,
+				13.965
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d42",
+			"a": "r39",
+			"b": "r43",
+			"at": [
+				19.75,
+				15.5
+			],
+			"floor": 1,
+			"lock": "crowbar_42",
+			"label": "Boarded door",
+			"colour": "wood",
+			"side": "e",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d43",
+			"a": "r43",
+			"b": "r44",
+			"at": [
+				19.995,
+				11.375
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "w",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d44",
+			"a": "r43",
+			"b": "r45",
+			"at": [
+				21.06,
+				19.0
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d45",
+			"a": "r43",
+			"b": "r46",
+			"at": [
+				19.98,
+				17.5
+			],
+			"floor": 1,
+			"lock": "key_vent_45",
+			"label": "Locked door",
+			"colour": "brown",
+			"side": "w",
+			"w": 2.4,
+			"y": 4.27
+		},
+		{
+			"id": "d46",
+			"a": "r43",
+			"b": "r47",
+			"at": [
+				19.99,
+				8.625
+			],
+			"floor": 1,
+			"lock": "@fusebox_46",
+			"label": "Electric gate",
+			"colour": "steel",
+			"side": "w",
+			"w": 2.4,
+			"y": 4.27
+		},
+		{
+			"id": "d47",
+			"a": "r43",
+			"b": "r48",
+			"at": [
+				19.99,
+				13.625
+			],
+			"floor": 1,
+			"lock": "@fire_47",
+			"label": "Door behind the fire",
+			"colour": "brown",
+			"side": "w",
+			"w": 2.4,
+			"y": 4.27
+		},
+		{
+			"id": "d48",
+			"a": "r43",
+			"b": "r49",
+			"at": [
+				22.0,
+				17.5
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "e",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d49",
+			"a": "r43",
+			"b": "r50",
+			"at": [
+				21.56,
+				8.0
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.25,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d50",
+			"a": "r43",
+			"b": "r51",
+			"at": [
+				20.5,
+				8.0
+			],
+			"floor": 1,
+			"lock": "note_50",
+			"label": "Keypad door",
+			"colour": "steel",
+			"side": "n",
+			"w": 2.0,
+			"y": 4.27
+		},
+		{
+			"id": "d51",
+			"a": "r43",
+			"b": "r52",
+			"at": [
+				22.25,
+				13.25
+			],
+			"floor": 1,
+			"lock": "key_vent_51",
+			"label": "Locked door",
+			"colour": "brown",
+			"side": "e",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d52",
+			"a": "r51",
+			"b": "r53",
+			"at": [
+				11.5,
+				8.025
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d53",
+			"a": "r51",
+			"b": "r54",
+			"at": [
+				10.625,
+				8.375
+			],
+			"floor": 1,
+			"lock": "note_53",
+			"label": "Keypad door",
+			"colour": "steel",
+			"side": "s",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d54",
+			"a": "r51",
+			"b": "r55",
+			"at": [
+				13.5,
+				8.375
+			],
+			"floor": 1,
+			"lock": "@lever_54",
+			"label": "Gate",
+			"colour": "iron",
+			"side": "s",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d55",
+			"a": "r51",
+			"b": "r56",
+			"at": [
+				16.25,
+				8.375
+			],
+			"floor": 1,
+			"lock": "@lever_55",
+			"label": "Gate",
+			"colour": "iron",
+			"side": "s",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d56",
+			"a": "r51",
+			"b": "r57",
+			"at": [
+				18.125,
+				5.75
+			],
+			"floor": 1,
+			"lock": "key_white_56",
+			"label": "White door",
+			"colour": "white",
+			"side": "n",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d57",
+			"a": "r51",
+			"b": "r58",
+			"at": [
+				9.375,
+				5.75
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d58",
+			"a": "r51",
+			"b": "r59",
+			"at": [
+				12.125,
+				5.75
+			],
+			"floor": 1,
+			"lock": "@lever_58",
+			"label": "Gate",
+			"colour": "iron",
+			"side": "n",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d59",
+			"a": "r51",
+			"b": "r60",
+			"at": [
+				15.0,
+				5.75
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d60",
+			"a": "r51",
+			"b": "r61",
+			"at": [
+				7.375,
+				8.0
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
+			"w": 1.0,
+			"y": 4.27,
+			"warp": {
+				"at": [
+					22.44,
+					21.0
+				],
+				"side": "s",
+				"y": 7.72
+			}
+		},
+		{
+			"id": "d61",
+			"a": "r49",
+			"b": "r62",
+			"at": [
+				22.625,
+				17.25
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "e",
+			"w": 1.5,
+			"y": 4.27
+		},
+		{
+			"id": "d62",
+			"a": "r45",
+			"b": "r63",
+			"at": [
+				9.5,
+				21.01
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d63",
+			"a": "r45",
+			"b": "r64",
+			"at": [
+				9.5,
+				19.0
+			],
+			"floor": 1,
+			"lock": "key_blue_63",
+			"label": "Blue door",
+			"colour": "blue",
+			"side": "n",
+			"w": 2.4,
+			"y": 4.27
+		},
+		{
+			"id": "d64",
+			"a": "r45",
+			"b": "r65",
+			"at": [
+				2.5,
+				18.75
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d65",
+			"a": "r64",
+			"b": "r66",
+			"at": [
+				9.875,
+				17.625
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 1.0,
+			"y": 4.27
+		},
+		{
+			"id": "d66",
+			"a": "r63",
+			"b": "r67",
+			"at": [
+				9.5,
+				22.025
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d67",
+			"a": "r52",
+			"b": "r68",
+			"at": [
+				24.35,
+				10.975
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d68",
+			"a": "r52",
+			"b": "r69",
+			"at": [
+				27.56,
+				10.915
+			],
+			"floor": 1,
+			"lock": "note_68",
+			"label": "Keypad door",
+			"colour": "steel",
+			"side": "n",
+			"w": 2.4,
+			"y": 4.27
+		},
+		{
+			"id": "d69",
+			"a": "r55",
+			"b": "r70",
+			"at": [
+				12.875,
+				8.965
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "s",
+			"w": 2.4,
+			"y": 4.27,
+			"open": true
+		},
+		{
+			"id": "d70",
+			"a": "r57",
+			"b": "r71",
+			"at": [
+				19.125,
+				3.875
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "e",
+			"w": 2.0,
+			"y": 4.27
+		},
+		{
+			"id": "d71",
+			"a": "r61",
+			"b": "r72",
+			"at": [
+				20.625,
+				18.99
+			],
+			"floor": 2,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 7.72,
+			"open": true
+		},
+		{
+			"id": "d72",
+			"a": "r61",
+			"b": "r73",
+			"at": [
+				2.19,
+				19.0
+			],
+			"floor": 2,
+			"lock": "key_vent_72",
+			"label": "Locked door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 7.72
+		},
+		{
+			"id": "d73",
+			"a": "r61",
+			"b": "r74",
+			"at": [
+				9.5,
+				19.0
+			],
+			"floor": 2,
+			"lock": "key_orange_73",
+			"label": "Orange door",
+			"colour": "orange",
+			"side": "n",
+			"w": 2.4,
+			"y": 7.72
+		},
+		{
+			"id": "d74",
+			"a": "r61",
+			"b": "r75",
+			"at": [
+				4.625,
+				18.96
+			],
+			"floor": 2,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 7.72,
+			"open": true
+		},
+		{
+			"id": "d75",
+			"a": "r61",
+			"b": "r76",
+			"at": [
+				7.375,
+				18.96
+			],
+			"floor": 2,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 7.72,
+			"open": true
+		},
+		{
+			"id": "d76",
+			"a": "r61",
+			"b": "r77",
+			"at": [
+				12.625,
+				18.96
+			],
+			"floor": 2,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 7.72,
+			"open": true
+		},
+		{
+			"id": "d77",
+			"a": "r61",
+			"b": "r78",
+			"at": [
+				11.5,
+				19.0
+			],
+			"floor": 2,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.0,
+			"y": 7.72,
+			"open": true
+		},
+		{
+			"id": "d78",
+			"a": "r72",
+			"b": "r79",
+			"at": [
+				21.125,
+				16.925
+			],
+			"floor": 2,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.4,
+			"y": 7.72,
+			"open": true
+		},
+		{
+			"id": "d79",
+			"a": "r65",
+			"b": "r80",
+			"at": [
+				0.94,
+				17.0
+			],
+			"floor": 1,
+			"lock": "crowbar_79",
+			"label": "Boarded door",
+			"colour": "wood",
+			"side": "w",
+			"w": 2.4,
+			"y": 4.27
+		},
+		{
+			"id": "d80",
+			"a": "r71",
+			"b": "r81",
+			"at": [
+				20.75,
+				3.25
+			],
+			"floor": 1,
+			"lock": "",
+			"label": "Door",
+			"colour": "brown",
+			"side": "n",
+			"w": 2.0,
+			"y": 4.27
 		},
 		{
 			"id": "exit",
-			"a": "r35",
+			"a": "r41",
 			"b": "",
 			"side": "s",
 			"w": 1.75,
 			"y": 0.0,
 			"at": [
-				11.5,
-				26.9
+				36.5,
+				42.9
 			],
 			"floor": 0,
 			"lock": "key_gold",
@@ -1073,64 +2451,54 @@
 	],
 	"items": [
 		{
-			"id": "crowbar_4",
-			"name": "Crowbar",
-			"kind": "crowbar",
+			"id": "screwdriver_2",
+			"name": "Screwdriver",
+			"kind": "screwdriver",
 			"room": "r0",
 			"at": [
-				0.21,
-				0.49
+				0.79,
+				0.63
 			]
 		},
 		{
-			"id": "smallkey_1",
+			"id": "smallkey_2",
 			"name": "Small key",
 			"kind": "smallkey",
-			"room": "r1",
+			"room": "r0",
 			"at": [
 				0.6,
-				0.57
+				0.52
 			]
 		},
 		{
-			"id": "key_red_7",
-			"name": "Red key",
-			"kind": "key",
-			"colour": "red",
+			"id": "fuse_7",
+			"name": "Fuse",
+			"kind": "fuse",
 			"room": "r3",
 			"at": [
-				0.33,
-				0.46
+				0.5,
+				0.47
 			]
 		},
 		{
-			"id": "smallkey_3",
+			"id": "smallkey_5",
 			"name": "Small key",
 			"kind": "smallkey",
 			"room": "r4",
 			"at": [
-				0.56,
+				0.58,
 				0.5
 			]
 		},
 		{
-			"id": "bucket_12",
-			"name": "Bucket",
-			"kind": "bucket",
-			"room": "r3",
+			"id": "key_red_14",
+			"name": "Red key",
+			"kind": "key",
+			"colour": "red",
+			"room": "r10",
 			"at": [
-				0.62,
-				0.72
-			]
-		},
-		{
-			"id": "bucket_16",
-			"name": "Bucket",
-			"kind": "bucket",
-			"room": "r11",
-			"at": [
-				0.5,
-				0.69
+				0.58,
+				0.5
 			]
 		},
 		{
@@ -1139,68 +2507,200 @@
 			"kind": "fuse",
 			"room": "r16",
 			"at": [
-				0.51,
-				0.5
-			]
-		},
-		{
-			"id": "smallkey_11",
-			"name": "Small key",
-			"kind": "smallkey",
-			"room": "r12",
-			"at": [
 				0.5,
-				0.55
+				0.69
 			]
 		},
 		{
-			"id": "fuse_25",
-			"name": "Fuse",
-			"kind": "fuse",
-			"room": "r19",
-			"at": [
-				0.74,
-				0.5
-			]
-		},
-		{
-			"id": "crowbar_26",
-			"name": "Crowbar",
-			"kind": "crowbar",
-			"room": "r5",
-			"at": [
-				0.6,
-				0.33
-			]
-		},
-		{
-			"id": "smallkey_14",
-			"name": "Small key",
-			"kind": "smallkey",
-			"room": "r25",
-			"at": [
-				0.38,
-				0.5
-			]
-		},
-		{
-			"id": "bucket_30",
-			"name": "Bucket",
-			"kind": "bucket",
-			"room": "r16",
-			"at": [
-				0.7,
-				0.5
-			]
-		},
-		{
-			"id": "screwdriver_32",
+			"id": "screwdriver_21",
 			"name": "Screwdriver",
 			"kind": "screwdriver",
+			"room": "r4",
+			"at": [
+				0.53,
+				0.5
+			]
+		},
+		{
+			"id": "smallkey_9",
+			"name": "Small key",
+			"kind": "smallkey",
+			"room": "r19",
+			"at": [
+				0.73,
+				0.43
+			]
+		},
+		{
+			"id": "smallkey_10",
+			"name": "Small key",
+			"kind": "smallkey",
+			"room": "r18",
+			"at": [
+				0.29,
+				0.72
+			]
+		},
+		{
+			"id": "fuse_32",
+			"name": "Fuse",
+			"kind": "fuse",
+			"room": "r24",
+			"at": [
+				0.27,
+				0.5
+			]
+		},
+		{
+			"id": "key_yellow_33",
+			"name": "Yellow key",
+			"kind": "key",
+			"colour": "yellow",
+			"room": "r28",
+			"at": [
+				0.59,
+				0.78
+			]
+		},
+		{
+			"id": "note_34",
+			"name": "Note: 7441",
+			"kind": "note",
+			"room": "r24",
+			"at": [
+				0.25,
+				0.5
+			]
+		},
+		{
+			"id": "crowbar_42",
+			"name": "Crowbar",
+			"kind": "crowbar",
+			"room": "r21",
+			"at": [
+				0.27,
+				0.5
+			]
+		},
+		{
+			"id": "screwdriver_45",
+			"name": "Screwdriver",
+			"kind": "screwdriver",
+			"room": "r35",
+			"at": [
+				0.25,
+				0.79
+			]
+		},
+		{
+			"id": "fuse_46",
+			"name": "Fuse",
+			"kind": "fuse",
+			"room": "r42",
+			"at": [
+				0.62,
+				0.5
+			]
+		},
+		{
+			"id": "smallkey_15",
+			"name": "Small key",
+			"kind": "smallkey",
+			"room": "r38",
+			"at": [
+				0.54,
+				0.46
+			]
+		},
+		{
+			"id": "note_50",
+			"name": "Note: 0913",
+			"kind": "note",
+			"room": "r33",
+			"at": [
+				0.36,
+				0.26
+			]
+		},
+		{
+			"id": "smallkey_18",
+			"name": "Small key",
+			"kind": "smallkey",
+			"room": "r39",
+			"at": [
+				0.58,
+				0.32
+			]
+		},
+		{
+			"id": "note_53",
+			"name": "Note: 0652",
+			"kind": "note",
+			"room": "r46",
+			"at": [
+				0.73,
+				0.24
+			]
+		},
+		{
+			"id": "smallkey_22",
+			"name": "Small key",
+			"kind": "smallkey",
 			"room": "r17",
 			"at": [
-				0.76,
-				0.22
+				0.5,
+				0.72
+			]
+		},
+		{
+			"id": "key_blue_63",
+			"name": "Blue key",
+			"kind": "key",
+			"colour": "blue",
+			"room": "r6",
+			"at": [
+				0.52,
+				0.49
+			]
+		},
+		{
+			"id": "smallkey_24",
+			"name": "Small key",
+			"kind": "smallkey",
+			"room": "r63",
+			"at": [
+				0.36,
+				0.5
+			]
+		},
+		{
+			"id": "smallkey_25",
+			"name": "Small key",
+			"kind": "smallkey",
+			"room": "r64",
+			"at": [
+				0.58,
+				0.5
+			]
+		},
+		{
+			"id": "smallkey_27",
+			"name": "Small key",
+			"kind": "smallkey",
+			"room": "r69",
+			"at": [
+				0.58,
+				0.5
+			]
+		},
+		{
+			"id": "crowbar_79",
+			"name": "Crowbar",
+			"kind": "crowbar",
+			"room": "r23",
+			"at": [
+				0.48,
+				0.5
 			]
 		},
 		{
@@ -1208,161 +2708,111 @@
 			"name": "Gold key",
 			"kind": "key",
 			"colour": "gold",
-			"room": "r24",
+			"room": "r77",
 			"at": [
-				0.64,
-				0.67
+				0.49,
+				0.57
 			]
 		}
 	],
 	"stations": [
 		{
-			"id": "lever_3",
+			"id": "lever_1",
 			"name": "Lever",
 			"kind": "lever",
 			"room": "r0",
 			"at": [
-				0.39,
-				0.77
+				0.2,
+				0.73
 			],
 			"needs": "",
 			"gives": "",
-			"opens": "d3",
+			"opens": "d1",
 			"verb": "Pull the lever"
 		},
 		{
-			"id": "chest_1",
+			"id": "vent_2",
+			"name": "Vent",
+			"kind": "vent",
+			"room": "r0",
+			"at": [
+				0.37,
+				0.21
+			],
+			"needs": "screwdriver_2",
+			"gives": "key_vent_2",
+			"consumes": false,
+			"verb": "Unscrew the vent"
+		},
+		{
+			"id": "chest_2",
 			"name": "Chest",
 			"kind": "chest",
 			"room": "r1",
 			"at": [
-				0.64,
-				0.26
+				0.59,
+				0.31
 			],
-			"needs": "smallkey_1",
-			"gives": "fuse_5",
-			"gives_name": "Fuse",
+			"needs": "smallkey_2",
+			"gives": "crowbar_5",
+			"gives_name": "Crowbar",
 			"opens": "",
 			"consumes": true,
 			"verb": "Unlock the chest"
 		},
 		{
-			"id": "fusebox_5",
-			"name": "Fuse box",
-			"kind": "fusebox",
+			"id": "lever_6",
+			"name": "Lever",
+			"kind": "lever",
 			"room": "r1",
 			"at": [
-				0.65,
-				0.77
+				0.74,
+				0.5
 			],
-			"needs": "fuse_5",
+			"needs": "",
 			"gives": "",
-			"opens": "d5",
+			"opens": "d6",
+			"verb": "Pull the lever"
+		},
+		{
+			"id": "fusebox_7",
+			"name": "Fuse box",
+			"kind": "fusebox",
+			"room": "r0",
+			"at": [
+				0.39,
+				0.23
+			],
+			"needs": "fuse_7",
+			"gives": "",
+			"opens": "d7",
 			"consumes": true,
 			"verb": "Fit the fuse"
 		},
 		{
-			"id": "chest_3",
+			"id": "chest_5",
 			"name": "Chest",
 			"kind": "chest",
-			"room": "r7",
+			"room": "r4",
 			"at": [
-				0.42,
-				0.63
+				0.36,
+				0.5
 			],
-			"needs": "smallkey_3",
-			"gives": "bucket_11",
-			"gives_name": "Bucket",
+			"needs": "smallkey_5",
+			"gives": "note_10",
+			"gives_name": "Note: 2508",
 			"opens": "",
 			"consumes": true,
 			"verb": "Unlock the chest"
-		},
-		{
-			"id": "tap_11",
-			"name": "Tap",
-			"kind": "tap",
-			"room": "r2",
-			"at": [
-				0.27,
-				0.5
-			],
-			"needs": "bucket_11",
-			"gives": "water_11",
-			"consumes": true,
-			"verb": "Fill the bucket"
-		},
-		{
-			"id": "fire_11",
-			"name": "Fire",
-			"kind": "fire",
-			"room": "r6",
-			"door": "d11",
-			"needs": "water_11",
-			"gives": "bucket_11",
-			"opens": "d11",
-			"consumes": true,
-			"verb": "Put out the fire"
-		},
-		{
-			"id": "tap_12",
-			"name": "Tap",
-			"kind": "tap",
-			"room": "r3",
-			"at": [
-				0.26,
-				0.61
-			],
-			"needs": "bucket_12",
-			"gives": "water_12",
-			"consumes": true,
-			"verb": "Fill the bucket"
-		},
-		{
-			"id": "fire_12",
-			"name": "Fire",
-			"kind": "fire",
-			"room": "r6",
-			"door": "d12",
-			"needs": "water_12",
-			"gives": "bucket_12",
-			"opens": "d12",
-			"consumes": true,
-			"verb": "Put out the fire"
-		},
-		{
-			"id": "tap_16",
-			"name": "Tap",
-			"kind": "tap",
-			"room": "r8",
-			"at": [
-				0.3,
-				0.74
-			],
-			"needs": "bucket_16",
-			"gives": "water_16",
-			"consumes": true,
-			"verb": "Fill the bucket"
-		},
-		{
-			"id": "fire_16",
-			"name": "Fire",
-			"kind": "fire",
-			"room": "r13",
-			"door": "d16",
-			"needs": "water_16",
-			"gives": "bucket_16",
-			"opens": "d16",
-			"consumes": true,
-			"verb": "Put out the fire"
 		},
 		{
 			"id": "fusebox_20",
 			"name": "Fuse box",
 			"kind": "fusebox",
-			"room": "r10",
+			"room": "r9",
 			"at": [
-				0.42,
-				0.77
+				0.54,
+				0.5
 			],
 			"needs": "fuse_20",
 			"gives": "",
@@ -1371,226 +2821,417 @@
 			"verb": "Fit the fuse"
 		},
 		{
-			"id": "chest_11",
+			"id": "vent_21",
+			"name": "Vent",
+			"kind": "vent",
+			"room": "r6",
+			"at": [
+				0.55,
+				0.33
+			],
+			"needs": "screwdriver_21",
+			"gives": "key_vent_21",
+			"consumes": false,
+			"verb": "Unscrew the vent"
+		},
+		{
+			"id": "lever_27",
+			"name": "Lever",
+			"kind": "lever",
+			"room": "r6",
+			"at": [
+				0.5,
+				0.49
+			],
+			"needs": "",
+			"gives": "",
+			"opens": "d27",
+			"verb": "Pull the lever"
+		},
+		{
+			"id": "chest_9",
 			"name": "Chest",
 			"kind": "chest",
-			"room": "r17",
+			"room": "r21",
 			"at": [
-				0.24,
+				0.62,
+				0.5
+			],
+			"needs": "smallkey_9",
+			"gives": "key_purple_28",
+			"gives_name": "Purple key",
+			"opens": "",
+			"consumes": true,
+			"verb": "Unlock the chest"
+		},
+		{
+			"id": "chest_10",
+			"name": "Chest",
+			"kind": "chest",
+			"room": "r23",
+			"at": [
+				0.68,
+				0.5
+			],
+			"needs": "smallkey_10",
+			"gives": "key_green_29",
+			"gives_name": "Green key",
+			"opens": "",
+			"consumes": true,
+			"verb": "Unlock the chest"
+		},
+		{
+			"id": "lever_30",
+			"name": "Lever",
+			"kind": "lever",
+			"room": "r23",
+			"at": [
+				0.67,
+				0.5
+			],
+			"needs": "",
+			"gives": "",
+			"opens": "d30",
+			"verb": "Pull the lever"
+		},
+		{
+			"id": "fusebox_32",
+			"name": "Fuse box",
+			"kind": "fusebox",
+			"room": "r27",
+			"at": [
+				0.56,
+				0.5
+			],
+			"needs": "fuse_32",
+			"gives": "",
+			"opens": "d32",
+			"consumes": true,
+			"verb": "Fit the fuse"
+		},
+		{
+			"id": "vent_45",
+			"name": "Vent",
+			"kind": "vent",
+			"room": "r34",
+			"at": [
+				0.31,
+				0.28
+			],
+			"needs": "screwdriver_45",
+			"gives": "key_vent_45",
+			"consumes": false,
+			"verb": "Unscrew the vent"
+		},
+		{
+			"id": "fusebox_46",
+			"name": "Fuse box",
+			"kind": "fusebox",
+			"room": "r36",
+			"at": [
+				0.74,
+				0.51
+			],
+			"needs": "fuse_46",
+			"gives": "",
+			"opens": "d46",
+			"consumes": true,
+			"verb": "Fit the fuse"
+		},
+		{
+			"id": "chest_15",
+			"name": "Chest",
+			"kind": "chest",
+			"room": "r30",
+			"at": [
+				0.28,
+				0.28
+			],
+			"needs": "smallkey_15",
+			"gives": "bucket_47",
+			"gives_name": "Bucket",
+			"opens": "",
+			"consumes": true,
+			"verb": "Unlock the chest"
+		},
+		{
+			"id": "tap_47",
+			"name": "Tap",
+			"kind": "tap",
+			"room": "r38",
+			"at": [
+				0.22,
+				0.78
+			],
+			"needs": "bucket_47",
+			"gives": "water_47",
+			"consumes": true,
+			"verb": "Fill the bucket"
+		},
+		{
+			"id": "fire_47",
+			"name": "Fire",
+			"kind": "fire",
+			"room": "r43",
+			"door": "d47",
+			"needs": "water_47",
+			"gives": "bucket_47",
+			"opens": "d47",
+			"consumes": true,
+			"verb": "Put out the fire"
+		},
+		{
+			"id": "chest_18",
+			"name": "Chest",
+			"kind": "chest",
+			"room": "r31",
+			"at": [
+				0.78,
 				0.77
 			],
-			"needs": "smallkey_11",
-			"gives": "screwdriver_23",
+			"needs": "smallkey_18",
+			"gives": "screwdriver_51",
 			"gives_name": "Screwdriver",
 			"opens": "",
 			"consumes": true,
 			"verb": "Unlock the chest"
 		},
 		{
-			"id": "vent_23",
+			"id": "vent_51",
 			"name": "Vent",
 			"kind": "vent",
-			"room": "r18",
+			"room": "r7",
 			"at": [
-				0.75,
-				0.5
+				0.22,
+				0.58
 			],
-			"needs": "screwdriver_23",
-			"gives": "key_vent_23",
+			"needs": "screwdriver_51",
+			"gives": "key_vent_51",
 			"consumes": false,
 			"verb": "Unscrew the vent"
 		},
 		{
-			"id": "fusebox_25",
-			"name": "Fuse box",
-			"kind": "fusebox",
-			"room": "r20",
+			"id": "lever_54",
+			"name": "Lever",
+			"kind": "lever",
+			"room": "r22",
 			"at": [
-				0.47,
-				0.76
+				0.34,
+				0.43
 			],
-			"needs": "fuse_25",
+			"needs": "",
 			"gives": "",
-			"opens": "d25",
-			"consumes": true,
-			"verb": "Fit the fuse"
+			"opens": "d54",
+			"verb": "Pull the lever"
 		},
 		{
-			"id": "chest_14",
+			"id": "lever_55",
+			"name": "Lever",
+			"kind": "lever",
+			"room": "r48",
+			"at": [
+				0.24,
+				0.56
+			],
+			"needs": "",
+			"gives": "",
+			"opens": "d55",
+			"verb": "Pull the lever"
+		},
+		{
+			"id": "chest_22",
 			"name": "Chest",
 			"kind": "chest",
-			"room": "r24",
+			"room": "r38",
 			"at": [
-				0.41,
-				0.55
+				0.24,
+				0.28
 			],
-			"needs": "smallkey_14",
-			"gives": "key_orange_29",
-			"gives_name": "Orange key",
+			"needs": "smallkey_22",
+			"gives": "key_white_56",
+			"gives_name": "White key",
 			"opens": "",
 			"consumes": true,
 			"verb": "Unlock the chest"
 		},
 		{
-			"id": "tap_30",
-			"name": "Tap",
-			"kind": "tap",
-			"room": "r23",
+			"id": "lever_58",
+			"name": "Lever",
+			"kind": "lever",
+			"room": "r47",
 			"at": [
-				0.49,
+				0.38,
+				0.23
+			],
+			"needs": "",
+			"gives": "",
+			"opens": "d58",
+			"verb": "Pull the lever"
+		},
+		{
+			"id": "chest_24",
+			"name": "Chest",
+			"kind": "chest",
+			"room": "r63",
+			"at": [
+				0.32,
 				0.5
 			],
-			"needs": "bucket_30",
-			"gives": "water_30",
+			"needs": "smallkey_24",
+			"gives": "note_68",
+			"gives_name": "Note: 6393",
+			"opens": "",
 			"consumes": true,
-			"verb": "Fill the bucket"
+			"verb": "Unlock the chest"
 		},
 		{
-			"id": "fire_30",
-			"name": "Fire",
-			"kind": "fire",
-			"room": "r25",
-			"door": "d30",
-			"needs": "water_30",
-			"gives": "bucket_30",
-			"opens": "d30",
+			"id": "chest_25",
+			"name": "Chest",
+			"kind": "chest",
+			"room": "r62",
+			"at": [
+				0.52,
+				0.5
+			],
+			"needs": "smallkey_25",
+			"gives": "screwdriver_72",
+			"gives_name": "Screwdriver",
+			"opens": "",
 			"consumes": true,
-			"verb": "Put out the fire"
+			"verb": "Unlock the chest"
 		},
 		{
-			"id": "vent_32",
+			"id": "vent_72",
 			"name": "Vent",
 			"kind": "vent",
-			"room": "r21",
+			"room": "r46",
 			"at": [
-				0.36,
-				0.56
+				0.53,
+				0.41
 			],
-			"needs": "screwdriver_32",
-			"gives": "key_vent_32",
+			"needs": "screwdriver_72",
+			"gives": "key_vent_72",
 			"consumes": false,
 			"verb": "Unscrew the vent"
+		},
+		{
+			"id": "chest_27",
+			"name": "Chest",
+			"kind": "chest",
+			"room": "r63",
+			"at": [
+				0.5,
+				0.5
+			],
+			"needs": "smallkey_27",
+			"gives": "key_orange_73",
+			"gives_name": "Orange key",
+			"opens": "",
+			"consumes": true,
+			"verb": "Unlock the chest"
 		}
 	],
 	"steps": [
 		{
 			"text": "Find the lever that opens the gate",
 			"when": {
-				"used": "lever_3"
+				"used": "lever_1"
+			}
+		},
+		{
+			"text": "Find a screwdriver",
+			"when": {
+				"holds": "screwdriver_2"
+			}
+		},
+		{
+			"text": "Something is behind a vent",
+			"when": {
+				"holds": "key_vent_2"
+			}
+		},
+		{
+			"text": "Open the locked door",
+			"when": {
+				"opened": "d2"
 			}
 		},
 		{
 			"text": "Find something to pry the boards off",
 			"when": {
-				"holds": "crowbar_4"
+				"holds": "crowbar_5"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_2"
+			}
+		},
+		{
+			"text": "Open the chest: a crowbar is inside",
+			"when": {
+				"used": "chest_2"
 			}
 		},
 		{
 			"text": "Pry the boarded door open",
 			"when": {
-				"opened": "d4"
+				"opened": "d5"
+			}
+		},
+		{
+			"text": "Find the lever that opens the gate",
+			"when": {
+				"used": "lever_6"
 			}
 		},
 		{
 			"text": "Find a fuse",
 			"when": {
-				"holds": "fuse_5"
-			}
-		},
-		{
-			"text": "Find the small key to a chest",
-			"when": {
-				"holds": "smallkey_1"
-			}
-		},
-		{
-			"text": "Open the chest: a fuse is inside",
-			"when": {
-				"used": "chest_1"
+				"holds": "fuse_7"
 			}
 		},
 		{
 			"text": "Fit it in the fuse box",
 			"when": {
-				"used": "fusebox_5"
+				"used": "fusebox_7"
 			}
 		},
 		{
-			"text": "Find the red key",
+			"text": "Find the keypad's code",
 			"when": {
-				"holds": "key_red_7"
-			}
-		},
-		{
-			"text": "Open the red door",
-			"when": {
-				"opened": "d7"
-			}
-		},
-		{
-			"text": "Find a bucket",
-			"when": {
-				"holds": "bucket_11"
+				"holds": "note_10"
 			}
 		},
 		{
 			"text": "Find the small key to a chest",
 			"when": {
-				"holds": "smallkey_3"
+				"holds": "smallkey_5"
 			}
 		},
 		{
-			"text": "Open the chest: a bucket is inside",
+			"text": "Open the chest: a note is inside",
 			"when": {
-				"used": "chest_3"
+				"used": "chest_5"
 			}
 		},
 		{
-			"text": "Fill it with water",
+			"text": "Enter the code at the keypad door",
 			"when": {
-				"holds": "water_11"
+				"opened": "d10"
 			}
 		},
 		{
-			"text": "Put out the fire",
+			"text": "Find the red key",
 			"when": {
-				"used": "fire_11"
+				"holds": "key_red_14"
 			}
 		},
 		{
-			"text": "Find a bucket",
+			"text": "Open the red door",
 			"when": {
-				"holds": "bucket_12"
-			}
-		},
-		{
-			"text": "Fill it with water",
-			"when": {
-				"holds": "water_12"
-			}
-		},
-		{
-			"text": "Put out the fire",
-			"when": {
-				"used": "fire_12"
-			}
-		},
-		{
-			"text": "Find a bucket",
-			"when": {
-				"holds": "bucket_16"
-			}
-		},
-		{
-			"text": "Fill it with water",
-			"when": {
-				"holds": "water_16"
-			}
-		},
-		{
-			"text": "Put out the fire",
-			"when": {
-				"used": "fire_16"
+				"opened": "d14"
 			}
 		},
 		{
@@ -1608,115 +3249,385 @@
 		{
 			"text": "Find a screwdriver",
 			"when": {
-				"holds": "screwdriver_23"
-			}
-		},
-		{
-			"text": "Find the small key to a chest",
-			"when": {
-				"holds": "smallkey_11"
-			}
-		},
-		{
-			"text": "Open the chest: a screwdriver is inside",
-			"when": {
-				"used": "chest_11"
+				"holds": "screwdriver_21"
 			}
 		},
 		{
 			"text": "Something is behind a vent",
 			"when": {
-				"holds": "key_vent_23"
+				"holds": "key_vent_21"
 			}
 		},
 		{
 			"text": "Open the locked door",
 			"when": {
-				"opened": "d23"
+				"opened": "d21"
 			}
 		},
 		{
-			"text": "Find a fuse",
+			"text": "Find the lever that opens the gate",
 			"when": {
-				"holds": "fuse_25"
+				"used": "lever_27"
 			}
 		},
 		{
-			"text": "Fit it in the fuse box",
+			"text": "Find the purple key",
 			"when": {
-				"used": "fusebox_25"
-			}
-		},
-		{
-			"text": "Find something to pry the boards off",
-			"when": {
-				"holds": "crowbar_26"
-			}
-		},
-		{
-			"text": "Pry the boarded door open",
-			"when": {
-				"opened": "d26"
-			}
-		},
-		{
-			"text": "Find the orange key",
-			"when": {
-				"holds": "key_orange_29"
+				"holds": "key_purple_28"
 			}
 		},
 		{
 			"text": "Find the small key to a chest",
 			"when": {
-				"holds": "smallkey_14"
+				"holds": "smallkey_9"
 			}
 		},
 		{
-			"text": "Open the chest: the orange key is inside",
+			"text": "Open the chest: the purple key is inside",
 			"when": {
-				"used": "chest_14"
+				"used": "chest_9"
 			}
 		},
 		{
-			"text": "Open the orange door",
+			"text": "Open the purple door",
+			"when": {
+				"opened": "d28"
+			}
+		},
+		{
+			"text": "Find the green key",
+			"when": {
+				"holds": "key_green_29"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_10"
+			}
+		},
+		{
+			"text": "Open the chest: the green key is inside",
+			"when": {
+				"used": "chest_10"
+			}
+		},
+		{
+			"text": "Open the green door",
 			"when": {
 				"opened": "d29"
 			}
 		},
 		{
-			"text": "Find a bucket",
+			"text": "Find the lever that opens the gate",
 			"when": {
-				"holds": "bucket_30"
+				"used": "lever_30"
 			}
 		},
 		{
-			"text": "Fill it with water",
+			"text": "Find a fuse",
 			"when": {
-				"holds": "water_30"
+				"holds": "fuse_32"
 			}
 		},
 		{
-			"text": "Put out the fire",
+			"text": "Fit it in the fuse box",
 			"when": {
-				"used": "fire_30"
+				"used": "fusebox_32"
+			}
+		},
+		{
+			"text": "Find the yellow key",
+			"when": {
+				"holds": "key_yellow_33"
+			}
+		},
+		{
+			"text": "Open the yellow door",
+			"when": {
+				"opened": "d33"
+			}
+		},
+		{
+			"text": "Find the keypad's code",
+			"when": {
+				"holds": "note_34"
+			}
+		},
+		{
+			"text": "Enter the code at the keypad door",
+			"when": {
+				"opened": "d34"
+			}
+		},
+		{
+			"text": "Find something to pry the boards off",
+			"when": {
+				"holds": "crowbar_42"
+			}
+		},
+		{
+			"text": "Pry the boarded door open",
+			"when": {
+				"opened": "d42"
 			}
 		},
 		{
 			"text": "Find a screwdriver",
 			"when": {
-				"holds": "screwdriver_32"
+				"holds": "screwdriver_45"
 			}
 		},
 		{
 			"text": "Something is behind a vent",
 			"when": {
-				"holds": "key_vent_32"
+				"holds": "key_vent_45"
 			}
 		},
 		{
 			"text": "Open the locked door",
 			"when": {
-				"opened": "d32"
+				"opened": "d45"
+			}
+		},
+		{
+			"text": "Find a fuse",
+			"when": {
+				"holds": "fuse_46"
+			}
+		},
+		{
+			"text": "Fit it in the fuse box",
+			"when": {
+				"used": "fusebox_46"
+			}
+		},
+		{
+			"text": "Find a bucket",
+			"when": {
+				"holds": "bucket_47"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_15"
+			}
+		},
+		{
+			"text": "Open the chest: a bucket is inside",
+			"when": {
+				"used": "chest_15"
+			}
+		},
+		{
+			"text": "Fill it with water",
+			"when": {
+				"holds": "water_47"
+			}
+		},
+		{
+			"text": "Put out the fire",
+			"when": {
+				"used": "fire_47"
+			}
+		},
+		{
+			"text": "Find the keypad's code",
+			"when": {
+				"holds": "note_50"
+			}
+		},
+		{
+			"text": "Enter the code at the keypad door",
+			"when": {
+				"opened": "d50"
+			}
+		},
+		{
+			"text": "Find a screwdriver",
+			"when": {
+				"holds": "screwdriver_51"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_18"
+			}
+		},
+		{
+			"text": "Open the chest: a screwdriver is inside",
+			"when": {
+				"used": "chest_18"
+			}
+		},
+		{
+			"text": "Something is behind a vent",
+			"when": {
+				"holds": "key_vent_51"
+			}
+		},
+		{
+			"text": "Open the locked door",
+			"when": {
+				"opened": "d51"
+			}
+		},
+		{
+			"text": "Find the keypad's code",
+			"when": {
+				"holds": "note_53"
+			}
+		},
+		{
+			"text": "Enter the code at the keypad door",
+			"when": {
+				"opened": "d53"
+			}
+		},
+		{
+			"text": "Find the lever that opens the gate",
+			"when": {
+				"used": "lever_54"
+			}
+		},
+		{
+			"text": "Find the lever that opens the gate",
+			"when": {
+				"used": "lever_55"
+			}
+		},
+		{
+			"text": "Find the white key",
+			"when": {
+				"holds": "key_white_56"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_22"
+			}
+		},
+		{
+			"text": "Open the chest: the white key is inside",
+			"when": {
+				"used": "chest_22"
+			}
+		},
+		{
+			"text": "Open the white door",
+			"when": {
+				"opened": "d56"
+			}
+		},
+		{
+			"text": "Find the lever that opens the gate",
+			"when": {
+				"used": "lever_58"
+			}
+		},
+		{
+			"text": "Find the blue key",
+			"when": {
+				"holds": "key_blue_63"
+			}
+		},
+		{
+			"text": "Open the blue door",
+			"when": {
+				"opened": "d63"
+			}
+		},
+		{
+			"text": "Find the keypad's code",
+			"when": {
+				"holds": "note_68"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_24"
+			}
+		},
+		{
+			"text": "Open the chest: a note is inside",
+			"when": {
+				"used": "chest_24"
+			}
+		},
+		{
+			"text": "Enter the code at the keypad door",
+			"when": {
+				"opened": "d68"
+			}
+		},
+		{
+			"text": "Find a screwdriver",
+			"when": {
+				"holds": "screwdriver_72"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_25"
+			}
+		},
+		{
+			"text": "Open the chest: a screwdriver is inside",
+			"when": {
+				"used": "chest_25"
+			}
+		},
+		{
+			"text": "Something is behind a vent",
+			"when": {
+				"holds": "key_vent_72"
+			}
+		},
+		{
+			"text": "Open the locked door",
+			"when": {
+				"opened": "d72"
+			}
+		},
+		{
+			"text": "Find the orange key",
+			"when": {
+				"holds": "key_orange_73"
+			}
+		},
+		{
+			"text": "Find the small key to a chest",
+			"when": {
+				"holds": "smallkey_27"
+			}
+		},
+		{
+			"text": "Open the chest: the orange key is inside",
+			"when": {
+				"used": "chest_27"
+			}
+		},
+		{
+			"text": "Open the orange door",
+			"when": {
+				"opened": "d73"
+			}
+		},
+		{
+			"text": "Find something to pry the boards off",
+			"when": {
+				"holds": "crowbar_79"
+			}
+		},
+		{
+			"text": "Pry the boarded door open",
+			"when": {
+				"opened": "d79"
 			}
 		},
 		{
@@ -1736,95 +3647,95 @@
 		{
 			"id": "ev0",
 			"when": {
-				"holds": "key_gold"
+				"holds": "screwdriver_45"
 			},
 			"do": "lights",
 			"rooms": [
-				"r24"
+				"r35"
 			],
 			"text": "The lights die"
 		},
 		{
 			"id": "ev1",
 			"when": {
-				"holds": "key_red_7"
+				"holds": "smallkey_27"
 			},
 			"do": "lights",
 			"rooms": [
-				"r3"
+				"r69"
 			],
 			"text": "The lights die"
 		},
 		{
 			"id": "ev2",
 			"when": {
-				"holds": "crowbar_26"
+				"holds": "key_gold"
 			},
 			"do": "lights",
 			"rooms": [
-				"r5"
+				"r77"
 			],
 			"text": "The lights die"
 		},
 		{
 			"id": "ev3",
 			"when": {
-				"entered": "r16"
+				"entered": "r80"
 			},
 			"do": "slam",
-			"door": "d15",
+			"door": "d79",
 			"text": "A door slams behind you"
 		},
 		{
 			"id": "ev4",
 			"when": {
-				"entered": "r10"
+				"entered": "r34"
 			},
 			"do": "slam",
-			"door": "d9",
+			"door": "d33",
 			"text": "A door slams behind you"
 		},
 		{
 			"id": "ev5",
 			"when": {
-				"entered": "r27"
+				"entered": "r39"
 			},
 			"do": "slam",
-			"door": "d26",
+			"door": "d38",
 			"text": "A door slams behind you"
 		},
 		{
 			"id": "ev6",
 			"when": {
-				"entered": "r28"
+				"entered": "r69"
 			},
 			"do": "slam",
-			"door": "d27",
+			"door": "d68",
 			"text": "A door slams behind you"
 		},
 		{
 			"id": "ev7",
 			"when": {
-				"entered": "r23"
+				"entered": "r52"
 			},
 			"do": "slam",
-			"door": "d22",
+			"door": "d51",
 			"text": "A door slams behind you"
 		},
 		{
 			"id": "ev8",
 			"when": {
-				"entered": "r34"
+				"entered": "r40"
 			},
 			"do": "glimpse",
-			"room": "r34",
+			"room": "r40",
 			"at": [
 				0.96,
 				0.5
 			],
 			"look": [
-				6.06,
-				25.0
+				31.06,
+				41.0
 			],
 			"seconds": 2.5,
 			"text": ""
@@ -1835,35 +3746,51 @@
 			"path": [
 				[
 					"room",
-					"r14"
+					"r44"
 				],
 				[
 					"door",
-					"d21"
+					"d43"
 				],
 				[
 					"room",
-					"r22"
+					"r43"
 				],
 				[
 					"door",
-					"d27"
+					"d48"
 				],
 				[
 					"room",
-					"r28"
+					"r49"
 				],
 				[
 					"door",
-					"d27"
+					"d61"
 				],
 				[
 					"room",
-					"r22"
+					"r62"
 				],
 				[
 					"door",
-					"d21"
+					"d61"
+				],
+				[
+					"room",
+					"r49"
+				],
+				[
+					"door",
+					"d48"
+				],
+				[
+					"room",
+					"r43"
+				],
+				[
+					"door",
+					"d43"
 				]
 			],
 			"speed": 2.7,
@@ -1874,83 +3801,83 @@
 			"path": [
 				[
 					"room",
-					"r21"
+					"r68"
 				],
 				[
 					"door",
-					"d20"
+					"d67"
 				],
 				[
 					"room",
-					"r14"
+					"r52"
 				],
 				[
 					"door",
-					"d13"
+					"d51"
 				],
 				[
 					"room",
-					"r12"
+					"r43"
 				],
 				[
 					"door",
-					"d11"
+					"d44"
 				],
 				[
 					"room",
-					"r6"
+					"r45"
 				],
 				[
 					"door",
-					"d12"
+					"d63"
 				],
 				[
 					"room",
-					"r13"
+					"r64"
 				],
 				[
 					"door",
-					"d16"
+					"d65"
 				],
 				[
 					"room",
-					"r17"
+					"r66"
 				],
 				[
 					"door",
-					"d16"
+					"d65"
 				],
 				[
 					"room",
-					"r13"
+					"r64"
 				],
 				[
 					"door",
-					"d12"
+					"d63"
 				],
 				[
 					"room",
-					"r6"
+					"r45"
 				],
 				[
 					"door",
-					"d11"
+					"d44"
 				],
 				[
 					"room",
-					"r12"
+					"r43"
 				],
 				[
 					"door",
-					"d13"
+					"d51"
 				],
 				[
 					"room",
-					"r14"
+					"r52"
 				],
 				[
 					"door",
-					"d20"
+					"d67"
 				]
 			],
 			"speed": 2.8,
@@ -1961,35 +3888,35 @@
 			"path": [
 				[
 					"room",
-					"r18"
+					"r59"
 				],
 				[
 					"door",
-					"d17"
+					"d58"
 				],
 				[
 					"room",
-					"r14"
+					"r51"
 				],
 				[
 					"door",
-					"d20"
+					"d57"
 				],
 				[
 					"room",
-					"r21"
+					"r58"
 				],
 				[
 					"door",
-					"d20"
+					"d57"
 				],
 				[
 					"room",
-					"r14"
+					"r51"
 				],
 				[
 					"door",
-					"d17"
+					"d58"
 				]
 			],
 			"speed": 2.9,
@@ -2000,35 +3927,51 @@
 			"path": [
 				[
 					"room",
-					"r32"
+					"r44"
 				],
 				[
 					"door",
-					"d31"
+					"d43"
 				],
 				[
 					"room",
-					"r26"
+					"r43"
 				],
 				[
 					"door",
-					"d32"
+					"d51"
 				],
 				[
 					"room",
-					"r33"
+					"r52"
 				],
 				[
 					"door",
-					"d32"
+					"d68"
 				],
 				[
 					"room",
-					"r26"
+					"r69"
 				],
 				[
 					"door",
-					"d31"
+					"d68"
+				],
+				[
+					"room",
+					"r52"
+				],
+				[
+					"door",
+					"d51"
+				],
+				[
+					"room",
+					"r43"
+				],
+				[
+					"door",
+					"d43"
 				]
 			],
 			"speed": 3.0,
@@ -2039,51 +3982,51 @@
 			"path": [
 				[
 					"room",
-					"r15"
+					"r24"
 				],
 				[
 					"door",
-					"d14"
+					"d23"
 				],
 				[
 					"room",
-					"r10"
+					"r19"
 				],
 				[
 					"door",
-					"d9"
+					"d29"
 				],
 				[
 					"room",
-					"r7"
+					"r30"
 				],
 				[
 					"door",
-					"d8"
+					"d35"
 				],
 				[
 					"room",
-					"r9"
+					"r36"
 				],
 				[
 					"door",
-					"d8"
+					"d35"
 				],
 				[
 					"room",
-					"r7"
+					"r30"
 				],
 				[
 					"door",
-					"d9"
+					"d29"
 				],
 				[
 					"room",
-					"r10"
+					"r19"
 				],
 				[
 					"door",
-					"d14"
+					"d23"
 				]
 			],
 			"speed": 3.1,
@@ -2094,19 +4037,51 @@
 			"path": [
 				[
 					"room",
-					"r26"
+					"r77"
 				],
 				[
 					"door",
-					"d32"
+					"d76"
 				],
 				[
 					"room",
-					"r33"
+					"r61"
 				],
 				[
 					"door",
-					"d32"
+					"d71"
+				],
+				[
+					"room",
+					"r72"
+				],
+				[
+					"door",
+					"d78"
+				],
+				[
+					"room",
+					"r79"
+				],
+				[
+					"door",
+					"d78"
+				],
+				[
+					"room",
+					"r72"
+				],
+				[
+					"door",
+					"d71"
+				],
+				[
+					"room",
+					"r61"
+				],
+				[
+					"door",
+					"d76"
 				]
 			],
 			"speed": 3.2,
@@ -2117,15 +4092,141 @@
 			"path": [
 				[
 					"room",
-					"r33"
+					"r7"
 				],
 				[
 					"door",
-					"d32"
+					"d6"
 				],
 				[
 					"room",
-					"r26"
+					"r3"
+				],
+				[
+					"door",
+					"d6"
+				]
+			],
+			"speed": 2.7,
+			"sight": 16.4,
+			"cone": 98.8
+		},
+		{
+			"path": [
+				[
+					"room",
+					"r25"
+				],
+				[
+					"door",
+					"d24"
+				],
+				[
+					"room",
+					"r19"
+				],
+				[
+					"door",
+					"d18"
+				],
+				[
+					"room",
+					"r17"
+				],
+				[
+					"door",
+					"d16"
+				],
+				[
+					"room",
+					"r7"
+				],
+				[
+					"door",
+					"d17"
+				],
+				[
+					"room",
+					"r18"
+				],
+				[
+					"door",
+					"d21"
+				],
+				[
+					"room",
+					"r22"
+				],
+				[
+					"door",
+					"d21"
+				],
+				[
+					"room",
+					"r18"
+				],
+				[
+					"door",
+					"d17"
+				],
+				[
+					"room",
+					"r7"
+				],
+				[
+					"door",
+					"d16"
+				],
+				[
+					"room",
+					"r17"
+				],
+				[
+					"door",
+					"d18"
+				],
+				[
+					"room",
+					"r19"
+				],
+				[
+					"door",
+					"d24"
+				]
+			],
+			"speed": 2.8,
+			"sight": 16.4,
+			"cone": 98.8
+		},
+		{
+			"path": [
+				[
+					"room",
+					"r34"
+				],
+				[
+					"door",
+					"d33"
+				],
+				[
+					"room",
+					"r29"
+				],
+				[
+					"door",
+					"d28"
+				],
+				[
+					"room",
+					"r19"
+				],
+				[
+					"door",
+					"d26"
+				],
+				[
+					"room",
+					"r27"
 				],
 				[
 					"door",
@@ -2141,121 +4242,27 @@
 				],
 				[
 					"room",
-					"r26"
+					"r27"
 				],
 				[
 					"door",
-					"d32"
-				]
-			],
-			"speed": 2.7,
-			"sight": 16.4,
-			"cone": 98.8
-		},
-		{
-			"path": [
-				[
-					"room",
-					"r17"
-				],
-				[
-					"door",
-					"d16"
+					"d26"
 				],
 				[
 					"room",
-					"r13"
+					"r19"
 				],
 				[
 					"door",
-					"d12"
+					"d28"
 				],
 				[
 					"room",
-					"r6"
+					"r29"
 				],
 				[
 					"door",
-					"d10"
-				],
-				[
-					"room",
-					"r11"
-				],
-				[
-					"door",
-					"d10"
-				],
-				[
-					"room",
-					"r6"
-				],
-				[
-					"door",
-					"d12"
-				],
-				[
-					"room",
-					"r13"
-				],
-				[
-					"door",
-					"d16"
-				]
-			],
-			"speed": 2.8,
-			"sight": 16.4,
-			"cone": 98.8
-		},
-		{
-			"path": [
-				[
-					"room",
-					"r30"
-				],
-				[
-					"door",
-					"d29"
-				],
-				[
-					"room",
-					"r24"
-				],
-				[
-					"door",
-					"d23"
-				],
-				[
-					"room",
-					"r14"
-				],
-				[
-					"door",
-					"d19"
-				],
-				[
-					"room",
-					"r20"
-				],
-				[
-					"door",
-					"d19"
-				],
-				[
-					"room",
-					"r14"
-				],
-				[
-					"door",
-					"d23"
-				],
-				[
-					"room",
-					"r24"
-				],
-				[
-					"door",
-					"d29"
+					"d33"
 				]
 			],
 			"speed": 2.9,
@@ -2267,12 +4274,104 @@
 		"path": "houses/lam_forgotten_wing/world/forgotten_wing/forgotten_wing",
 		"scale": 1.333333,
 		"origin": [
-			49.194,
+			99.194,
 			-13.005,
-			101.134
+			133.134
 		]
 	},
-	"seals": [],
+	"seals": [
+		[
+			51.5,
+			38.25,
+			"e",
+			2.3,
+			-8.74
+		],
+		[
+			38.88,
+			26.03,
+			"s",
+			2.55,
+			4.27
+		],
+		[
+			38.88,
+			16.03,
+			"n",
+			2.55,
+			4.27
+		],
+		[
+			42.0,
+			15.12,
+			"w",
+			2.05,
+			4.27
+		],
+		[
+			45.0,
+			39.25,
+			"e",
+			2.8,
+			7.72
+		],
+		[
+			19.75,
+			45.5,
+			"s",
+			2.3,
+			4.27
+		],
+		[
+			45.0,
+			35.5,
+			"e",
+			5.3,
+			7.72
+		],
+		[
+			8.07,
+			36.62,
+			"e",
+			3.05,
+			7.72
+		],
+		[
+			4.5,
+			32.5,
+			"n",
+			8.8,
+			7.72
+		],
+		[
+			22.0,
+			36.62,
+			"e",
+			3.05,
+			7.72
+		],
+		[
+			15.93,
+			36.62,
+			"w",
+			3.05,
+			7.72
+		],
+		[
+			18.75,
+			32.5,
+			"n",
+			6.8,
+			7.72
+		],
+		[
+			42.12,
+			32.5,
+			"n",
+			5.55,
+			7.72
+		]
+	],
 	"mood": "indoor_hall",
 	"prop_scale": 2.3,
 	"models": {
@@ -2280,6 +4379,16 @@
 			0.78,
 			1.29,
 			0.67
+		],
+		"bathtub": [
+			2.74,
+			0.97,
+			1.29
+		],
+		"bedSingle": [
+			1.31,
+			0.86,
+			2.59
 		],
 		"bench": [
 			0.92,
@@ -2326,35 +4435,30 @@
 			1.08,
 			0.46
 		],
+		"chairDesk": [
+			0.77,
+			1.4,
+			0.72
+		],
 		"coatRackStanding": [
 			0.63,
 			1.77,
 			0.63
+		],
+		"desk": [
+			1.69,
+			0.88,
+			0.9
 		],
 		"dryer": [
 			0.9,
 			1.08,
 			0.87
 		],
-		"kitchenCabinet": [
-			0.99,
-			1.03,
-			1.03
-		],
 		"kitchenFridge": [
 			0.99,
 			2.12,
 			0.67
-		],
-		"kitchenSink": [
-			0.99,
-			1.13,
-			1.03
-		],
-		"kitchenStove": [
-			0.99,
-			1.03,
-			1.03
 		],
 		"lampRoundFloor": [
 			0.35,
@@ -2365,6 +4469,11 @@
 			0.28,
 			0.67,
 			0.28
+		],
+		"laptop": [
+			0.61,
+			0.37,
+			0.55
 		],
 		"loungeChair": [
 			1.13,
@@ -2400,6 +4509,11 @@
 			1.94,
 			0.75,
 			1.03
+		],
+		"tableCoffee": [
+			1.52,
+			0.53,
+			0.92
 		],
 		"televisionVintage": [
 			0.94,
@@ -2440,14 +4554,14 @@
 		[
 			"sideTableDrawers",
 			"r0",
-			26.41,
+			28.41,
 			0.46,
 			0
 		],
 		[
 			"lampSquareTable",
 			"r0",
-			26.41,
+			28.41,
 			0.455,
 			0,
 			0.88
@@ -2455,16 +4569,23 @@
 		[
 			"bench",
 			"r0",
-			25.86,
+			27.46,
 			3.57,
 			180
 		],
 		[
+			"pottedPlant",
+			"r0",
+			29.55,
+			0.48,
+			0
+		],
+		[
 			"bookcaseClosed",
 			"r0",
-			15.86,
-			3.51,
-			180
+			26.66,
+			0.48,
+			0
 		],
 		[
 			"loungeSofa",
@@ -2490,24 +4611,24 @@
 		[
 			"cabinetTelevision",
 			"r1",
-			2.32,
-			0.48,
-			0
+			6.32,
+			3.51,
+			180
 		],
 		[
 			"televisionVintage",
 			"r1",
-			2.32,
-			0.485,
-			0,
+			6.32,
+			3.5149999999999997,
+			180,
 			0.71
 		],
 		[
 			"bookcaseClosedWide",
 			"r1",
+			1.52,
 			0.48,
-			1.92,
-			90
+			0
 		],
 		[
 			"lampRoundFloor",
@@ -2519,473 +4640,476 @@
 		[
 			"lampRoundFloor",
 			"r1",
-			0.38,
+			9.62,
 			0.4,
 			0
 		],
 		[
 			"loungeSofaOttoman",
 			"r1",
-			9.28,
-			1.9,
-			270
-		],
-		[
-			"lampRoundFloor",
-			"r3",
-			0.38,
-			0.4,
+			8.71,
+			0.72,
 			0
 		],
 		[
-			"sideTable",
-			"r5",
-			3.54,
-			4.82,
+			"desk",
+			"r3",
+			0.65,
+			2.64,
+			90
+		],
+		[
+			"laptop",
+			"r3",
+			0.65,
+			2.64,
+			90,
+			0.88
+		],
+		[
+			"bookcaseClosed",
+			"r3",
+			0.48,
+			0.66,
+			90
+		],
+		[
+			"bookcaseClosed",
+			"r3",
+			3.51,
+			1.86,
 			270
 		],
 		[
-			"chair",
+			"loungeSofa",
 			"r5",
-			0.43,
-			6.43,
+			5.33,
+			24.52,
+			270
+		],
+		[
+			"tableCoffee",
+			"r5",
+			4.3,
+			24.52,
+			90
+		],
+		[
+			"loungeChair",
+			"r5",
+			5.33,
+			22.36,
+			270
+		],
+		[
+			"loungeChair",
+			"r5",
+			0.67,
+			4.36,
 			90
 		],
 		[
 			"cabinetTelevision",
 			"r5",
+			0.48,
+			14.72,
+			90
+		],
+		[
+			"televisionVintage",
+			"r5",
+			0.485,
+			14.72,
+			90,
+			0.71
+		],
+		[
+			"bookcaseClosedWide",
+			"r5",
+			0.48,
+			18.72,
+			90
+		],
+		[
+			"lampRoundFloor",
+			"r5",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"lampRoundFloor",
+			"r5",
+			0.38,
+			25.6,
+			0
+		],
+		[
+			"loungeSofaOttoman",
+			"r5",
+			0.72,
+			7.11,
+			90
+		],
+		[
+			"loungeSofa",
+			"r6",
+			0.67,
+			6.53,
+			90
+		],
+		[
+			"cabinetTelevision",
+			"r6",
 			3.51,
 			2.32,
 			270
 		],
 		[
-			"trashcan",
-			"r5",
-			0.44,
-			0.47,
-			0
-		],
-		[
-			"loungeChair",
-			"r6",
-			0.67,
-			5.17,
-			90
-		],
-		[
-			"loungeChair",
-			"r6",
-			0.76,
-			0.67,
-			0
-		],
-		[
 			"televisionVintage",
 			"r6",
-			0.76,
-			0.6699999999999999,
+			3.5149999999999997,
+			2.32,
+			270,
+			0.71
+		],
+		[
+			"bookcaseClosedWide",
+			"r6",
+			3.51,
+			4.32,
+			270
+		],
+		[
+			"lampRoundFloor",
+			"r6",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"desk",
+			"r7",
+			1.04,
+			0.65,
+			0
+		],
+		[
+			"laptop",
+			"r7",
+			1.04,
+			0.65,
 			0,
-			1.06
+			0.88
 		],
 		[
-			"washer",
+			"bookcaseClosed",
 			"r7",
-			1.05,
-			0.65,
-			0
-		],
-		[
-			"washer",
-			"r7",
-			0.65,
-			4.65,
-			90
-		],
-		[
-			"dryer",
-			"r7",
-			9.05,
-			0.64,
-			0
-		],
-		[
-			"dryer",
-			"r7",
-			4.65,
-			0.64,
-			0
-		],
-		[
-			"table",
-			"r7",
-			3.17,
-			0.72,
-			0
-		],
-		[
-			"cardboardBoxClosed",
-			"r7",
-			0.45,
-			5.55,
-			0
+			0.66,
+			5.51,
+			180
 		],
 		[
 			"washer",
 			"r8",
-			3.35,
-			1.05,
+			41.35,
+			5.05,
 			270
 		],
 		[
 			"washer",
 			"r8",
-			1.45,
-			0.65,
-			0
-		],
-		[
-			"cardboardBoxClosed",
-			"r8",
-			0.45,
-			0.45,
-			0
-		],
-		[
-			"washer",
-			"r10",
-			4.25,
-			0.65,
-			0
-		],
-		[
-			"washer",
-			"r10",
-			0.65,
-			7.35,
+			2.65,
+			5.35,
 			180
 		],
 		[
 			"dryer",
-			"r10",
+			"r8",
+			3.6,
 			5.37,
-			5.45,
-			270
+			180
 		],
 		[
 			"dryer",
-			"r10",
+			"r8",
+			4.55,
 			5.37,
-			6.4,
-			270
+			180
 		],
 		[
 			"table",
-			"r10",
-			2.37,
-			0.72,
+			"r8",
+			38.37,
+			5.29,
+			180
+		],
+		[
+			"cardboardBoxClosed",
+			"r8",
+			0.45,
+			0.45,
 			0
 		],
 		[
 			"cardboardBoxClosed",
-			"r10",
+			"r8",
+			0.45,
 			5.55,
+			0
+		],
+		[
+			"trashcan",
+			"r8",
+			41.56,
+			0.47,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r11",
+			0.45,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r11",
+			0.45,
+			5.55,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r11",
+			9.56,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxOpen",
+			"r11",
+			6.23,
+			5.55,
+			180
+		],
+		[
+			"cardboardBoxOpen",
+			"r11",
+			9.56,
+			2.23,
+			270
+		],
+		[
+			"bookcaseOpen",
+			"r11",
+			0.48,
+			3.86,
+			90
+		],
+		[
+			"bookcaseOpen",
+			"r11",
+			3.86,
+			0.48,
+			0
+		],
+		[
+			"table",
+			"r11",
+			9.29,
+			3.97,
+			270
+		],
+		[
+			"chair",
+			"r11",
+			2.43,
+			0.43,
+			0
+		],
+		[
+			"washer",
+			"r12",
+			1.85,
+			0.65,
+			0
+		],
+		[
+			"washer",
+			"r12",
+			1.05,
+			5.35,
+			180
+		],
+		[
+			"dryer",
+			"r12",
+			0.64,
+			1.05,
+			90
+		],
+		[
+			"dryer",
+			"r12",
+			3.45,
+			0.64,
+			0
+		],
+		[
+			"washer",
+			"r13",
+			1.05,
+			0.65,
+			0
+		],
+		[
+			"washer",
+			"r13",
+			2.25,
+			0.65,
+			0
+		],
+		[
+			"dryer",
+			"r13",
+			3.2,
+			0.64,
+			0
+		],
+		[
+			"dryer",
+			"r13",
+			3.36,
+			1.85,
+			270
+		],
+		[
+			"cardboardBoxClosed",
+			"r13",
+			0.45,
+			3.55,
+			0
+		],
+		[
+			"washer",
+			"r15",
+			5.35,
+			1.05,
+			270
+		],
+		[
+			"washer",
+			"r15",
+			0.65,
+			6.65,
+			90
+		],
+		[
+			"dryer",
+			"r15",
+			0.64,
+			5.7,
+			90
+		],
+		[
+			"dryer",
+			"r15",
+			3.45,
+			0.64,
+			0
+		],
+		[
+			"table",
+			"r15",
+			3.97,
+			7.29,
+			180
+		],
+		[
+			"cardboardBoxClosed",
+			"r15",
+			0.45,
 			7.55,
 			0
 		],
 		[
 			"cardboardBoxClosed",
-			"r10",
+			"r15",
 			5.55,
-			0.45,
+			7.55,
 			0
 		],
 		[
 			"trashcan",
-			"r10",
+			"r15",
 			0.44,
 			0.47,
 			0
 		],
 		[
 			"sideTable",
-			"r13",
-			0.46,
+			"r18",
 			0.81,
-			90
+			0.46,
+			0
 		],
 		[
 			"chair",
-			"r13",
-			1.23,
+			"r18",
+			3.23,
 			0.43,
 			0
 		],
 		[
 			"cabinetTelevision",
-			"r13",
-			2.72,
+			"r18",
 			0.48,
-			0
-		],
-		[
-			"loungeSofa",
-			"r14",
-			5.73,
-			0.67,
-			0
-		],
-		[
-			"loungeChair",
-			"r14",
-			3.16,
-			0.67,
-			0
-		],
-		[
-			"loungeChair",
-			"r14",
-			0.67,
-			0.76,
+			1.92,
 			90
 		],
 		[
+			"loungeSofa",
+			"r19",
+			4.12,
+			0.67,
+			0
+		],
+		[
+			"loungeChair",
+			"r19",
+			1.96,
+			0.67,
+			0
+		],
+		[
+			"loungeChair",
+			"r19",
+			6.37,
+			0.67,
+			0
+		],
+		[
 			"televisionVintage",
-			"r14",
+			"r19",
+			6.37,
 			0.6699999999999999,
-			0.76,
-			90,
+			0,
 			1.06
 		],
 		[
 			"lampRoundFloor",
-			"r14",
+			"r19",
 			0.38,
 			3.6,
 			0
 		],
 		[
-			"loungeSofaOttoman",
-			"r14",
-			1.9,
-			0.72,
-			0
-		],
-		[
-			"cardboardBoxClosed",
-			"r22",
-			0.45,
-			3.55,
-			0
-		],
-		[
-			"cardboardBoxClosed",
-			"r22",
-			0.45,
-			0.45,
-			0
-		],
-		[
-			"bookcaseOpen",
-			"r26",
-			0.48,
-			5.06,
-			90
-		],
-		[
-			"bookcaseOpen",
-			"r26",
-			1.46,
-			5.51,
-			180
-		],
-		[
-			"chair",
-			"r26",
-			1.46,
-			4.9,
-			0
-		],
-		[
-			"bookcaseClosed",
-			"r27",
-			0.48,
-			3.06,
-			90
-		],
-		[
-			"bookcaseClosed",
-			"r27",
-			0.48,
-			4.66,
-			90
-		],
-		[
-			"bookcaseOpen",
-			"r27",
-			3.51,
-			3.06,
-			270
-		],
-		[
 			"lampRoundFloor",
-			"r27",
+			"r19",
 			0.38,
-			5.6,
+			0.4,
 			0
-		],
-		[
-			"pottedPlant",
-			"r27",
-			0.45,
-			0.48,
-			0
-		],
-		[
-			"cardboardBoxClosed",
-			"r28",
-			0.45,
-			0.45,
-			0
-		],
-		[
-			"cardboardBoxClosed",
-			"r28",
-			0.45,
-			9.56,
-			0
-		],
-		[
-			"cardboardBoxClosed",
-			"r28",
-			7.55,
-			9.56,
-			0
-		],
-		[
-			"cardboardBoxOpen",
-			"r28",
-			7.55,
-			8.63,
-			270
-		],
-		[
-			"cardboardBoxOpen",
-			"r28",
-			5.03,
-			9.56,
-			180
-		],
-		[
-			"bookcaseOpen",
-			"r28",
-			4.26,
-			0.48,
-			0
-		],
-		[
-			"bookcaseOpen",
-			"r28",
-			6.66,
-			9.52,
-			180
-		],
-		[
-			"table",
-			"r28",
-			0.72,
-			2.37,
-			90
-		],
-		[
-			"chair",
-			"r28",
-			5.23,
-			0.43,
-			0
-		],
-		[
-			"benchCushion",
-			"r29",
-			1.86,
-			0.43,
-			0
-		],
-		[
-			"benchCushion",
-			"r29",
-			0.43,
-			1.06,
-			90
-		],
-		[
-			"benchCushion",
-			"r29",
-			5.57,
-			3.06,
-			270
-		],
-		[
-			"bench",
-			"r29",
-			0.43,
-			2.66,
-			90
-		],
-		[
-			"bench",
-			"r29",
-			3.86,
-			3.57,
-			180
-		],
-		[
-			"bench",
-			"r29",
-			2.26,
-			3.57,
-			180
-		],
-		[
-			"lampRoundFloor",
-			"r29",
-			0.38,
-			3.6,
-			0
-		],
-		[
-			"washer",
-			"r30",
-			5.05,
-			3.35,
-			180
-		],
-		[
-			"washer",
-			"r30",
-			3.85,
-			3.35,
-			180
-		],
-		[
-			"dryer",
-			"r30",
-			2.9,
-			3.36,
-			180
-		],
-		[
-			"dryer",
-			"r30",
-			1.95,
-			3.36,
-			180
-		],
-		[
-			"table",
-			"r30",
-			0.72,
-			1.57,
-			90
 		],
 		[
 			"cardboardBoxClosed",
@@ -2997,85 +5121,1162 @@
 		[
 			"kitchenFridge",
 			"r31",
-			0.54,
 			1.5,
-			90
-		],
-		[
-			"kitchenCabinet",
-			"r31",
-			0.72,
-			3.09,
-			90
-		],
-		[
-			"kitchenStove",
-			"r31",
-			5.29,
-			3.09,
-			270
-		],
-		[
-			"kitchenSink",
-			"r31",
-			5.29,
-			2.05,
-			270
-		],
-		[
-			"kitchenCabinet",
-			"r31",
-			1.5,
-			0.72,
-			0
+			5.46,
+			180
 		],
 		[
 			"chair",
 			"r31",
 			1.5,
-			1.56,
-			180
+			4.8,
+			0
 		],
 		[
 			"trashcan",
 			"r31",
 			0.44,
-			0.47,
+			5.53,
+			0
+		],
+		[
+			"bookcaseClosedWide",
+			"r32",
+			4.72,
+			3.51,
+			180
+		],
+		[
+			"bookcaseClosedWide",
+			"r32",
+			1.12,
+			3.51,
+			180
+		],
+		[
+			"bookcaseClosedWide",
+			"r32",
+			0.48,
+			1.92,
+			90
+		],
+		[
+			"bookcaseOpen",
+			"r32",
+			5.51,
+			2.26,
+			270
+		],
+		[
+			"bookcaseOpen",
+			"r32",
+			2.66,
+			3.51,
+			180
+		],
+		[
+			"bookcaseOpen",
+			"r32",
+			0.66,
+			0.48,
 			0
 		],
 		[
 			"toilet",
 			"r33",
-			0.56,
-			3.25,
-			180
+			5.25,
+			2.16,
+			270
 		],
 		[
 			"bathroomSink",
 			"r33",
-			1.79,
-			3.46,
-			180
+			0.54,
+			2.59,
+			90
 		],
 		[
 			"washer",
 			"r33",
-			0.65,
-			1.85,
-			90
+			4.65,
+			3.35,
+			180
 		],
 		[
 			"trashcan",
 			"r33",
-			3.56,
-			3.53,
+			0.44,
+			0.47,
 			0
 		],
 		[
 			"pottedPlant",
 			"r33",
+			5.55,
+			3.52,
+			0
+		],
+		[
+			"desk",
+			"r34",
+			4.64,
+			3.35,
+			180
+		],
+		[
+			"cardboardBoxClosed",
+			"r34",
+			0.45,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r34",
+			0.45,
+			3.55,
+			0
+		],
+		[
+			"bench",
+			"r34",
+			0.43,
+			1.86,
+			90
+		],
+		[
+			"bench",
+			"r34",
+			2.66,
+			3.57,
+			180
+		],
+		[
+			"cardboardBoxClosed",
+			"r35",
+			0.45,
+			9.56,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r35",
+			0.45,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r35",
+			7.55,
+			9.56,
+			0
+		],
+		[
+			"cardboardBoxOpen",
+			"r35",
+			0.45,
+			4.63,
+			90
+		],
+		[
+			"cardboardBoxOpen",
+			"r35",
+			7.55,
+			6.63,
+			270
+		],
+		[
+			"bookcaseOpen",
+			"r35",
+			2.66,
+			9.52,
+			180
+		],
+		[
+			"bookcaseOpen",
+			"r35",
+			3.86,
+			9.52,
+			180
+		],
+		[
+			"table",
+			"r35",
+			0.72,
+			1.97,
+			90
+		],
+		[
+			"chair",
+			"r35",
+			7.57,
+			4.43,
+			270
+		],
+		[
+			"bookcaseClosed",
+			"r36",
+			0.48,
+			2.66,
+			90
+		],
+		[
+			"bookcaseClosed",
+			"r36",
+			0.48,
+			5.06,
+			90
+		],
+		[
+			"bookcaseOpen",
+			"r36",
+			0.48,
+			4.09,
+			90
+		],
+		[
+			"lampRoundFloor",
+			"r36",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"sideTableDrawers",
+			"r38",
+			2.41,
+			3.54,
+			180
+		],
+		[
+			"lampRoundFloor",
+			"r38",
+			3.62,
+			3.6,
+			0
+		],
+		[
+			"washer",
+			"r39",
+			0.65,
+			0.65,
+			0
+		],
+		[
+			"washer",
+			"r39",
+			17.35,
+			5.05,
+			270
+		],
+		[
+			"dryer",
+			"r39",
+			2.65,
+			5.37,
+			180
+		],
+		[
+			"dryer",
+			"r39",
+			3.6,
+			5.37,
+			180
+		],
+		[
+			"table",
+			"r39",
+			11.17,
+			5.29,
+			180
+		],
+		[
+			"cardboardBoxClosed",
+			"r39",
+			0.45,
+			5.55,
+			0
+		],
+		[
+			"bookcaseClosed",
+			"r43",
+			0.48,
+			21.06,
+			90
+		],
+		[
+			"bookcaseClosed",
+			"r43",
+			3.51,
+			8.66,
+			270
+		],
+		[
+			"lampRoundFloor",
+			"r43",
+			3.62,
+			21.6,
+			0
+		],
+		[
+			"bookcaseClosedWide",
+			"r44",
+			0.48,
+			4.72,
+			90
+		],
+		[
+			"bookcaseClosedWide",
+			"r44",
+			0.48,
+			1.92,
+			90
+		],
+		[
+			"bookcaseClosedWide",
+			"r44",
+			3.12,
+			5.51,
+			180
+		],
+		[
+			"bookcaseOpen",
+			"r44",
+			4.55,
+			5.51,
+			180
+		],
+		[
+			"bookcaseOpen",
+			"r44",
+			5.51,
+			4.66,
+			270
+		],
+		[
+			"bookcaseOpen",
+			"r44",
+			3.46,
+			0.48,
+			0
+		],
+		[
+			"chair",
+			"r44",
+			3.46,
+			1.1,
+			180
+		],
+		[
+			"lampRoundFloor",
+			"r44",
+			5.62,
+			0.4,
+			0
+		],
+		[
+			"lampRoundFloor",
+			"r44",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"loungeChair",
+			"r44",
+			1.96,
+			0.67,
+			0
+		],
+		[
+			"bench",
+			"r45",
+			2.66,
+			3.57,
+			180
+		],
+		[
+			"trashcan",
+			"r45",
+			0.44,
+			3.53,
+			0
+		],
+		[
+			"bathtub",
+			"r51",
+			1.97,
+			0.84,
+			0
+		],
+		[
+			"toilet",
+			"r51",
+			27.25,
+			1.36,
+			270
+		],
+		[
+			"bathroomSink",
+			"r51",
+			25.39,
+			0.54,
+			0
+		],
+		[
+			"washer",
+			"r51",
+			23.85,
+			0.65,
+			0
+		],
+		[
+			"desk",
+			"r52",
+			5.04,
+			5.35,
+			180
+		],
+		[
+			"cardboardBoxClosed",
+			"r52",
+			0.45,
+			5.55,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r52",
+			0.45,
+			0.45,
+			0
+		],
+		[
+			"bench",
+			"r52",
+			7.46,
+			0.43,
+			0
+		],
+		[
+			"bench",
+			"r52",
+			8.26,
+			5.57,
+			180
+		],
+		[
+			"chairDesk",
+			"r52",
+			8.26,
+			4.88,
+			0
+		],
+		[
+			"loungeSofa",
+			"r54",
+			0.67,
+			3.32,
+			90
+		],
+		[
+			"loungeChair",
+			"r54",
+			0.67,
+			1.56,
+			90
+		],
+		[
+			"loungeChair",
+			"r54",
+			1.96,
+			5.33,
+			180
+		],
+		[
+			"cabinetTelevision",
+			"r54",
+			3.51,
+			4.72,
+			270
+		],
+		[
+			"televisionVintage",
+			"r54",
+			3.5149999999999997,
+			4.72,
+			270,
+			0.71
+		],
+		[
+			"lampRoundFloor",
+			"r54",
+			0.38,
+			5.6,
+			0
+		],
+		[
+			"lampRoundFloor",
+			"r54",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"sideTableDrawers",
+			"r56",
+			1.61,
+			5.54,
+			180
+		],
+		[
+			"sideTableDrawers",
+			"r56",
+			0.46,
+			1.61,
+			90
+		],
+		[
+			"bookcaseClosedWide",
+			"r56",
+			0.48,
+			3.92,
+			90
+		],
+		[
+			"lampRoundFloor",
+			"r56",
+			5.62,
+			5.6,
+			0
+		],
+		[
+			"pottedPlant",
+			"r56",
 			0.45,
 			0.48,
+			0
+		],
+		[
+			"desk",
+			"r57",
+			0.65,
+			1.84,
+			90
+		],
+		[
+			"laptop",
+			"r57",
+			0.65,
+			1.84,
+			90,
+			0.88
+		],
+		[
+			"bookcaseClosed",
+			"r57",
+			0.48,
+			3.86,
+			90
+		],
+		[
+			"bookcaseClosed",
+			"r57",
+			0.66,
+			5.51,
+			180
+		],
+		[
+			"bookcaseOpen",
+			"r57",
+			0.66,
+			0.48,
+			0
+		],
+		[
+			"washer",
+			"r58",
+			3.35,
+			1.85,
+			270
+		],
+		[
+			"washer",
+			"r58",
+			3.35,
+			3.05,
+			270
+		],
+		[
+			"dryer",
+			"r58",
+			0.64,
+			0.65,
+			90
+		],
+		[
+			"dryer",
+			"r58",
+			0.64,
+			1.6,
+			90
+		],
+		[
+			"table",
+			"r58",
+			2.37,
+			0.72,
+			0
+		],
+		[
+			"bedSingle",
+			"r59",
+			4.5,
+			0.85,
+			270
+		],
+		[
+			"bedSingle",
+			"r59",
+			1.25,
+			1.49,
+			0
+		],
+		[
+			"sideTable",
+			"r59",
+			0.81,
+			5.54,
+			180
+		],
+		[
+			"chair",
+			"r59",
+			0.43,
+			3.63,
+			90
+		],
+		[
+			"cabinetTelevision",
+			"r59",
+			5.51,
+			2.72,
+			270
+		],
+		[
+			"loungeSofa",
+			"r60",
+			0.67,
+			4.12,
+			90
+		],
+		[
+			"loungeChair",
+			"r60",
+			5.33,
+			2.36,
+			270
+		],
+		[
+			"loungeChair",
+			"r60",
+			0.67,
+			1.17,
+			90
+		],
+		[
+			"cabinetTelevision",
+			"r60",
+			3.92,
+			0.48,
+			0
+		],
+		[
+			"televisionVintage",
+			"r60",
+			3.92,
+			0.485,
+			0,
+			0.71
+		],
+		[
+			"lampRoundFloor",
+			"r60",
+			0.38,
+			5.6,
+			0
+		],
+		[
+			"lampRoundFloor",
+			"r60",
+			5.62,
+			0.4,
+			0
+		],
+		[
+			"loungeSofaOttoman",
+			"r60",
+			5.28,
+			3.5,
+			270
+		],
+		[
+			"desk",
+			"r61",
+			19.44,
+			3.35,
+			180
+		],
+		[
+			"laptop",
+			"r61",
+			19.44,
+			3.3499999999999996,
+			180,
+			0.88
+		],
+		[
+			"bookcaseClosed",
+			"r61",
+			42.66,
+			0.48,
+			0
+		],
+		[
+			"bookcaseClosed",
+			"r61",
+			16.26,
+			3.51,
+			180
+		],
+		[
+			"bookcaseOpen",
+			"r61",
+			7.46,
+			3.51,
+			180
+		],
+		[
+			"lampRoundFloor",
+			"r61",
+			0.38,
+			3.6,
+			0
+		],
+		[
+			"loungeChair",
+			"r61",
+			15.17,
+			3.33,
+			180
+		],
+		[
+			"pottedPlant",
+			"r61",
+			0.45,
+			0.48,
+			0
+		],
+		[
+			"benchCushion",
+			"r65",
+			3.06,
+			0.43,
+			0
+		],
+		[
+			"benchCushion",
+			"r65",
+			0.43,
+			1.86,
+			90
+		],
+		[
+			"benchCushion",
+			"r65",
+			5.06,
+			0.43,
+			0
+		],
+		[
+			"bench",
+			"r65",
+			1.46,
+			7.57,
+			180
+		],
+		[
+			"bench",
+			"r65",
+			0.43,
+			6.26,
+			90
+		],
+		[
+			"bench",
+			"r65",
+			1.86,
+			0.43,
+			0
+		],
+		[
+			"lampRoundFloor",
+			"r65",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"lampRoundFloor",
+			"r65",
+			0.38,
+			7.6,
+			0
+		],
+		[
+			"sideTable",
+			"r65",
+			5.54,
+			1.61,
+			270
+		],
+		[
+			"cardboardBoxClosed",
+			"r66",
+			0.45,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r66",
+			5.55,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r66",
+			0.45,
+			7.55,
+			0
+		],
+		[
+			"cardboardBoxOpen",
+			"r66",
+			5.55,
+			3.43,
+			270
+		],
+		[
+			"cardboardBoxOpen",
+			"r66",
+			0.45,
+			3.83,
+			90
+		],
+		[
+			"bookcaseOpen",
+			"r66",
+			5.51,
+			1.86,
+			270
+		],
+		[
+			"bookcaseOpen",
+			"r66",
+			1.46,
+			0.48,
+			0
+		],
+		[
+			"table",
+			"r66",
+			3.17,
+			0.72,
+			0
+		],
+		[
+			"chair",
+			"r66",
+			0.43,
+			5.63,
+			90
+		],
+		[
+			"desk",
+			"r70",
+			0.65,
+			2.24,
+			90
+		],
+		[
+			"cardboardBoxClosed",
+			"r70",
+			0.45,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r70",
+			5.55,
+			3.55,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r70",
+			0.45,
+			3.55,
+			0
+		],
+		[
+			"bench",
+			"r70",
+			3.46,
+			3.57,
+			180
+		],
+		[
+			"bench",
+			"r70",
+			1.46,
+			0.43,
+			0
+		],
+		[
+			"desk",
+			"r71",
+			1.04,
+			5.35,
+			180
+		],
+		[
+			"laptop",
+			"r71",
+			1.04,
+			5.35,
+			180,
+			0.88
+		],
+		[
+			"chairDesk",
+			"r71",
+			1.04,
+			4.44,
+			0
+		],
+		[
+			"bookcaseClosed",
+			"r71",
+			2.66,
+			5.51,
+			180
+		],
+		[
+			"bookcaseClosed",
+			"r71",
+			5.51,
+			4.26,
+			270
+		],
+		[
+			"bookcaseOpen",
+			"r71",
+			5.51,
+			5.23,
+			270
+		],
+		[
+			"lampRoundFloor",
+			"r71",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"loungeChair",
+			"r71",
+			4.36,
+			5.33,
+			180
+		],
+		[
+			"loungeSofa",
+			"r72",
+			0.67,
+			2.52,
+			90
+		],
+		[
+			"tableCoffee",
+			"r72",
+			1.7,
+			2.52,
+			270
+		],
+		[
+			"loungeChair",
+			"r72",
+			0.67,
+			0.76,
+			90
+		],
+		[
+			"loungeChair",
+			"r72",
+			1.96,
+			0.67,
+			0
+		],
+		[
+			"televisionVintage",
+			"r72",
+			1.96,
+			0.6699999999999999,
+			0,
+			1.06
+		],
+		[
+			"loungeSofaOttoman",
+			"r72",
+			7.28,
+			1.9,
+			270
+		],
+		[
+			"bedSingle",
+			"r73",
+			1.49,
+			3.65,
+			90
+		],
+		[
+			"bedSingle",
+			"r73",
+			6.5,
+			1.25,
+			270
+		],
+		[
+			"bedSingle",
+			"r73",
+			6.5,
+			2.85,
+			270
+		],
+		[
+			"sideTable",
+			"r73",
+			7.54,
+			4.17,
+			270
+		],
+		[
+			"chair",
+			"r73",
+			6.83,
+			5.57,
+			180
+		],
+		[
+			"cabinetTelevision",
+			"r73",
+			3.52,
+			0.48,
+			0
+		],
+		[
+			"trashcan",
+			"r73",
+			0.44,
+			0.47,
+			0
+		],
+		[
+			"sideTableDrawers",
+			"r74",
+			0.46,
+			2.81,
+			90
+		],
+		[
+			"sideTableDrawers",
+			"r74",
+			0.46,
+			4.82,
+			90
+		],
+		[
+			"bookcaseClosedWide",
+			"r74",
+			5.51,
+			1.52,
+			270
+		],
+		[
+			"lampRoundFloor",
+			"r74",
+			0.38,
+			0.4,
+			0
+		],
+		[
+			"pottedPlant",
+			"r74",
+			5.55,
+			5.52,
+			0
+		],
+		[
+			"washer",
+			"r81",
+			9.35,
+			3.45,
+			270
+		],
+		[
+			"washer",
+			"r81",
+			9.35,
+			0.65,
+			270
+		],
+		[
+			"dryer",
+			"r81",
+			9.37,
+			1.6,
+			270
+		],
+		[
+			"dryer",
+			"r81",
+			3.45,
+			5.37,
+			180
+		],
+		[
+			"table",
+			"r81",
+			0.72,
+			1.97,
+			90
+		],
+		[
+			"cardboardBoxClosed",
+			"r81",
+			0.45,
+			0.45,
+			0
+		],
+		[
+			"cardboardBoxClosed",
+			"r81",
+			0.45,
+			5.55,
 			0
 		]
 	]
