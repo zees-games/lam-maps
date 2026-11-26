@@ -28,6 +28,13 @@
             "name": "Deco Mansion by Night",
             "scene": "houses/lam_deco_mansion_night/house.json",
             "map_kind": "lookatme"
+        },
+        {
+            "kind": "map",
+            "id": "lam_forgotten_wing",
+            "name": "The Forgotten Wing",
+            "scene": "houses/lam_forgotten_wing/house.json",
+            "map_kind": "lookatme"
         }
     ]
 }

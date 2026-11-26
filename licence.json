@@ -43,5 +43,17 @@
     "author": "Gastly_Furby_777",
     "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3698815153",
     "removal_contact": "https://github.com/zees-games/lam-maps/issues"
+  },
+  {
+    "paths": [
+      "houses/lam_forgotten_wing/",
+      "tools/layouts/lam_forgotten_wing.json"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "The Forgotten Wing",
+    "author": "WhiteKnuckles",
+    "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1682965311",
+    "removal_contact": "https://github.com/zees-games/lam-maps/issues"
   }
 ]

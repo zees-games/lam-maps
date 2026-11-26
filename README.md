@@ -9,6 +9,7 @@ Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look 
 | `lam_villa_night` | A villa at night. You start on a walled terrace. A hedge maze lies west, a fountain court in the middle, the villa behind. Heavy fog, dark ambient light, a few warm rooms. |
 | `lam_functionalist_night` | A modernist house and grounds at night, on three levels: a ground floor with a long hall, radio room, sauna and garage workshop; an upper floor with a lounge, balcony, roof terrace, bedrooms, music room and library (the gold key is here); and an underground level reached by a lift, with a wine cellar, plant room and a secret garage whose door has no power until a switch is flipped. |
 | `lam_deco_mansion_night` | A three-storey mansion at night. You start on the south lawn. The ground floor has the entrance hall, ballroom, library and service rooms. The great stairs go up to the bedrooms and gallery, the back stairs to the attic, where the gold key is. |
+| `lam_forgotten_wing` | The main floor of an abandoned asylum. You start in the long east corridor. Wards, day rooms, hydrotherapy, a chapel, refectory and kitchen run west and south off it, with boiler rooms and offices to the north. Dark, damp and narrow. |
 
 ## Using a map
 
@@ -42,6 +43,7 @@ Each plan is a loose reconstruction of the room arrangement of a Steam Workshop 
 | `lam_villa_night` | korka007 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2633639653) | none stated |
 | `lam_deco_mansion_night` | Gastly_Furby_777 | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3698815153) | none stated |
 | `lam_functionalist_night` | VITAPLEX | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3382694345) | none stated |
+| `lam_forgotten_wing` | WhiteKnuckles | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1682965311) | none stated |
 
 If you made one of these maps and want it removed, open an issue at <https://github.com/zees-games/lam-maps/issues> and it goes. See [licence.json](licence.json).
 

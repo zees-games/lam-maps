@@ -41,3 +41,9 @@ PERFTEST/*	plaster_painted
 FUNKIS/*	plaster_painted
 NATURE/*	foliage_card
 SIGNS/RETRO_SIGN_BUSSTOP	plaster_painted
+# lam_forgotten_wing (asylum) textures no default row names
+GREY/FAL03*	concrete
+WHITEKNUCKLES/HORROR/HORROR_FLOOR*	tile_floor
+WHITEKNUCKLES/HORROR/*	plaster_painted
+/BLACKFRAME	metal
+/BLACK_OUTLINE	metal

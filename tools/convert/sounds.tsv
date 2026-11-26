@@ -4,3 +4,5 @@ novaprospekt\.radiostatic
 ambient/animal/bird(10|13|16|17|19)					
 ambient/tones/pipes2					
 ambient/levels/citadel/zapper_warmup4					
+ambient/materials/(footsteps_stairs2|shuffle1)					
+items/gift_pickup					
