@@ -1,0 +1,31 @@
+{
+ "name": "Deco Mansion by Night",
+ "title": "Deco Mansion by Night",
+ "scale": 0.0254,
+ "grow": 1.0,
+ "source": {
+  "title": "gm_deco_mansion",
+  "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3698815153"
+ },
+ "storeys": [
+  {
+   "floor": 0,
+   "z": [
+    128,
+    330
+   ],
+   "yard": false
+  }
+ ],
+ "stairs": [],
+ "mood": "indoor_hall",
+ "erode": 1.0,
+ "min_area": 3.0,
+ "fill": 0.4,
+ "min_cells": 1,
+ "mode": "mesh",
+ "cell": 2.0,
+ "pack": "gm_deco_mansion",
+ "pack_metres_per_unit": 0.01905,
+ "start_name": "Hall"
+}

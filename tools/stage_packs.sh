@@ -2,7 +2,7 @@
 # stage_packs.sh OUT [id...] : stages the one CDN pack of this repository (OUT/lam-maps/) the way it is published.
 #
 # PUBLISH RULE (owner policy: licensed art must be mapped to free/open/own assets): this pack carries only the hand-laid houses
-# (houses/<id>/*.json), provides.json, licence.json, LICENSE and README.md. A house names Kenney (CC0) furniture models that the
+# (houses/<id>/*.json and a converted house's world/ pack), provides.json, licence.json, LICENSE and README.md. A house names Kenney (CC0) furniture models that the
 # game resolves from its own assets; no source texture, model, sound, script, workflow or plan (tools/) is ever copied.
 # Source art of a Workshop map (a .bsp/.gma, decoded textures) has no place here: .gitignore keeps it out of the repository and
 # tools/check_packs.py fails the stage if one turns up. With ids, only those houses are staged (provides.json and licence.json
@@ -17,6 +17,8 @@ for id in "${IDS[@]}"; do
     [ -d "$HERE/houses/$id" ] || { echo "no house for $id" >&2; exit 1; }
     mkdir -p "$DEST/houses/$id"
     cp "$HERE/houses/$id/"*.json "$DEST/houses/$id/"
+    # a converted house keeps its world pack (mesh, textures mapped to free art, CREDITS.md) beside its levels
+    [ ! -d "$HERE/houses/$id/world" ] || cp -r "$HERE/houses/$id/world" "$DEST/houses/$id/world"
 done
 cp "$HERE/LICENSE" "$HERE/README.md" "$DEST/"
 python3 -I - "$HERE" "$DEST" "${IDS[@]}" <<'PY'

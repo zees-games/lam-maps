@@ -1,472 +1,2792 @@
 {
-  "format": 1,
-  "name": "Deco Mansion",
-  "title": "Deco Mansion by Night",
-  "author": "Gastly_Furby_777 (after a Workshop map)",
-  "mood": {
-    "fog": 0.11,
-    "fog_afraid": 0.17,
-    "fog_colour": "#090a10",
-    "ambient": 0.025,
-    "ambient_colour": "#5a5f80"
-  },
-  "rooms": [
-    {
-      "name": "South Lawn",
-      "kind": "room",
-      "x": 5,
-      "z": 15,
-      "w": 6,
-      "d": 3,
-      "light": 0.35
-    },
-    {
-      "name": "Fountain Court",
-      "kind": "room",
-      "x": 6,
-      "z": 13,
-      "w": 4,
-      "d": 2,
-      "light": 0.1
-    },
-    {
-      "name": "Hedge Walk",
-      "kind": "corridor",
-      "x": 1,
-      "z": 13,
-      "w": 5,
-      "d": 1,
-      "light": 0.0
-    },
-    {
-      "name": "Terrace Walk",
-      "kind": "corridor",
-      "x": 10,
-      "z": 13,
-      "w": 5,
-      "d": 1,
-      "light": 0.0
-    },
-    {
-      "name": "Entrance Hall",
-      "kind": "room",
-      "x": 6,
-      "z": 10,
-      "w": 4,
-      "d": 3,
-      "light": 0.25,
-      "from": "Fountain Court"
-    },
-    {
-      "name": "Great Stairs",
-      "kind": "stair",
-      "x": 6,
-      "z": 8,
-      "w": 4,
-      "d": 2,
-      "light": 0.1,
-      "up": "e",
-      "from": "Entrance Hall"
-    },
-    {
-      "name": "Drawing Room",
-      "kind": "room",
-      "x": 3,
-      "z": 10,
-      "w": 3,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Morning Room",
-      "kind": "room",
-      "x": 1,
-      "z": 10,
-      "w": 2,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Dining Room",
-      "kind": "room",
-      "x": 10,
-      "z": 10,
-      "w": 3,
-      "d": 3,
-      "light": 0.15
-    },
-    {
-      "name": "Kitchen",
-      "kind": "room",
-      "x": 13,
-      "z": 10,
-      "w": 2,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Library",
-      "kind": "room",
-      "x": 1,
-      "z": 7,
-      "w": 3,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Smoking Room",
-      "kind": "room",
-      "x": 4,
-      "z": 8,
-      "w": 2,
-      "d": 2,
-      "light": 0.0
-    },
-    {
-      "name": "Billiard Room",
-      "kind": "room",
-      "x": 10,
-      "z": 8,
-      "w": 3,
-      "d": 2,
-      "light": 0.0
-    },
-    {
-      "name": "Scullery",
-      "kind": "room",
-      "x": 13,
-      "z": 7,
-      "w": 2,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Ballroom",
-      "kind": "room",
-      "x": 4,
-      "z": 5,
-      "w": 6,
-      "d": 3,
-      "light": 0.1,
-      "from": "Long Gallery"
-    },
-    {
-      "name": "Music Room",
-      "kind": "room",
-      "x": 10,
-      "z": 5,
-      "w": 3,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Servants' Hall",
-      "kind": "room",
-      "x": 13,
-      "z": 4,
-      "w": 2,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Long Gallery",
-      "kind": "corridor",
-      "x": 4,
-      "z": 4,
-      "w": 9,
-      "d": 1,
-      "light": 0.05
-    },
-    {
-      "name": "Gun Room",
-      "kind": "room",
-      "x": 1,
-      "z": 4,
-      "w": 3,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Conservatory",
-      "kind": "room",
-      "x": 4,
-      "z": 1,
-      "w": 4,
-      "d": 3,
-      "light": 0.1
-    },
-    {
-      "name": "Chapel",
-      "kind": "room",
-      "x": 8,
-      "z": 1,
-      "w": 3,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Boiler Room",
-      "kind": "room",
-      "x": 11,
-      "z": 2,
-      "w": 2,
-      "d": 2,
-      "light": 0.0,
-      "lock": "switch"
-    },
-    {
-      "name": "Laundry",
-      "kind": "room",
-      "x": 1,
-      "z": 1,
-      "w": 3,
-      "d": 3,
-      "light": 0.0
-    },
-    {
-      "name": "Upper Landing",
-      "kind": "room",
-      "x": 10,
-      "z": 8,
-      "w": 2,
-      "d": 2,
-      "light": 0.1,
-      "floor": 1,
-      "from": "Great Stairs"
-    },
-    {
-      "name": "Landing Corridor",
-      "kind": "corridor",
-      "x": 2,
-      "z": 10,
-      "w": 10,
-      "d": 1,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "East Corridor",
-      "kind": "corridor",
-      "x": 12,
-      "z": 5,
-      "w": 1,
-      "d": 6,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Master Bedroom",
-      "kind": "room",
-      "x": 13,
-      "z": 9,
-      "w": 2,
-      "d": 3,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Dressing Room",
-      "kind": "room",
-      "x": 13,
-      "z": 7,
-      "w": 2,
-      "d": 2,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Bathroom",
-      "kind": "room",
-      "x": 13,
-      "z": 5,
-      "w": 2,
-      "d": 2,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Nursery",
-      "kind": "room",
-      "x": 2,
-      "z": 11,
-      "w": 3,
-      "d": 2,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Guest Bedroom",
-      "kind": "room",
-      "x": 5,
-      "z": 11,
-      "w": 3,
-      "d": 2,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Sewing Room",
-      "kind": "room",
-      "x": 8,
-      "z": 11,
-      "w": 2,
-      "d": 2,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Linen Room",
-      "kind": "room",
-      "x": 10,
-      "z": 11,
-      "w": 2,
-      "d": 2,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Study",
-      "kind": "room",
-      "x": 1,
-      "z": 7,
-      "w": 3,
-      "d": 3,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Picture Gallery",
-      "kind": "room",
-      "x": 4,
-      "z": 5,
-      "w": 5,
-      "d": 3,
-      "light": 0.1,
-      "floor": 1
-    },
-    {
-      "name": "Box Room",
-      "kind": "room",
-      "x": 4,
-      "z": 8,
-      "w": 2,
-      "d": 2,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Back Corridor",
-      "kind": "corridor",
-      "x": 11,
-      "z": 4,
-      "w": 1,
-      "d": 4,
-      "light": 0.0,
-      "floor": 1
-    },
-    {
-      "name": "Back Stairs",
-      "kind": "stair",
-      "x": 9,
-      "z": 4,
-      "w": 2,
-      "d": 4,
-      "light": 0.0,
-      "floor": 1,
-      "up": "n",
-      "from": "Back Corridor"
-    },
-    {
-      "name": "Attic Corridor",
-      "kind": "corridor",
-      "x": 11,
-      "z": 4,
-      "w": 1,
-      "d": 6,
-      "light": 0.0,
-      "floor": 2,
-      "from": "Back Stairs"
-    },
-    {
-      "name": "Lumber Room",
-      "kind": "room",
-      "x": 5,
-      "z": 3,
-      "w": 4,
-      "d": 2,
-      "light": 0.0,
-      "floor": 2
-    },
-    {
-      "name": "Observatory",
-      "kind": "room",
-      "x": 5,
-      "z": 5,
-      "w": 4,
-      "d": 3,
-      "light": 0.2,
-      "floor": 2
-    },
-    {
-      "name": "Servants' Bedroom",
-      "kind": "room",
-      "x": 12,
-      "z": 4,
-      "w": 2,
-      "d": 3,
-      "light": 0.0,
-      "floor": 2
-    },
-    {
-      "name": "Maid's Room",
-      "kind": "room",
-      "x": 12,
-      "z": 7,
-      "w": 2,
-      "d": 3,
-      "light": 0.0,
-      "floor": 2
-    },
-    {
-      "name": "Attic Hall",
-      "kind": "corridor",
-      "x": 3,
-      "z": 10,
-      "w": 9,
-      "d": 1,
-      "light": 0.0,
-      "floor": 2
-    },
-    {
-      "name": "Old Nursery",
-      "kind": "room",
-      "x": 3,
-      "z": 11,
-      "w": 3,
-      "d": 2,
-      "light": 0.0,
-      "floor": 2
-    },
-    {
-      "name": "Trunk Room",
-      "kind": "room",
-      "x": 6,
-      "z": 11,
-      "w": 3,
-      "d": 2,
-      "light": 0.0,
-      "floor": 2
-    },
-    {
-      "name": "Clock Room",
-      "kind": "room",
-      "x": 9,
-      "z": 11,
-      "w": 3,
-      "d": 2,
-      "light": 0.0,
-      "floor": 2,
-      "lock": "switch"
-    }
+ "format": 1,
+ "name": "Deco Mansion by Night",
+ "title": "Deco Mansion by Night",
+ "cell": 2.0,
+ "world": {
+  "pack": "gm_deco_mansion",
+  "scale": 1.333333,
+  "origin": [
+   30.147,
+   -6.502,
+   82.976
   ]
+ },
+ "mood": "indoor_hall",
+ "converted": {
+  "source": {
+   "title": "gm_deco_mansion",
+   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3698815153"
+  },
+  "sha256": "ff836248f23265e27519e6875c69ced3ab630afa65adc248db81d865d8865393",
+  "grow": 1.0,
+  "mirror": false,
+  "pieces_not_reached": 25
+ },
+ "rooms": [
+  {
+   "name": "Hall",
+   "kind": "room",
+   "x": 12,
+   "z": 25,
+   "w": 6,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.8,
+   "openings": [
+    {
+     "c": [
+      23.97,
+      53.38
+     ],
+     "w": 2.25,
+     "side": "w",
+     "to": "Ward",
+     "open": true
+    },
+    {
+     "c": [
+      30.12,
+      50.25
+     ],
+     "w": 4.75,
+     "side": "n",
+     "to": "Boiler Room"
+    },
+    {
+     "c": [
+      24.62,
+      49.75
+     ],
+     "w": 1.75,
+     "side": "n",
+     "to": "Day Room"
+    },
+    {
+     "c": [
+      36.03,
+      53.38
+     ],
+     "w": 2.25,
+     "side": "e",
+     "to": "Refectory",
+     "open": true
+    },
+    {
+     "c": [
+      30.12,
+      55.5
+     ],
+     "w": 11.75,
+     "side": "s",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Ward",
+   "kind": "room",
+   "x": 11,
+   "z": 26,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Hall",
+   "door": {
+    "cell": [
+     12,
+     26
+    ],
+    "side": "w",
+    "c": [
+     23.97,
+     53.38
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      23.97,
+      53.38
+     ],
+     "w": 2.25,
+     "side": "e",
+     "to": "Hall",
+     "open": true
+    },
+    {
+     "c": [
+      23.0,
+      53.38
+     ],
+     "w": 2.25,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Refectory",
+   "kind": "room",
+   "x": 18,
+   "z": 26,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Hall",
+   "door": {
+    "cell": [
+     17,
+     26
+    ],
+    "side": "e",
+    "c": [
+     36.03,
+     53.38
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      36.03,
+      53.38
+     ],
+     "w": 2.25,
+     "side": "w",
+     "to": "Hall",
+     "open": true
+    },
+    {
+     "c": [
+      37.25,
+      53.38
+     ],
+     "w": 2.25,
+     "side": "e",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Boiler Room",
+   "kind": "room",
+   "x": 13,
+   "z": 22,
+   "w": 4,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Hall",
+   "door": {
+    "cell": [
+     15,
+     25
+    ],
+    "side": "n",
+    "c": [
+     30.12,
+     50.25
+    ],
+    "w": 2.4
+   },
+   "openings": [
+    {
+     "c": [
+      30.12,
+      50.25
+     ],
+     "w": 4.75,
+     "side": "s",
+     "to": "Hall"
+    },
+    {
+     "c": [
+      26.0,
+      47.25
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Passage"
+    },
+    {
+     "c": [
+      34.0,
+      47.25
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Passage II"
+    },
+    {
+     "c": [
+      30.25,
+      44.0
+     ],
+     "w": 7.5,
+     "side": "n",
+     "to": "Boiler Room II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room",
+   "kind": "room",
+   "x": 12,
+   "z": 24,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Hall",
+   "door": {
+    "cell": [
+     12,
+     25
+    ],
+    "side": "n",
+    "c": [
+     24.62,
+     49.75
+    ],
+    "w": 1.75
+   },
+   "openings": [
+    {
+     "c": [
+      24.62,
+      49.75
+     ],
+     "w": 1.75,
+     "side": "s",
+     "to": "Hall"
+    },
+    {
+     "c": [
+      23.0,
+      50.12
+     ],
+     "w": 2.25,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Boiler Room II",
+   "kind": "room",
+   "x": 1,
+   "z": 19,
+   "w": 24,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room",
+   "door": {
+    "cell": [
+     15,
+     22
+    ],
+    "side": "n",
+    "c": [
+     30.25,
+     44.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      4.38,
+      44.25
+     ],
+     "w": 1.75,
+     "side": "s",
+     "to": "Office III"
+    },
+    {
+     "c": [
+      39.5,
+      43.5
+     ],
+     "w": 1.0,
+     "side": "s",
+     "to": "Washroom II"
+    },
+    {
+     "c": [
+      39.5,
+      38.0
+     ],
+     "w": 1.0,
+     "side": "n",
+     "to": "Washroom III"
+    },
+    {
+     "c": [
+      16.62,
+      38.0
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Bath House",
+     "open": true
+    },
+    {
+     "c": [
+      16.62,
+      44.0
+     ],
+     "w": 12.75,
+     "side": "s",
+     "to": "Office",
+     "open": true
+    },
+    {
+     "c": [
+      28.12,
+      38.0
+     ],
+     "w": 7.75,
+     "side": "n",
+     "to": "Day Room II",
+     "open": true
+    },
+    {
+     "c": [
+      30.25,
+      44.0
+     ],
+     "w": 7.5,
+     "side": "s",
+     "to": "Boiler Room",
+     "open": true
+    },
+    {
+     "c": [
+      47.12,
+      38.0
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Office II",
+     "open": true
+    },
+    {
+     "c": [
+      7.12,
+      38.0
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Boiler Room III",
+     "open": true
+    },
+    {
+     "c": [
+      48.38,
+      44.0
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Washroom",
+     "open": true
+    },
+    {
+     "c": [
+      34.14,
+      38.0
+     ],
+     "w": 4.0,
+     "side": "n",
+     "to": "Chapel",
+     "open": true
+    },
+    {
+     "c": [
+      1.96,
+      41.75
+     ],
+     "w": 5.0,
+     "side": "w",
+     "to": "Passage III",
+     "open": true
+    },
+    {
+     "c": [
+      50.0,
+      40.38
+     ],
+     "w": 3.75,
+     "side": "e",
+     "to": "Passage IV",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage",
+   "kind": "corridor",
+   "x": 12,
+   "z": 22,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room",
+   "door": {
+    "cell": [
+     13,
+     23
+    ],
+    "side": "w",
+    "c": [
+     26.0,
+     47.25
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      26.0,
+      47.25
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Boiler Room"
+    }
+   ]
+  },
+  {
+   "name": "Passage II",
+   "kind": "corridor",
+   "x": 17,
+   "z": 22,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room",
+   "door": {
+    "cell": [
+     16,
+     23
+    ],
+    "side": "e",
+    "c": [
+     34.0,
+     47.25
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      34.0,
+      47.25
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Boiler Room"
+    },
+    {
+     "c": [
+      36.25,
+      45.5
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Washroom II"
+    }
+   ]
+  },
+  {
+   "name": "Office",
+   "kind": "room",
+   "x": 5,
+   "z": 22,
+   "w": 7,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     8,
+     21
+    ],
+    "side": "s",
+    "c": [
+     16.62,
+     44.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      9.75,
+      46.75
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Visiting Room"
+    },
+    {
+     "c": [
+      16.62,
+      44.0
+     ],
+     "w": 12.75,
+     "side": "n",
+     "to": "Boiler Room II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room II",
+   "kind": "room",
+   "x": 12,
+   "z": 16,
+   "w": 4,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     14,
+     19
+    ],
+    "side": "n",
+    "c": [
+     28.12,
+     38.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      28.12,
+      38.0
+     ],
+     "w": 7.75,
+     "side": "s",
+     "to": "Boiler Room II",
+     "open": true
+    },
+    {
+     "c": [
+      32.04,
+      35.62
+     ],
+     "w": 4.75,
+     "side": "e",
+     "to": "Chapel",
+     "open": true
+    },
+    {
+     "c": [
+      31.38,
+      32.0
+     ],
+     "w": 0.75,
+     "side": "n",
+     "to": "Day Room VIII",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage III",
+   "kind": "corridor",
+   "x": 0,
+   "z": 20,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     1,
+     20
+    ],
+    "side": "w",
+    "c": [
+     1.96,
+     41.75
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      1.96,
+      41.75
+     ],
+     "w": 5.0,
+     "side": "e",
+     "to": "Boiler Room II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Chapel",
+   "kind": "room",
+   "x": 16,
+   "z": 17,
+   "w": 2,
+   "d": 2,
+   "floor": 0,
+   "y": 1.83,
+   "light": 0.0,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     17,
+     19
+    ],
+    "side": "n",
+    "c": [
+     34.14,
+     38.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      34.14,
+      38.0
+     ],
+     "w": 4.0,
+     "side": "s",
+     "to": "Boiler Room II",
+     "open": true
+    },
+    {
+     "c": [
+      32.04,
+      35.62
+     ],
+     "w": 4.75,
+     "side": "w",
+     "to": "Day Room II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage IV",
+   "kind": "corridor",
+   "x": 25,
+   "z": 19,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     24,
+     20
+    ],
+    "side": "e",
+    "c": [
+     50.0,
+     40.38
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      50.0,
+      40.38
+     ],
+     "w": 3.75,
+     "side": "w",
+     "to": "Boiler Room II",
+     "open": true
+    },
+    {
+     "c": [
+      51.99,
+      40.25
+     ],
+     "w": 4.5,
+     "side": "e",
+     "to": "Ward II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Office II",
+   "kind": "room",
+   "x": 22,
+   "z": 15,
+   "w": 3,
+   "d": 4,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     23,
+     19
+    ],
+    "side": "n",
+    "c": [
+     47.12,
+     38.0
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      50.25,
+      34.25
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Passage VI"
+    },
+    {
+     "c": [
+      47.12,
+      38.0
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Boiler Room II",
+     "open": true
+    },
+    {
+     "c": [
+      47.25,
+      30.0
+     ],
+     "w": 4.5,
+     "side": "n",
+     "to": "Day Room VI",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Boiler Room III",
+   "kind": "room",
+   "x": 3,
+   "z": 16,
+   "w": 3,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     3,
+     19
+    ],
+    "side": "n",
+    "c": [
+     7.12,
+     38.0
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      7.12,
+      38.0
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Boiler Room II",
+     "open": true
+    },
+    {
+     "c": [
+      12.0,
+      34.62
+     ],
+     "w": 5.25,
+     "side": "e",
+     "to": "Bath House",
+     "open": true
+    },
+    {
+     "c": [
+      10.88,
+      31.97
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Ward Corridor",
+     "open": true
+    },
+    {
+     "c": [
+      5.98,
+      33.25
+     ],
+     "w": 2.5,
+     "side": "w",
+     "to": "Day Room V",
+     "open": true
+    },
+    {
+     "c": [
+      7.38,
+      31.86
+     ],
+     "w": 2.75,
+     "side": "n",
+     "to": "Laundry",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Washroom",
+   "kind": "room",
+   "x": 21,
+   "z": 22,
+   "w": 4,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     24,
+     21
+    ],
+    "side": "s",
+    "c": [
+     48.38,
+     44.0
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      41.5,
+      47.25
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Washroom II"
+    },
+    {
+     "c": [
+      48.38,
+      44.0
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Boiler Room II",
+     "open": true
+    },
+    {
+     "c": [
+      50.0,
+      45.12
+     ],
+     "w": 2.25,
+     "side": "e",
+     "to": "Day Room IV",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Bath House",
+   "kind": "room",
+   "x": 6,
+   "z": 6,
+   "w": 3,
+   "d": 13,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     8,
+     19
+    ],
+    "side": "n",
+    "c": [
+     16.62,
+     38.0
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      16.62,
+      38.0
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Boiler Room II",
+     "open": true
+    },
+    {
+     "c": [
+      12.0,
+      34.62
+     ],
+     "w": 5.25,
+     "side": "w",
+     "to": "Boiler Room III",
+     "open": true
+    },
+    {
+     "c": [
+      18.0,
+      21.5
+     ],
+     "w": 17.75,
+     "side": "e",
+     "to": "Corridor",
+     "open": true
+    },
+    {
+     "c": [
+      12.0,
+      25.37
+     ],
+     "w": 12.25,
+     "side": "w",
+     "to": "Ward Corridor",
+     "open": true
+    },
+    {
+     "c": [
+      18.12,
+      34.0
+     ],
+     "w": 6.0,
+     "side": "e",
+     "to": "Passage V",
+     "open": true
+    },
+    {
+     "c": [
+      11.94,
+      15.25
+     ],
+     "w": 3.0,
+     "side": "w",
+     "to": "Treatment Room",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Office III",
+   "kind": "room",
+   "x": 0,
+   "z": 22,
+   "w": 4,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     2,
+     22
+    ],
+    "side": "s",
+    "c": [
+     4.38,
+     44.25
+    ],
+    "w": 1.75
+   },
+   "openings": [
+    {
+     "c": [
+      4.38,
+      44.25
+     ],
+     "w": 1.75,
+     "side": "n",
+     "to": "Boiler Room II"
+    },
+    {
+     "c": [
+      4.88,
+      50.12
+     ],
+     "w": 3.0,
+     "side": "s",
+     "to": "Dispensary",
+     "open": true
+    },
+    {
+     "c": [
+      8.07,
+      46.62
+     ],
+     "w": 2.75,
+     "side": "e",
+     "to": "Visiting Room",
+     "open": true
+    },
+    {
+     "c": [
+      1.75,
+      51.0
+     ],
+     "w": 2.5,
+     "side": "s",
+     "to": "",
+     "out": true
+    },
+    {
+     "c": [
+      7.62,
+      51.0
+     ],
+     "w": 1.75,
+     "side": "s",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Washroom II",
+   "kind": "room",
+   "x": 18,
+   "z": 22,
+   "w": 3,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     19,
+     21
+    ],
+    "side": "s",
+    "c": [
+     39.5,
+     43.5
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      39.5,
+      43.5
+     ],
+     "w": 1.0,
+     "side": "n",
+     "to": "Boiler Room II"
+    },
+    {
+     "c": [
+      41.5,
+      47.25
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Washroom"
+    },
+    {
+     "c": [
+      36.25,
+      45.5
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Passage II"
+    }
+   ]
+  },
+  {
+   "name": "Washroom III",
+   "kind": "room",
+   "x": 19,
+   "z": 15,
+   "w": 3,
+   "d": 4,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Boiler Room II",
+   "door": {
+    "cell": [
+     19,
+     19
+    ],
+    "side": "n",
+    "c": [
+     39.5,
+     38.0
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      39.5,
+      38.0
+     ],
+     "w": 1.0,
+     "side": "s",
+     "to": "Boiler Room II"
+    },
+    {
+     "c": [
+      37.81,
+      32.38
+     ],
+     "w": 3.25,
+     "side": "w",
+     "to": "Records",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Corridor",
+   "kind": "corridor",
+   "x": 9,
+   "z": 6,
+   "w": 1,
+   "d": 9,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Bath House",
+   "door": {
+    "cell": [
+     8,
+     10
+    ],
+    "side": "e",
+    "c": [
+     18.0,
+     21.5
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      19.5,
+      20.5
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Day Room III"
+    },
+    {
+     "c": [
+      18.0,
+      21.5
+     ],
+     "w": 17.75,
+     "side": "w",
+     "to": "Bath House",
+     "open": true
+    },
+    {
+     "c": [
+      20.0,
+      15.62
+     ],
+     "w": 6.25,
+     "side": "e",
+     "to": "Corridor II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Ward Corridor",
+   "kind": "corridor",
+   "x": 5,
+   "z": 10,
+   "w": 1,
+   "d": 6,
+   "floor": 0,
+   "y": 0.03,
+   "light": 0.35,
+   "from": "Bath House",
+   "door": {
+    "cell": [
+     6,
+     12
+    ],
+    "side": "w",
+    "c": [
+     12.0,
+     25.37
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      12.0,
+      25.37
+     ],
+     "w": 12.25,
+     "side": "e",
+     "to": "Bath House",
+     "open": true
+    },
+    {
+     "c": [
+      10.88,
+      31.97
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Boiler Room III",
+     "open": true
+    },
+    {
+     "c": [
+      9.0,
+      23.25
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Passage V",
+   "kind": "corridor",
+   "x": 9,
+   "z": 16,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Bath House",
+   "door": {
+    "cell": [
+     8,
+     17
+    ],
+    "side": "e",
+    "c": [
+     18.12,
+     34.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      18.12,
+      34.0
+     ],
+     "w": 6.0,
+     "side": "w",
+     "to": "Bath House",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Treatment Room",
+   "kind": "room",
+   "x": 5,
+   "z": 7,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Bath House",
+   "door": {
+    "cell": [
+     6,
+     7
+    ],
+    "side": "w",
+    "c": [
+     11.94,
+     15.25
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      11.94,
+      15.25
+     ],
+     "w": 3.0,
+     "side": "e",
+     "to": "Bath House",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Corridor II",
+   "kind": "corridor",
+   "x": 10,
+   "z": 6,
+   "w": 1,
+   "d": 4,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Corridor",
+   "door": {
+    "cell": [
+     9,
+     7
+    ],
+    "side": "e",
+    "c": [
+     20.0,
+     15.62
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      20.0,
+      15.62
+     ],
+     "w": 6.25,
+     "side": "w",
+     "to": "Corridor",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room III",
+   "kind": "room",
+   "x": 10,
+   "z": 10,
+   "w": 3,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Corridor",
+   "door": {
+    "cell": [
+     9,
+     10
+    ],
+    "side": "e",
+    "c": [
+     19.5,
+     20.5
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      19.5,
+      20.5
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Corridor"
+    },
+    {
+     "c": [
+      26.75,
+      20.5
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Day Room VI"
+    },
+    {
+     "c": [
+      25.0,
+      19.0
+     ],
+     "w": 1.0,
+     "side": "n",
+     "to": "Boiler Room V"
+    }
+   ]
+  },
+  {
+   "name": "Day Room IV",
+   "kind": "room",
+   "x": 25,
+   "z": 22,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Washroom",
+   "door": {
+    "cell": [
+     24,
+     22
+    ],
+    "side": "e",
+    "c": [
+     50.0,
+     45.12
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      51.96,
+      45.0
+     ],
+     "w": 3.0,
+     "side": "e",
+     "to": "Ward II",
+     "open": true
+    },
+    {
+     "c": [
+      50.0,
+      45.12
+     ],
+     "w": 2.25,
+     "side": "w",
+     "to": "Washroom",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Ward II",
+   "kind": "room",
+   "x": 26,
+   "z": 19,
+   "w": 4,
+   "d": 6,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Day Room IV",
+   "door": {
+    "cell": [
+     25,
+     22
+    ],
+    "side": "e",
+    "c": [
+     51.96,
+     45.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      51.99,
+      40.25
+     ],
+     "w": 4.5,
+     "side": "w",
+     "to": "Passage IV",
+     "open": true
+    },
+    {
+     "c": [
+      51.96,
+      45.0
+     ],
+     "w": 3.0,
+     "side": "w",
+     "to": "Day Room IV",
+     "open": true
+    },
+    {
+     "c": [
+      53.12,
+      37.97
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Refectory II",
+     "open": true
+    },
+    {
+     "c": [
+      59.0,
+      37.98
+     ],
+     "w": 2.5,
+     "side": "n",
+     "to": "Washroom IV",
+     "open": true
+    },
+    {
+     "c": [
+      55.75,
+      51.0
+     ],
+     "w": 8.0,
+     "side": "s",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Washroom IV",
+   "kind": "room",
+   "x": 29,
+   "z": 18,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Ward II",
+   "door": {
+    "cell": [
+     29,
+     19
+    ],
+    "side": "n",
+    "c": [
+     59.0,
+     37.98
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      59.0,
+      37.98
+     ],
+     "w": 2.5,
+     "side": "s",
+     "to": "Ward II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Refectory II",
+   "kind": "room",
+   "x": 26,
+   "z": 18,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Ward II",
+   "door": {
+    "cell": [
+     26,
+     19
+    ],
+    "side": "n",
+    "c": [
+     53.12,
+     37.97
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      53.12,
+      37.97
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Ward II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Laundry",
+   "kind": "room",
+   "x": 3,
+   "z": 15,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room III",
+   "door": {
+    "cell": [
+     3,
+     16
+    ],
+    "side": "n",
+    "c": [
+     7.38,
+     31.86
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      7.38,
+      31.86
+     ],
+     "w": 2.75,
+     "side": "s",
+     "to": "Boiler Room III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room V",
+   "kind": "room",
+   "x": 2,
+   "z": 16,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room III",
+   "door": {
+    "cell": [
+     3,
+     16
+    ],
+    "side": "w",
+    "c": [
+     5.98,
+     33.25
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      4.5,
+      32.38
+     ],
+     "w": 2.75,
+     "side": "w",
+     "to": "Boiler Room IV"
+    },
+    {
+     "c": [
+      5.98,
+      33.25
+     ],
+     "w": 2.5,
+     "side": "e",
+     "to": "Boiler Room III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Boiler Room IV",
+   "kind": "room",
+   "x": 0,
+   "z": 16,
+   "w": 2,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Day Room V",
+   "door": {
+    "cell": [
+     2,
+     16
+    ],
+    "side": "w",
+    "c": [
+     4.5,
+     32.38
+    ],
+    "w": 2.4
+   },
+   "openings": [
+    {
+     "c": [
+      4.5,
+      32.38
+     ],
+     "w": 2.75,
+     "side": "e",
+     "to": "Day Room V"
+    }
+   ]
+  },
+  {
+   "name": "Day Room VI",
+   "kind": "room",
+   "x": 13,
+   "z": 10,
+   "w": 12,
+   "d": 5,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Office II",
+   "door": {
+    "cell": [
+     23,
+     15
+    ],
+    "side": "n",
+    "c": [
+     47.25,
+     30.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      26.5,
+      29.38
+     ],
+     "w": 1.25,
+     "side": "w",
+     "to": "Ward III"
+    },
+    {
+     "c": [
+      26.75,
+      20.5
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Day Room III"
+    },
+    {
+     "c": [
+      35.25,
+      19.25
+     ],
+     "w": 1.0,
+     "side": "n",
+     "to": "Boiler Room V"
+    },
+    {
+     "c": [
+      44.95,
+      20.0
+     ],
+     "w": 9.75,
+     "side": "n",
+     "to": "Day Room VII",
+     "open": true
+    },
+    {
+     "c": [
+      47.25,
+      30.0
+     ],
+     "w": 4.5,
+     "side": "s",
+     "to": "Office II",
+     "open": true
+    },
+    {
+     "c": [
+      31.19,
+      30.03
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Day Room VIII",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage VI",
+   "kind": "corridor",
+   "x": 25,
+   "z": 16,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Office II",
+   "door": {
+    "cell": [
+     25,
+     17
+    ],
+    "side": "e",
+    "c": [
+     50.25,
+     34.25
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      50.25,
+      34.25
+     ],
+     "w": 1.0,
+     "side": "w",
+     "to": "Office II"
+    },
+    {
+     "c": [
+      51.93,
+      33.75
+     ],
+     "w": 5.5,
+     "side": "e",
+     "to": "Ward IV",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room VII",
+   "kind": "room",
+   "x": 20,
+   "z": 6,
+   "w": 5,
+   "d": 4,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Day Room VI",
+   "door": {
+    "cell": [
+     22,
+     10
+    ],
+    "side": "n",
+    "c": [
+     44.95,
+     20.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      44.95,
+      20.0
+     ],
+     "w": 9.75,
+     "side": "s",
+     "to": "Day Room VI",
+     "open": true
+    },
+    {
+     "c": [
+      47.62,
+      12.0
+     ],
+     "w": 3.25,
+     "side": "n",
+     "to": "Linen Store",
+     "open": true
+    },
+    {
+     "c": [
+      39.97,
+      15.62
+     ],
+     "w": 6.25,
+     "side": "w",
+     "to": "Long Corridor",
+     "open": true
+    },
+    {
+     "c": [
+      45.5,
+      12.0
+     ],
+     "w": 1.0,
+     "side": "n",
+     "to": "Day Room IX",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room VIII",
+   "kind": "room",
+   "x": 15,
+   "z": 15,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 1.68,
+   "light": 0.35,
+   "from": "Day Room VI",
+   "door": {
+    "cell": [
+     15,
+     14
+    ],
+    "side": "s",
+    "c": [
+     31.19,
+     30.03
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      31.19,
+      30.03
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Day Room VI",
+     "open": true
+    },
+    {
+     "c": [
+      31.38,
+      32.0
+     ],
+     "w": 0.75,
+     "side": "s",
+     "to": "Day Room II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Ward III",
+   "kind": "room",
+   "x": 10,
+   "z": 14,
+   "w": 3,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Day Room VI",
+   "door": {
+    "cell": [
+     13,
+     14
+    ],
+    "side": "w",
+    "c": [
+     26.5,
+     29.38
+    ],
+    "w": 1.25
+   },
+   "openings": [
+    {
+     "c": [
+      26.5,
+      29.38
+     ],
+     "w": 1.25,
+     "side": "e",
+     "to": "Day Room VI"
+    },
+    {
+     "c": [
+      23.12,
+      32.03
+     ],
+     "w": 2.25,
+     "side": "s",
+     "to": "Chapel II",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Boiler Room V",
+   "kind": "room",
+   "x": 12,
+   "z": 0,
+   "w": 6,
+   "d": 10,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Day Room VI",
+   "door": {
+    "cell": [
+     17,
+     9
+    ],
+    "side": "n",
+    "c": [
+     35.25,
+     19.25
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      35.25,
+      19.25
+     ],
+     "w": 1.0,
+     "side": "s",
+     "to": "Day Room VI"
+    },
+    {
+     "c": [
+      25.0,
+      19.0
+     ],
+     "w": 1.0,
+     "side": "s",
+     "to": "Day Room III"
+    },
+    {
+     "c": [
+      36.02,
+      6.88
+     ],
+     "w": 11.25,
+     "side": "e",
+     "to": "Ward Corridor II",
+     "open": true
+    },
+    {
+     "c": [
+      24.0,
+      4.0
+     ],
+     "w": 4.5,
+     "side": "w",
+     "to": "Passage VIII",
+     "open": true
+    },
+    {
+     "c": [
+      36.03,
+      16.0
+     ],
+     "w": 5.0,
+     "side": "e",
+     "to": "Passage VII",
+     "open": true
+    },
+    {
+     "c": [
+      23.89,
+      9.0
+     ],
+     "w": 3.5,
+     "side": "w",
+     "to": "Workshop",
+     "open": true
+    },
+    {
+     "c": [
+      23.94,
+      15.25
+     ],
+     "w": 3.0,
+     "side": "w",
+     "to": "Porter's Lodge",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Long Corridor",
+   "kind": "corridor",
+   "x": 19,
+   "z": 6,
+   "w": 1,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Day Room VII",
+   "door": {
+    "cell": [
+     20,
+     7
+    ],
+    "side": "w",
+    "c": [
+     39.97,
+     15.62
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      39.97,
+      15.62
+     ],
+     "w": 6.25,
+     "side": "e",
+     "to": "Day Room VII",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Linen Store",
+   "kind": "room",
+   "x": 23,
+   "z": 4,
+   "w": 2,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Day Room VII",
+   "door": {
+    "cell": [
+     23,
+     6
+    ],
+    "side": "n",
+    "c": [
+     47.62,
+     12.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      47.62,
+      12.0
+     ],
+     "w": 3.25,
+     "side": "s",
+     "to": "Day Room VII",
+     "open": true
+    },
+    {
+     "c": [
+      45.93,
+      10.62
+     ],
+     "w": 2.75,
+     "side": "w",
+     "to": "Day Room IX",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room IX",
+   "kind": "room",
+   "x": 22,
+   "z": 5,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Day Room VII",
+   "door": {
+    "cell": [
+     22,
+     6
+    ],
+    "side": "n",
+    "c": [
+     45.5,
+     12.0
+    ],
+    "w": 1.0,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      45.5,
+      12.0
+     ],
+     "w": 1.0,
+     "side": "s",
+     "to": "Day Room VII",
+     "open": true
+    },
+    {
+     "c": [
+      45.93,
+      10.62
+     ],
+     "w": 2.75,
+     "side": "e",
+     "to": "Linen Store",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Visiting Room",
+   "kind": "room",
+   "x": 4,
+   "z": 23,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Office",
+   "door": {
+    "cell": [
+     5,
+     23
+    ],
+    "side": "w",
+    "c": [
+     9.75,
+     46.75
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      9.75,
+      46.75
+     ],
+     "w": 1.0,
+     "side": "e",
+     "to": "Office"
+    },
+    {
+     "c": [
+      8.07,
+      46.62
+     ],
+     "w": 2.75,
+     "side": "w",
+     "to": "Office III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Dispensary",
+   "kind": "room",
+   "x": 2,
+   "z": 25,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Office III",
+   "door": {
+    "cell": [
+     2,
+     24
+    ],
+    "side": "s",
+    "c": [
+     4.88,
+     50.12
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      4.88,
+      50.12
+     ],
+     "w": 3.0,
+     "side": "n",
+     "to": "Office III",
+     "open": true
+    },
+    {
+     "c": [
+      4.88,
+      51.0
+     ],
+     "w": 3.75,
+     "side": "s",
+     "to": "",
+     "out": true
+    }
+   ]
+  },
+  {
+   "name": "Records",
+   "kind": "room",
+   "x": 18,
+   "z": 16,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Washroom III",
+   "door": {
+    "cell": [
+     19,
+     16
+    ],
+    "side": "w",
+    "c": [
+     37.81,
+     32.38
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      37.81,
+      32.38
+     ],
+     "w": 3.25,
+     "side": "e",
+     "to": "Washroom III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Ward IV",
+   "kind": "room",
+   "x": 26,
+   "z": 15,
+   "w": 4,
+   "d": 3,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Passage VI",
+   "door": {
+    "cell": [
+     25,
+     16
+    ],
+    "side": "e",
+    "c": [
+     51.93,
+     33.75
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      51.93,
+      33.75
+     ],
+     "w": 5.5,
+     "side": "w",
+     "to": "Passage VI",
+     "open": true
+    },
+    {
+     "c": [
+      55.0,
+      36.05
+     ],
+     "w": 2.5,
+     "side": "s",
+     "to": "Day Room X",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Day Room X",
+   "kind": "room",
+   "x": 27,
+   "z": 18,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Ward IV",
+   "door": {
+    "cell": [
+     27,
+     17
+    ],
+    "side": "s",
+    "c": [
+     55.0,
+     36.05
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      55.0,
+      36.05
+     ],
+     "w": 2.5,
+     "side": "n",
+     "to": "Ward IV",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Chapel II",
+   "kind": "room",
+   "x": 11,
+   "z": 16,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Ward III",
+   "door": {
+    "cell": [
+     11,
+     15
+    ],
+    "side": "s",
+    "c": [
+     23.12,
+     32.03
+    ],
+    "w": 2.25,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      22.5,
+      33.25
+     ],
+     "w": 1.0,
+     "side": "s",
+     "to": "Washroom V"
+    },
+    {
+     "c": [
+      23.12,
+      32.03
+     ],
+     "w": 2.25,
+     "side": "n",
+     "to": "Ward III",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Washroom V",
+   "kind": "room",
+   "x": 10,
+   "z": 17,
+   "w": 2,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.35,
+   "from": "Chapel II",
+   "door": {
+    "cell": [
+     11,
+     16
+    ],
+    "side": "s",
+    "c": [
+     22.5,
+     33.25
+    ],
+    "w": 1.0
+   },
+   "openings": [
+    {
+     "c": [
+      22.5,
+      33.25
+     ],
+     "w": 1.0,
+     "side": "n",
+     "to": "Chapel II"
+    }
+   ]
+  },
+  {
+   "name": "Ward Corridor II",
+   "kind": "corridor",
+   "x": 18,
+   "z": 1,
+   "w": 1,
+   "d": 5,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room V",
+   "door": {
+    "cell": [
+     17,
+     3
+    ],
+    "side": "e",
+    "c": [
+     36.02,
+     6.88
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      36.02,
+      6.88
+     ],
+     "w": 11.25,
+     "side": "w",
+     "to": "Boiler Room V",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage VII",
+   "kind": "corridor",
+   "x": 18,
+   "z": 7,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room V",
+   "door": {
+    "cell": [
+     17,
+     8
+    ],
+    "side": "e",
+    "c": [
+     36.03,
+     16.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      36.03,
+      16.0
+     ],
+     "w": 5.0,
+     "side": "w",
+     "to": "Boiler Room V",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Passage VIII",
+   "kind": "corridor",
+   "x": 11,
+   "z": 1,
+   "w": 1,
+   "d": 2,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room V",
+   "door": {
+    "cell": [
+     12,
+     2
+    ],
+    "side": "w",
+    "c": [
+     24.0,
+     4.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      24.0,
+      4.0
+     ],
+     "w": 4.5,
+     "side": "e",
+     "to": "Boiler Room V",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Workshop",
+   "kind": "room",
+   "x": 11,
+   "z": 4,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room V",
+   "door": {
+    "cell": [
+     12,
+     4
+    ],
+    "side": "w",
+    "c": [
+     23.89,
+     9.0
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      23.89,
+      9.0
+     ],
+     "w": 3.5,
+     "side": "e",
+     "to": "Boiler Room V",
+     "open": true
+    }
+   ]
+  },
+  {
+   "name": "Porter's Lodge",
+   "kind": "room",
+   "x": 11,
+   "z": 7,
+   "w": 1,
+   "d": 1,
+   "floor": 0,
+   "y": 0.0,
+   "light": 0.0,
+   "from": "Boiler Room V",
+   "door": {
+    "cell": [
+     12,
+     7
+    ],
+    "side": "w",
+    "c": [
+     23.94,
+     15.25
+    ],
+    "w": 2.4,
+    "open": true
+   },
+   "openings": [
+    {
+     "c": [
+      23.94,
+      15.25
+     ],
+     "w": 3.0,
+     "side": "e",
+     "to": "Boiler Room V",
+     "open": true
+    }
+   ]
+  }
+ ]
 }

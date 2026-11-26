@@ -7,7 +7,8 @@ This pack is built from hand-laid plans (tools/layouts), not converted from a so
 coverage to map: its only art is the game's own CC0 Kenney furniture, named in each house. The gate keeps it that way.
 The rules, all deterministic:
 
-  1. the pack holds only provides.json, licence.json, LICENSE, README.md and houses/<id>/*.json; any other file (plans under
+  1. the pack holds only provides.json, licence.json, LICENSE, README.md, houses/<id>/*.json and, for a converted house, its
+     world pack houses/<id>/world/<pack>/ (mesh .bin and .json, CREDITS.md, textures .png/.webp mapped to free art); any other file (plans under
      tools/, scripts, workflows, images, audio, models, .import markers, .bsp/.gma/.vtf/.mdl/...) is an offence;
   2. provides.json: schema 1, kinds has "map", games is exactly the Look At Me game, each entry is kind map with an id of
      [a-z0-9_], map_kind "lookatme", a scene that exists as houses/<id>/house.json, whose own `id` equals the entry id, beside
@@ -30,6 +31,7 @@ TOP_FILES = {"provides.json", "licence.json", "LICENSE", "README.md"}
 ASSET_EXT = (".png", ".jpg", ".jpeg", ".webp", ".tga", ".bmp", ".dds", ".exr", ".hdr", ".glb", ".gltf", ".obj", ".fbx",
              ".wav", ".mp3", ".ogg", ".vtf", ".vmt", ".mdl", ".vtx", ".vvd", ".bsp", ".vpk", ".gma",
              ".gd", ".tscn", ".tres", ".res", ".py", ".sh", ".yml", ".yaml", ".import")
+WORLD_EXT = (".bin", ".json", ".md", ".png", ".webp")
 ID_RE = re.compile(r"[a-z0-9_]+")
 
 
@@ -72,6 +74,8 @@ def check_pack(root, pid, strict_licence=False):
             rel = os.path.relpath(os.path.join(d, fn), root).replace(os.sep, "/")
             parts = rel.split("/")
             if rel in TOP_FILES or (len(parts) == 3 and parts[0] == "houses" and fn.endswith(".json")):
+                continue
+            if len(parts) >= 5 and parts[0] == "houses" and parts[2] == "world" and os.path.splitext(fn)[1].lower() in WORLD_EXT:
                 continue
             ext = os.path.splitext(fn)[1].lower()
             why = "a source-engine, art, sound, script or import file" if ext in ASSET_EXT else "not part of a house pack"

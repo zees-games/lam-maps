@@ -1,6 +1,6 @@
 ![Look At Me Maps banner](https://raw.githubusercontent.com/zees-games/lam-maps/main/docs/banner.png)
 
-Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look At Me game. A map is a house: rooms on a 4 m grid, on one floor or several joined by stairs, with doors, keys, chests, levers, fuse boxes and witches. The game's builder deals them and proves each house can be solved.
+Maps for [mg-look-at-me](https://github.com/zees-games/mg-look-at-me), the Look At Me game. Each house is a converted Steam Workshop map: its walls and floors are the source's geometry (every texture, model and sound mapped to a free or own one), with rooms read off the same geometry, joined by doors and stairs, with doors, keys, chests, levers, fuse boxes and witches. The game's builder deals them and proves each house can be solved.
 
 ## Maps
 
@@ -18,7 +18,9 @@ The game's `.gitignore` has a `bootstrap-link` line, so [gs-bootstrap](https://g
 
 | Path | What it is |
 | --- | --- |
-| `tools/layouts/<id>.json` | The hand-laid plan: rooms, kinds, positions, light, and an optional `mood` (fog and ambient light) |
+| `tools/convert/` | The conversion: a spec per map (`lam_*.json`) and the free-asset mapping tables (`textures.tsv`, `models.tsv`, `sounds.tsv`) for gs-map-convert's `bsp.py regen` and `bsp_house.py` |
+| `houses/<id>/world/<pack>/` | The converted world mesh, collision and textures the level is drawn and walked on |
+| `tools/layouts/<id>.json` | The plan traced from the converted map by `bsp_house.py`: rooms, kinds, positions, light, and an optional `mood` (fog and ambient light) |
 | `houses/<id>/` | The generated house (`house.json` and the level document). Do not edit by hand. |
 | `tools/build.sh` | Regenerates every house from its plan with the game's `tools/build_levels.py --layout`. `--check` fails when a house is stale. |
 | `tools/bsp_layout.py`, `tools/bsp_read.py` | Launchers for the shared BSP reader and plan tracer in gs-map-convert. They print a floor plan of a source map to lay a plan out by hand. |

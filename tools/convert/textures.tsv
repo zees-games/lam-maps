@@ -1,0 +1,43 @@
+# gm_villa (Scarface) textures no default row names (the map folder is part of the name)
+DE_SCARFACE/SC_BEDROOM_WALL	wallpaper
+DE_SCARFACE/SC_CEELING	ceiling
+DE_SCARFACE/SC_GOLD	metal	#c9a227
+DE_SCARFACE/SC_KLEC	bars
+DE_SCARFACE/SC_KOBEREC	carpet_red
+DE_SCARFACE/SC_LEL	plaster_painted
+DE_SCARFACE/SC_ORIG_RED	plaster_painted	#8a2a2a
+DE_SCARFACE/SC_OUTSIDE_FLOOR_2	concrete
+DE_SCARFACE/SC_PART_SLOUP	plaster_painted
+DE_SCARFACE/SC_VRATA	door_wood
+DE_SCARFACE/SC_WHITE_WALL	plaster_painted
+RUBBER/HR_R/RUBBER_FLOOR_A_TINTDARK	concrete	#404040
+# gm_deco_mansion (Art Deco) textures no default row names
+ARTDECO/*RUG*	carpet_pattern
+ARTDECO/*LINO*	tile_floor
+ARTDECO/ARTDECO-FLOOR*	parquet
+ARTDECO/ARTDECO-MARBEL	tile_floor
+ARTDECO/*CURTAIN*	carpet_red
+ARTDECO/*BLINDS*	carpet_red
+ARTDECO/*CABINET*	wood_planks
+ARTDECO/*TIROIRES*	wood_planks
+ARTDECO/0-ARTDECO-BOOK*	wood_planks
+ARTDECO/0-ARTDECO-RADIO	wood_planks
+ARTDECO/ARTDECO-C-*	plaster_painted
+ARTDECO/*PHOTOS*	plaster_painted
+ARTDECO/ARTDECO*CHINE*	plaster_painted
+ARTDECO/ARTDECO-CLOUNE	plaster_painted
+ARTDECO/*	wallpaper
+CHATAU/*	plaster_painted
+CS_HAVANA/*	plaster_painted
+CS_ITALY/OLDRADIO	wood_planks
+DE_CHATEAU/BOOKS*	wood_planks
+DE_CHATEAU/DRD	door_wood
+DE_CHATEAU/TAPA	carpet_red
+DE_CHATEAU/TAPB	carpet_red
+NATURE/TREES_SKYBOX01	foliage_card
+OVERLAYS/REDRUNNER*	decal_patch
+PERFTEST/*	plaster_painted
+# gm_funkis_night (Functionalist) textures no default row names
+FUNKIS/*	plaster_painted
+NATURE/*	foliage_card
+SIGNS/RETRO_SIGN_BUSSTOP	plaster_painted
